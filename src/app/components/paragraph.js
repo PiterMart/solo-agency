@@ -32,10 +32,9 @@ export default function Paragraph({value}) {
 
   const Word = ({children, range, progress}) => {
     //animation
-    const opacity = useTransform(progress, range, [0, 1])
+    const opacity = useTransform(progress, range, [0.2, 1])
     return (
         <span className={styles.word}>
-            <span className={styles.shadow}>{children}</span>
             <motion.span 
             style={({opacity})}
             >
