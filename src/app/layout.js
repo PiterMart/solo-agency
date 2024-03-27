@@ -3,6 +3,7 @@ import "./globals.css";
 import styles from "./page.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import Nav from "./components/nav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,28 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className={styles.nav}>
-          <div>
-            <Link href="/">
-            <Image
-              src="/SOLO AGENCY LOGO TYPO BLANCO.png"
-              alt="Valeries"
-              width={177}
-              height={45}
-              priority
-            />
-
-            </Link>
-          </div>
-          <div className={styles.list}>
-            <ul>
-              <li><Link href="/artists">ABOUT</Link></li>
-              <li><Link href="/exhibitions">SERVICES</Link></li>
-              <li><Link href="/contact">CLIENTS</Link></li>
-              <li><Link href="/contact">CONTACT US</Link></li>
-            </ul>
-          </div>
-        </div>
+        <Nav/>
 
         {children}
 

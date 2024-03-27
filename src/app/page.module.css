@@ -56,7 +56,7 @@
   font-size: 1rem;
   font-weight: 500;
   width: 100%;
-  z-index: 1;
+  z-index: 5;
   font-family: Aron;
   margin: auto;
   padding: 1rem;
@@ -88,11 +88,26 @@
   margin-right: 10rem;
   margin-bottom: 5rem;
   border-bottom: 1px solid white;
+  display: inline-block;
 
 }
 .www_title{
   font-size: 8rem;
   margin: auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.cursor{
+  animation: blink 750ms linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0%;
+  }
 }
 
 .paragraph{
@@ -214,6 +229,10 @@
   padding: 0.5rem;
 }
 
+.arrow{
+  display: none;
+}
+
 .smLinks{
   display: flex;
   justify-content: space-around;
@@ -272,9 +291,8 @@
 
 .list a:hover{
   animation-duration: 5ms;
-  transition: color .2s ease-in, font-weight .2s ease-in-out, letter-spacing .7s ease-in-out, transform .3s ease-in-out;
+  transition: color .2s ease-in;
   box-shadow: black;
-  font-weight: 600;
   color: #ffffff69;
 }
 
@@ -397,8 +415,30 @@
     font-size: 1.5rem;
   }
   .center2{
-    font-size: 1.5rem;
+    font-size: 2rem;
     height: auto;
+    padding: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  .list ul{
+    top: -175px;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .list ul a{
+    justify-content: left;
+
+  }
+
+  .arrow{
+    display:block;
   }
   
 }
