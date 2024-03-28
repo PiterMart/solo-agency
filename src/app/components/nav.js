@@ -32,7 +32,7 @@ export default function Nav() {
                 animate={{top: isActive ? "-15px": "-175px"}}
                 transition={{duration: 0.5, ease: [0.33, 1, 0.68, 1]}}
                 >
-                    <li><Link href="/artists">ABOUT</Link></li>
+                    <li><Link href="/about">ABOUT</Link></li>
                     <li><Link href="/exhibitions">SERVICES</Link></li>
                     <li><Link href="/contact">CLIENTS</Link></li>
                     <li><Link href="/contact">CONTACT</Link></li>

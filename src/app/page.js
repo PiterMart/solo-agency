@@ -7,6 +7,7 @@ import WWW from "./components/www";
 import TuMarca from "./components/tumarca";
 import { useEffect } from "react";
 
+
 const  paragraph = "Somos un booster de marcas, creadores y de tus ideas. Creemos firmemente que hoy en día detrás de cada medio lo que más importa es el carácter humano otorgándole a tu marca su propia identidad siendo única e irrepetible. "
 
 export default function Home() {
@@ -23,11 +24,6 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-
-      <video autoPlay muted loop playsInline style={{ width: '100%', height: '100%', position: 'fixed', objectFit: 'cover', zIndex: '-1', right: '0', bottom: '0', pointerEvents: 'none', filter: 'brightness(50%)' }}>
-        <source src="/3dBackground.mp4" />
-      </video>
-
 
       <div className={styles.center} data-scroll data-scroll-speed="0.7">
 
