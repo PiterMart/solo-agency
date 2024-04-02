@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 import Paragraph from './components/paragraph'
 import Carousel from "./components/carousel";
 import WWW from "./components/www";
-import TuMarca from "./components/tumarca";
+import Footer from "./components/footer"
 import { useEffect } from "react";
 
 
@@ -53,7 +53,6 @@ export default function Home() {
       
       <Carousel/>
 
-      <TuMarca/>
 
     </main>
   );

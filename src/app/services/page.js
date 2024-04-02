@@ -35,7 +35,7 @@ export default function About() {
         <div className={styles.service}>
           <div className={styles.service__banner}
           onClick={() => {setIsActive(!isActive)}}>
-            <p className={styles.section_title}>Comunity Management</p>
+            <p className={styles.section_title}>Community Management</p>
             <Flecha2 
             style={{display: 'block'}}
             isActive={isActive} setIsActive={setIsActive}
@@ -47,6 +47,26 @@ export default function About() {
             <p className={styles.subtitle}>Calendarización</p>
             <p className={styles.subtitle}>Copywriting</p>
             <p className={styles.subtitle}>Posting</p>
+
+          </motion.div>
+
+        </div>
+
+        <div className={styles.service}>
+          <div className={styles.service__banner}
+          onClick={() => {setIsActive(!isActive)}}>
+            <p className={styles.section_title}>Paid Media</p>
+            <Flecha2 
+            style={{display: 'block'}}
+            isActive={isActive} setIsActive={setIsActive}
+            />
+          </div>
+          <motion.div className={styles.service__list}
+          animate={{height: isActive ? "0": "auto", color: isActive ? "transparent": "white"}}
+          transition={{duration: 1, ease: [0.33, 1, 0.68, 1]}}>
+            <p className={styles.subtitle}>Google ads</p>
+            <p className={styles.subtitle}>Meta ads</p>
+            <p className={styles.subtitle}>Mailing</p>
 
           </motion.div>
 

@@ -1,8 +1,17 @@
 import Link from "next/link";  
 import Image from "next/image";  
+import styles from "../page.module.css";
+import TuMarca from "./tumarca";
         
-        
-        <div className={styles.footer}>
+       
+
+export default function Carousel(){
+
+
+
+  return(
+    <div className={styles.footer}>
+          <TuMarca/>
           <div className={styles.contentSection} style={{borderTop: '0px solid #ffffff', marginTop: '1rem'}}>
 
           </div>
@@ -15,7 +24,7 @@ import Image from "next/image";
           <div className={styles.endpage}>
             <Link href="/">
             <Image
-                    src="/SOLO AGENCY LOGO TYPO NEGRO.png"
+                    src="/SOLO AGENCY LOGO TYPO BLANCO.png"
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -25,3 +34,10 @@ import Image from "next/image";
             </Link>
           </div>
         </div> 
+
+
+
+
+
+  )
+}

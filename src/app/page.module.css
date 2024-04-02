@@ -15,6 +15,21 @@
   font-weight: thin;
   font-style: normal;
 }
+
+/* @font-face{
+  font-family: "Aron";
+  src: url('/fonts/Aron-Normal.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/* @font-face{
+  font-family: "Aron";
+  src: url('/fonts/Aron-Medium.woff') format('woff');
+  font-weight: medium;
+  font-style: normal;
+} */
+
 @font-face{
   font-family: "Aron";
   src: url('/fonts/Aron-Bold.woff') format('woff');
@@ -26,6 +41,11 @@
   src: url('/fonts/PPNeueMontrealMono-Book.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+.html{
+  scroll-behavior: smooth;
+
 }
 
 .main {
@@ -56,6 +76,8 @@
   text-align: left;
 
 }
+
+/*NAVBAR*/
 
 .nav {
   display: flex;
@@ -91,6 +113,40 @@
   border-radius: var(--border-radius);
 }
 
+.list{
+  position: relative;
+  right: 1rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 110px;
+}
+
+.list ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list li{
+  padding: 0.5rem;
+}
+.nav__link{
+  color: white;
+}
+
+.current{
+  color: #ffffff69;
+}
+
+.list a:hover{
+  animation-duration: 5ms;
+  transition: color .2s ease-in;
+  box-shadow: black;
+  color: #ffffff69;
+}
+
+/* PAGE CONTAINER */
+
 .page{
   width: 100%;
   height: 100%;
@@ -105,6 +161,8 @@
   width: 100%;
   padding-left: 10rem;
 }
+
+/* HOMEPAGE ELEMENTS*/
 
 .WWW{
   margin-top: 5rem;
@@ -144,67 +202,18 @@
   margin-left: 10rem;
   margin-right: 10rem;
   gap: 1rem;
+  font-weight: medium;
 }
 
 .client__display{
-  margin-top: 20rem;
-  margin-bottom: 20rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   text-align: left;
   max-width: 1500px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   align-content: center;
-
-}
-/* ABOUT */
-
-.about__paragraph__container{
-  margin: auto;
-  padding-bottom: 5rem;
-}
-
-.about__paragraph{
-  font-size: 4vh;
-  padding: 40px;
-  padding-left: 10rem;
-  align-self: center;
-  font-weight: 500;
-  display: block;
-  flex-wrap: wrap;
-  line-height: 45px;
-}
-
-/* SERVICES */
-
-.services_container{
-  width: 100%;
-  align-items: center;
-
-}
-.service{
-  margin: auto;
-  margin-top: 5rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
-  margin-bottom: 5rem;
-  display: inline-block;
-
-
-}
-.service__banner{
-  display: flex;
-  flex-direction: row;
-
-}
-
-.service__list{
-  height: 0;
-  color: transparent;
-  padding-top: 5rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
 .scroller{
@@ -231,6 +240,56 @@
   }
 }
 
+/* ABOUT SECTION */
+
+.about__paragraph__container{
+  margin: auto;
+  padding-bottom: 5rem;
+}
+
+.about__paragraph{
+  font-size: 4vh;
+  padding: 40px;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  align-self: center;
+  font-weight: 500;
+  display: block;
+  flex-wrap: wrap;
+  line-height: 45px;
+}
+
+/* SERVICES SECTION*/
+
+.services_container{
+  width: 100%;
+  align-items: center;
+
+}
+
+.service{
+  margin: auto;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  display: inline-block;
+}
+
+.service__banner{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.service__list{
+  height: 0;
+  color: transparent;
+  padding-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .word{
   margin-right: 12px;
   margin-top: 12px;
@@ -250,22 +309,22 @@
   z-index: 100;
   margin: auto;
   color: white;
-  background: #00000000;
-  position: absolute;
+  background: #000000;
   padding-top: 5rem;
   text-align: center;
+  bottom: 0;
   cursor: url("/heart.svg"), auto;
 }
 
-.idea{
+.tuMarca{
   font-family: Aron;
   font-weight: normal;
   text-align: let;
-  font-size: 220px;
+  font-size: 10vh;
   font-weight: bold;
   line-height: auto;
-  margin: 50px;
-  margin-top: 60px;
+  margin: 10rem;
+  margin-top: 4rem;
   text-align: left;
 
 }
@@ -285,24 +344,6 @@
   font-family: var(--font-mono);
 }
 
-.list{
-  position: relative;
-  right: 1rem;
-  display: flex;
-  justify-content: space-around;
-  gap: 110px;
-}
-
-.list ul{
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-}
-
-.list li{
-  padding: 0.5rem;
-}
-
 .arrow{
   display: none;
   align-self: center;
@@ -319,6 +360,9 @@
   justify-content: space-around;
   gap: 110px;
   list-style: none;
+  border-top: solid 1px white;
+  padding: 2rem;
+  margin: 5rem;
 }
 
 .smLinks p{
@@ -332,7 +376,7 @@
 
 .endpage{
   margin-top: 10rem;
-  background-color: white;
+  background-color: BLACK;
 }
 
 .availableP {
@@ -349,42 +393,6 @@
   text-align: center;
   font-size: 100px;
 
-}
-
-.artistList{
-  display: flex;
-  flex-direction: row;
-  gap: 3rem;
-  margin: 10REM;
-  margin-top: 5rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-}
-.artistList a:hover{
-  content: "";
-  animation-duration: 5ms;
-  transition: color .2s ease-in, font-weight .2s ease-in-out, text-decoration .7s ease-in-out, ;
-  box-shadow: black;
-  font-weight: 600;
-  color: #ffffff54;
-}
-
-.list a:hover{
-  animation-duration: 5ms;
-  transition: color .2s ease-in;
-  box-shadow: black;
-  color: #ffffff69;
-}
-
-.artistList ul{
-  margin-top: 2rem;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-self: left;
-  text-align: left;
-  gap: 10px;
 }
 
 .imgContainer{
@@ -484,11 +492,12 @@
   .about__paragraph{
     font-size: 2vh;
     padding-left: 1rem;
-    line-height: 30px;
+    padding-right: 1rem;
+    line-height: 25px;
 
   }
   .client__display{
-    margin-top: 20rem;
+    margin-top: 10rem;
     padding: 1rem;
   
   }
@@ -541,6 +550,24 @@
   .arrow{
     display:block;
   }
+
+  .tuMarca{
+    margin: 1rem;
+    font-size: 3rem;
+  }
+  .smLinks{
+    flex-direction: column;
+    gap: 55px;
+    margin: 1rem;
+  }
+  
+  .smLinks p{
+      font-size: 24px;
+  }
+
+  .endpage{
+    margin-top: 2rem;
+  }
   
 }
 
@@ -549,19 +576,14 @@
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
-  .artistList{
-    margin: auto;
-    margin-top: 5rem;
-  }
+
   .content{
     flex-direction: column;
     width: 100%;
     margin: auto;
     margin-top: 5rem;
   }
-  .artistNav {
-    left: 2rem;
-  }
+
   .contentSection{
     display: flex;
     justify-content: space-between;
@@ -570,6 +592,27 @@
     padding-top: 2rem;
     border-top: 1px solid #000000;
     width: 40rem;
+  }
+
+  .page__title{
+    width: 100%;
+    padding-left: 5rem;
+  }
+
+  .paragraph{
+    font-size: 3vh;
+    padding: 1rem;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 0rem;
+    gap: 0px;
+  }
+
+  .about__paragraph{
+    font-size: 3vh;
+    padding-left: 5rem;
+    line-height: 37px;
+
   }
   .WWW{
     margin-top: 5rem;
@@ -584,17 +627,19 @@
   .center{
     font-size: 3rem;
   }
+
+  .tuMarca{
+    margin: 5rem;
+  }
+  .smLinks{
+    gap: 55px;
+    margin: 1rem;
+  }
+  
+  .smLinks p{
+      font-size: 24px;
+  }
 }
-
-/* @media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
-  }
-
-  .logo {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
-} */
 
 @keyframes rotate {
   from {

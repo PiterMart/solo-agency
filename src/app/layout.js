@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import Nav from "./components/nav";
+import Footer from "./components/footer"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,6 +14,8 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
+  
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -21,6 +24,7 @@ export default function RootLayout({ children }) {
       </video>
         <Nav/>
         {children}
+        <Footer data-scroll data-scroll-speed="0.7"/>
       </body>
     </html>
   );
