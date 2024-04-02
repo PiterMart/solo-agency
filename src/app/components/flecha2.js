@@ -5,14 +5,14 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 
-export default function Flecha({isActive, setIsActive}) {
+export default function Flecha2({isActive, setIsActive}) {
 
     return (
         <motion.div 
             onClick={() => {setIsActive(!isActive)}}
-            className={styles.arrow}
+            className={styles.arrow2}
             animate={{
-                rotate: isActive ? -180 : 0
+                rotate: isActive ? 0 : -180
             }}
             transition={{duration: 0.5, ease: [0.33, 1, 0.68, 1]}}
         >
@@ -20,8 +20,8 @@ export default function Flecha({isActive, setIsActive}) {
             
                 src="/FLECHA.svg"
                 alt="menu"
-                width={80}
-                height={30}
+                width={160}
+                height={60}
                 priority
             />
         </motion.div>  

@@ -30,10 +30,10 @@ export default function Carousel(){
     
 
     return(
-        <div className={styles.client_display}>
+        <div className={styles.client__display}>
             <p className={styles.title}>CLIENTES</p>
             <div className={styles.scroller} >
-                <div className={styles.scroller_inner}>
+                <div className={styles.scroller__inner}>
                 <Image
                     src="/logos/elgourmetLogo.png"
                     width={0}

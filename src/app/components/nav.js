@@ -33,7 +33,7 @@ export default function Nav() {
                 transition={{duration: 0.5, ease: [0.33, 1, 0.68, 1]}}
                 >
                     <li><Link href="/about">ABOUT</Link></li>
-                    <li><Link href="/exhibitions">SERVICES</Link></li>
+                    <li><Link href="/services">SERVICES</Link></li>
                     <li><Link href="/contact">CLIENTS</Link></li>
                     <li><Link href="/contact">CONTACT</Link></li>
                     <Flecha 
