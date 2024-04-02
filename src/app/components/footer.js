@@ -1,4 +1,5 @@
-import Link from "next/link";    
+import Link from "next/link";  
+import Image from "next/image";  
         
         
         <div className={styles.footer}>
