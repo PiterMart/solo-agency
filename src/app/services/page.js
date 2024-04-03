@@ -88,23 +88,23 @@ export default function Services() {
       <div className={styles.services_container}>
           {services.map((service, i) => {
             return(
-              <div className={styles.service}>
-              <div className={styles.service__banner}
-              // onClick={() => {setIsActive(!isActive)}}
-              onClick={() => toggle(i)}
-              
-              >
-                <p className={styles.section_title}>{service.name}</p>
-                <span className={styles.cross}>{selected === i ? '_' : "+"}</span>
+              <div key={i} className={styles.service}>
+                <div className={styles.service__banner}
+                // onClick={() => {setIsActive(!isActive)}}
+                onClick={() => toggle(i)}
+                
+                >
+                  <p className={styles.section_title}>{service.name}</p>
+                  <span className={styles.cross}>{selected === i ? '_' : "+"}</span>
+                </div>
+                <div className={selected == i ?  'page_service__list__show__37KEC' : 'page_service__list__aU9Ez'}>          
+                    <p className={styles.subtitle}>{service.item1}</p>
+                    <p className={styles.subtitle}>{service.item2}</p>
+                    <p className={styles.subtitle}>{service.item3}</p>
+                    <p className={styles.subtitle}>{service.item4}</p>
+                    <p className={styles.subtitle}>{service.item5}</p>
+                </div>
               </div>
-              <div className={selected == i ?  'page_service__list__show__37KEC' : 'page_service__list__aU9Ez'}>          
-                  <p className={styles.subtitle}>{service.item1}</p>
-                  <p className={styles.subtitle}>{service.item2}</p>
-                  <p className={styles.subtitle}>{service.item3}</p>
-                  <p className={styles.subtitle}>{service.item4}</p>
-                  <p className={styles.subtitle}>{service.item5}</p>
-              </div>
-            </div>
             )
           })}
       </div>
