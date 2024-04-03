@@ -13,17 +13,18 @@ export default function Nav() {
 
     const  [isActive, setIsActive] = useState(false);
 
-    // const navLinkEls = document.querySelectorAll('.nav__link');
+    const currentPath = usePathname();
 
-    // navLinkEls.forEach(navLinkEl => {
-    //     navLinkEl.addEventListener('click', () => {
-    //         navLinkEl.classList.add('active');
-    //     })
-    // })
+    const pages = [
+        { name: 'ABOUT', path: '/about'},
+        { name: 'SERVICES', path: '/services'},
+        { name: 'CLIENTS', path: '/clients'},
+        { name: 'CONTACT', path: '/contact'},
+    ];
 
-    const pathname = usePathname();
-
-    const isCurrent = pathname.startsWith(Link.href);
+    const isCurrent = (path) => {
+        return currentPath === path;
+    }
 
     return (
         
@@ -40,17 +41,20 @@ export default function Nav() {
 
             </Link>
             </div>
-            <div 
-                className={styles.list}
-            >
+            <div className={styles.list}>
                 <motion.ul
                 animate={{top: isActive ? "-15px": "-175px"}}
                 transition={{duration: 0.5, ease: [0.33, 1, 0.68, 1]}}
                 >
-                    <li className={styles.nav__link}><Link href="/about">ABOUT</Link></li>
-                    <li className={styles.nav__link}><Link href="/services">SERVICES</Link></li>
-                    <li className={styles.nav__link}><Link href="/contact">CLIENTS</Link></li>
-                    <li className={styles.nav__link}><a href="#footer">CONTACT</a></li>
+                    {pages.map((page, index) => {
+                        return (
+                            <li key={index}>
+                            <Link href={page.path} alt={page.name} className={isCurrent(page.path) ? 'page_current__pRY1c' : '' }>
+                                {page.name}
+                            </Link>
+                        </li>
+                        )
+                    })}
                     <Flecha 
                     isActive={isActive} setIsActive={setIsActive}
                     />

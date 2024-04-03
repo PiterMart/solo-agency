@@ -18,7 +18,7 @@ export default function About() {
   }, [])
 
   return (
-    <main className={styles.main} style={{background: "black"}}>
+    <main className={styles.main}>
       <div className={styles.page}>
 
         <div className={styles.page__title}>

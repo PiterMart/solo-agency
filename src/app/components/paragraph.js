@@ -22,7 +22,7 @@ export default function Paragraph({value}) {
             {words.map((word, i) => {
                 const start = i / words.length;
                 const end = start + (1 / words.length)
-                console.log([start, end])
+                // console.log([start, end])
 
                 return <Word key={i} range={[start, end]} progress={scrollYProgress}>{word}</Word>
             })}
@@ -31,7 +31,9 @@ export default function Paragraph({value}) {
   }
 
   const Word = ({children, range, progress}) => {
+
     //animation
+    
     const opacity = useTransform(progress, range, [0.2, 1])
     return (
         <span className={styles.word}>

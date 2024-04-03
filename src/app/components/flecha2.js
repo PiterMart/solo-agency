@@ -14,7 +14,7 @@ export default function Flecha2({isActive, setIsActive}) {
             animate={{
                 rotate: isActive ? 0 : -180
             }}
-            transition={{duration: 0.5, ease: [0.33, 1, 0.68, 1]}}
+            transition={{duration: 1, ease: [0.33, 1, 0.68, 1]}}
         >
             <Image
             

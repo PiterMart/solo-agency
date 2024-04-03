@@ -70,7 +70,7 @@
 
 .section_title{
   font-weight: bold;
-  font-size: 9vh;
+  font-size: 7vh;
   width: 100%;
   font-style: normal;
   text-align: left;
@@ -135,7 +135,7 @@
 }
 
 .current{
-  color: #ffffff69;
+  color: #ffffff69 !important;
 }
 
 .list a:hover{
@@ -271,23 +271,47 @@
   margin: auto;
   margin-left: 10rem;
   margin-right: 10rem;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1px white;
+  margin-bottom: 1rem;
+}
+
+.cross{
+  font-size: 5rem;
 }
 
 .service__banner{
   display: flex;
   flex-direction: row;
+  margin-bottom: 3rem;
 
 }
 
 .service__list{
   height: 0;
-  color: transparent;
-  padding-top: 5rem;
-  margin-bottom: 5rem;
+  color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  overflow: hidden;
+  align-self: start;
+  gap: 5rem;
+  transition: all 1s cubic-bezier(0.33, 1, 0.68, 1)
+}
+
+.service__list__show{
+  height: auto;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow: hidden;
+  align-self: start;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  gap: 5rem;
+  transition: all 1s cubic-bezier(0.33, 1, 0.68, 1)
 }
 
 .word{
@@ -309,11 +333,10 @@
   z-index: 100;
   margin: auto;
   color: white;
-  background: #000000;
+  background: #000000a3;
   padding-top: 5rem;
   text-align: center;
   bottom: 0;
-  cursor: url("/heart.svg"), auto;
 }
 
 .tuMarca{
@@ -478,6 +501,7 @@
   .page__title{
     width: 100%;
     padding-left: 1rem;
+    padding-bottom: 3rem;
   }
 
   .paragraph{
@@ -496,6 +520,31 @@
     line-height: 25px;
 
   }
+  .cross{
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
+
+  .service{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .service__list__show{
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .service__list{
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .section_title{
+
+    font-size: 3vh;
+  
+  }
+
   .client__display{
     margin-top: 10rem;
     padding: 1rem;
@@ -594,9 +643,21 @@
     width: 40rem;
   }
 
+  .service{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .service__list{
+    gap: 3rem;
+  }
+  .service__list__show{
+    gap: 3rem;
+  }
+
   .page__title{
     width: 100%;
-    padding-left: 5rem;
+    padding-left: 3rem;
   }
 
   .paragraph{
