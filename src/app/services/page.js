@@ -86,7 +86,7 @@ export default function Services() {
           <p>Solo Agency es una agencia creativa espacializada en el diseño de identidad visual y comunicacion efectiva.</p>
       </div>
       <div className={styles.services_container}>
-          {services.map((service, i, items) => {
+          {services.map((service, i) => {
             return(
               <div className={styles.service}>
               <div className={styles.service__banner}
@@ -107,27 +107,6 @@ export default function Services() {
             </div>
             )
           })}
-
-        {/* <div className={styles.service}>
-          <div className={styles.service__banner}
-          onClick={() => {setIsActive(!isActive)}}>
-            <p className={styles.section_title}>Community Management</p>
-            <Flecha2 
-            style={{display: 'block'}}
-            isActive={isActive} setIsActive={setIsActive}
-            key={1}
-            />
-          </div>
-          <motion.div className={styles.service__list__show}
-          animate={{height: isActive ? "0": "auto"}}
-          transition={{duration: 1, ease: [0.33, 1, 0.68, 1]}}>
-            <p className={styles.subtitle}>Calendarización</p>
-            <p className={styles.subtitle}>Copywriting</p>
-            <p className={styles.subtitle}>Posting</p>
-
-          </motion.div>
-
-        </div> */}
       </div>
 
       </div>
