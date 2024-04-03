@@ -95,11 +95,6 @@ export default function Services() {
               
               >
                 <p className={styles.section_title}>{service.name}</p>
-                {/* <Flecha2 
-                style={{display: 'block'}}
-                isActive={isActive} setIsActive={setIsActive}
-                key={1}
-                /> */}
                 <span className={styles.cross}>{selected === i ? '_' : "+"}</span>
               </div>
               <div className={selected == i ?  'page_service__list__show__37KEC' : 'page_service__list__aU9Ez'}>          
