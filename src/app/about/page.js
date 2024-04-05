@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useEffect } from "react";
 import styles from '../page.module.css'
+import Inner from "../inner/inner";
 
 
 
@@ -19,7 +20,7 @@ export default function About() {
 
   return (
     <main className={styles.main}>
-      <div className={styles.page}>
+      <Inner>
 
         <div className={styles.page__title}>
           <p className={styles.title}>ABOUT US</p>
@@ -33,7 +34,7 @@ export default function About() {
 
         </div>
 
-      </div>
+      </Inner>
 
     </main>
 

@@ -21,6 +21,17 @@ export default function Carousel(){
               <p><Link href="/contact">Twitter</Link></p>
               <p><Link href="/contact">Facebook</Link></p>
           </div>
+          <div>
+          <div className={styles.mail}>
+              <p>mail</p>
+              <a href="mailto:someone@example.com">Soloagency6@gmail.com</a>
+            </div>
+
+            <div className={styles.mail}>
+                <p>phones</p>
+                <a>+52-33-12345678</a>
+            </div>
+          </div>
           <div className={styles.endpage}>
             <Link href="/">
             <Image

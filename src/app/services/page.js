@@ -5,6 +5,7 @@ import styles from '../page.module.css'
 import Flecha2 from "../components/flecha2";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Inner from "../inner/inner";
 
 
 
@@ -79,37 +80,36 @@ export default function Services() {
 
   return (
     <main className={styles.main} >
-      <div className={styles.page}>
-
-      <div className={styles.page__title}>
-          <p className={styles.title}>SERVICES</p>
-          <p>Solo Agency es una agencia creativa espacializada en el diseño de identidad visual y comunicacion efectiva.</p>
-      </div>
-      <div className={styles.services_container}>
-          {services.map((service, i) => {
-            return(
-              <div key={i} className={styles.service}>
-                <div className={styles.service__banner}
-                // onClick={() => {setIsActive(!isActive)}}
-                onClick={() => toggle(i)}
-                
-                >
-                  <p className={styles.section_title}>{service.name}</p>
-                  <span className={styles.cross}>{selected === i ? '_' : "+"}</span>
+      <Inner>
+        <div className={styles.page__title}>
+            <p className={styles.title}>SERVICES</p>
+            <p>Solo Agency es una agencia creativa espacializada en el diseño de identidad visual y comunicacion efectiva.</p>
+        </div>
+        <div className={styles.services_container}>
+            {services.map((service, i) => {
+              return(
+                <div key={i} className={styles.service}>
+                  <div className={styles.service__banner}
+                  // onClick={() => {setIsActive(!isActive)}}
+                  onClick={() => toggle(i)}
+                  
+                  >
+                    <p className={styles.section_title}>{service.name}</p>
+                    <span className={styles.cross}>{selected === i ? '_' : "+"}</span>
+                  </div>
+                  <div className={selected == i ?  'page_service__list__show__37KEC' : 'page_service__list__aU9Ez'}>          
+                      <p className={styles.subtitle}>{service.item1}</p>
+                      <p className={styles.subtitle}>{service.item2}</p>
+                      <p className={styles.subtitle}>{service.item3}</p>
+                      <p className={styles.subtitle}>{service.item4}</p>
+                      <p className={styles.subtitle}>{service.item5}</p>
+                  </div>
                 </div>
-                <div className={selected == i ?  'page_service__list__show__37KEC' : 'page_service__list__aU9Ez'}>          
-                    <p className={styles.subtitle}>{service.item1}</p>
-                    <p className={styles.subtitle}>{service.item2}</p>
-                    <p className={styles.subtitle}>{service.item3}</p>
-                    <p className={styles.subtitle}>{service.item4}</p>
-                    <p className={styles.subtitle}>{service.item5}</p>
-                </div>
-              </div>
-            )
-          })}
-      </div>
+              )
+            })}
+        </div>
 
-      </div>
+      </Inner>
 
     </main>
 

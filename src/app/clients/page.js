@@ -4,8 +4,8 @@ import { useEffect } from "react";
 import styles from '../page.module.css'
 import Flecha2 from "../components/flecha2";
 import { useState } from "react";
-import { motion } from "framer-motion";
 import React from 'react';
+import Inner from "../inner/inner";
 
 
 
@@ -88,11 +88,12 @@ export default function Clients() {
 
 
   return (
-    <main className={styles.main} >
-      <div className={styles.page}>
+          
+    <main className={styles.main} >    
+      <Inner>
         <div className={styles.page__title}>
           <p className={styles.title}>CLIENTS</p>
-          <p>En Solo Agency nos enorgullece ser tu aliado creativo en el mundo de la identidad visual. Nuestro enfoque se centra en potenciar tus valores y comunicar todo aquello que no se puede expresar con palabras.</p>
+          <p className={styles.description}>En Solo Agency nos enorgullece ser tu aliado creativo en el mundo de la identidad visual. Nuestro enfoque se centra en potenciar tus valores y comunicar todo aquello que no se puede expresar con palabras.</p>
         </div>
         <div className={styles.services_container}>
           {categories.map((category, i) => (
@@ -109,7 +110,7 @@ export default function Clients() {
                         .filter(brand => brand.category === category.name)
                         .map((brand, brandIndex) => (
                           <div key={brandIndex}>
-                            <img src={brand.imageLocation} alt={brand.name} style={{maxWidth: '10rem'}} />
+                            <img src={brand.imageLocation} alt={brand.name} className={styles.client__logo} />
                             {/* <p>{brand.name}</p> */}
                           </div>
                         ))}
@@ -117,7 +118,7 @@ export default function Clients() {
             </div>
           ))}
         </div>
-      </div>
+      </Inner>
     </main>
   );
 }
