@@ -293,6 +293,7 @@
   color: white;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   overflow: hidden;
   align-self: start;
@@ -305,6 +306,7 @@
   color: white;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   overflow: hidden;
   align-self: start;
@@ -333,7 +335,8 @@
   z-index: 100;
   margin: auto;
   color: white;
-  background: #000000a3;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 54%, rgba(0,0,0,0.5707656612529002) 82%, rgba(0,0,0,0.058004640371229654) 100%);
   padding-top: 5rem;
   text-align: center;
   bottom: 0;

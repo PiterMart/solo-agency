@@ -6,6 +6,7 @@ import Carousel from "./components/carousel";
 import WWW from "./components/www";
 import Footer from "./components/footer"
 import { useEffect } from "react";
+import NoSomos from "./components/noSomos";
 
 
 const  paragraph = "Somos un booster de marcas, creadores y de tus ideas. Creemos firmemente que hoy en día detrás de cada medio lo que más importa es el carácter humano otorgándole a tu marca su propia identidad siendo única e irrepetible. "
@@ -42,14 +43,7 @@ export default function Home() {
 
       <Paragraph value={paragraph} />
 
-      <div className={styles.center2}>
-        <p>
-          NO SOMOS <strong>SOLO</strong> UNA AGENCIA
-        </p>
-        <p>
-        somos todo eso que queres contar.
-        </p>
-      </div>
+      <NoSomos />
       
       <Carousel/>
 
