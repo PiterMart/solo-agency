@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "./components/nav";
 import Footer from "./components/footer"
+import { AnimatePresence } from "framer-motion";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,9 +21,10 @@ export default function RootLayout({ children }) {
             <source src="/3dBackground.mp4" />
           </video>
           <Nav/>
+
           {children}
           <Footer data-scroll data-scroll-speed="0.7"/>
-      </body>
+     </body>
     </html>
   );
 }

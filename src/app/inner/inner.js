@@ -23,7 +23,7 @@ export default function Inner({ children }) {
       enter: {
         opacity: 1,
         transition: {
-          delay: 0.5,
+          delay: 1,
             duration: 2
         }
       },
@@ -39,7 +39,7 @@ export default function Inner({ children }) {
     const slide = {
       initial: {
         opacity: 1,
-        left: "100vh",
+        left: "200vh",
       },
       enter: {
         opacity: 1,
@@ -50,7 +50,7 @@ export default function Inner({ children }) {
       },
       exit: {
         opacity: 0,
-        left: "-100vh",
+        left: "-200vh",
         transition: {
           duration: 1
       }

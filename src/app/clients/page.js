@@ -6,6 +6,7 @@ import Flecha2 from "../components/flecha2";
 import { useState } from "react";
 import React from 'react';
 import Inner from "../inner/inner";
+import { AnimatePresence } from "framer-motion";
 
 
 
@@ -89,7 +90,8 @@ export default function Clients() {
 
   return (
           
-    <main className={styles.main} >    
+    <main className={styles.main} >
+      <AnimatePresence mode="wait"> 
       <Inner>
         <div className={styles.page__title}>
           <p className={styles.title}>CLIENTS</p>
@@ -119,6 +121,7 @@ export default function Clients() {
           ))}
         </div>
       </Inner>
+      </AnimatePresence>   
     </main>
   );
 }
