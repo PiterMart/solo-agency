@@ -357,6 +357,8 @@
   }
 }
 
+/* FOOTER */
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -367,7 +369,7 @@
   margin: auto;
   color: white;
   background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,1) 54%, rgba(0,0,0,0.5707656612529002) 82%, rgba(0,0,0,0.058004640371229654) 100%);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 65%, rgba(0,0,0,0) 94%);
   padding-top: 5rem;
   text-align: center;
   bottom: 0;
@@ -557,6 +559,11 @@
 @media (max-width: 700px) {
   .nav {
     padding: 0.5rem;
+  }
+
+  .description{
+    font-size: 24px;
+    padding-top: 2rem;
   }
   .page{
     gap: 1rem;
