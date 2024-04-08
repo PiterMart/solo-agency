@@ -5,19 +5,17 @@ import "../globals.css";
 import Nav from "../components/nav";
 import Footer from "../components/footer"
 import { Children } from "react";
+import ClientsRed from "../components/clientsRedirect";
+
 
 const inter = Inter({ subsets: ["latin"] });
-
-export const metadata = {
-  title: "Solo Agency",
-  description: "",
-};
 
 export default function RootLayout({ children }) {
   
   return (
     <div>
         {children}
+        <ClientsRed/>
     </div>
   );
 }

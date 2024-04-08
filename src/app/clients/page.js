@@ -40,8 +40,8 @@ export default function Clients() {
     // Assuming you have an array of brand objects
     { name: 'AIA', imageLocation: '/logos/aiaLogo.png', category: 'Fashion', route: '/clientsPage/aia'},
     { name: 'Thurman', imageLocation: '/logos/thurmanLogo.png', category: 'Fashion', route: '/clientsPage/thurman'},
-    { name: 'Cape Diablo', imageLocation: '/logos/capediabloLogo.png', category: 'Fashion', route: '/clientsPage/aia'},
-    { name: 'Charro', imageLocation: '/logos/charroLogo.png', category: 'Fashion', route: '/clientsPage/aia'},
+    { name: 'Cape Diablo', imageLocation: '/logos/capediabloLogo.png', category: 'Fashion', route: '/clientsPage/capeDiablo'},
+    { name: 'Charro', imageLocation: '/logos/charroLogo.png', category: 'Fashion', route: '/clientsPage/charro'},
     { name: 'Cristho', imageLocation: '/logos/cristhoLogo.png', category: 'Fashion', route: '/clientsPage/aia'},
     { name: 'dollstore', imageLocation: '/logos/dollstoreLogo.png', category: 'Fashion', route: '/clientsPage/aia'},
     { name: 'dsmen', imageLocation: '/logos/dsmenLogo.png', category: 'Fashion', route: '/clientsPage/aia'},

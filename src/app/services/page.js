@@ -6,6 +6,7 @@ import Flecha2 from "../components/flecha2";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Inner from "../inner/inner";
+import Carousel from "../components/carousel";
 
 
 
@@ -108,6 +109,7 @@ export default function Services() {
                   </div>
                 )
               })}
+              <Carousel/>
           </div>
 
         </Inner>

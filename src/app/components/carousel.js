@@ -32,7 +32,7 @@ export default function Carousel(){
 
     return(
         <div className={styles.client__display}>
-            <p className={styles.title}>CLIENTES</p>
+            <p className={styles.title}><Link href={'/clients'}>CLIENTS</Link></p>
             <div className={styles.scroller} >
                 <div className={styles.scroller__inner}>
                 <Image
