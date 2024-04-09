@@ -43,7 +43,7 @@ export default function Clients() {
     { name: 'Cape Diablo', imageLocation: '/logos/capediabloLogo.png', category: 'Fashion', route: '/clientsPage/capeDiablo'},
     { name: 'Charro', imageLocation: '/logos/charroLogo.png', category: 'Fashion', route: '/clientsPage/charro'},
     { name: 'Cristho', imageLocation: '/logos/cristhoLogo.png', category: 'Fashion', route: '/clientsPage/aia'},
-    { name: 'dollstore', imageLocation: '/logos/dollstoreLogo.png', category: 'Fashion', route: '/clientsPage/aia'},
+    { name: 'dollstore', imageLocation: '/logos/dollstoreLogo.png', category: 'Fashion', route: '/clientsPage/dollstore'},
     { name: 'dsmen', imageLocation: '/logos/dsmenLogo.png', category: 'Fashion', route: '/clientsPage/aia'},
     { name: 'Justa Osadia', imageLocation: '/logos/justaosadiaLogo.png', category: 'Fashion', route: '/clientsPage/aia'},
     { name: 'Pucheta', imageLocation: '/logos/puchetaLogo.png', category: 'Fashion', route: '/clientsPage/aia'},

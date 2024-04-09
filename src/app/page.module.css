@@ -59,7 +59,7 @@
 
 .title {
   font-weight: bold;
-  font-size: 14vh;
+  font-size: 12vh;
   width: 100%;
   font-style: normal;
 }
@@ -70,7 +70,7 @@
 
 .section_title{
   font-weight: bold;
-  font-size: 7vh;
+  font-size: 65px;
   width: 100%;
   font-style: normal;
   text-align: left;
@@ -174,8 +174,8 @@
 }
 
 .page__title{
-  width: 100%;
-  padding-left: 10rem;
+  width: 70%;
+  margin: auto;
 }
 
 .description{
@@ -187,15 +187,15 @@
 
 .WWW{
   margin-top: 5rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin: auto;
+  width: 70%;
   margin-bottom: 5rem;
   border-bottom: 1px solid white;
   display: inline-block;
 
 }
 .www__title{
-  font-size: 8rem;
+  font-size: 6rem;
   margin: auto;
   white-space: nowrap;
   overflow: hidden;
@@ -219,9 +219,9 @@
   align-self: center;
   display: flex;
   flex-wrap: wrap;
-  line-height: 1;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  line-height: 0.5;
+  margin: auto;
+  width: 70%;
   gap: 1rem;
   font-weight: medium;
 }
@@ -238,10 +238,23 @@
   margin-bottom: 10rem;
   text-align: left;
   max-width: 1500px;
-  width: 100%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   align-content: center;
+}
+.client__banner{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  margin-top: 5rem;
+  align-items: center;
+}
+.client__title{
+    font-size: 3.5rem;
+    margin: 1rem;
+    font-weight: 600;
 }
 
 .client__content{
@@ -250,11 +263,40 @@
   flex-direction: row;
   gap: 5rem;
   margin: auto;
-  margin-top: 1rem;
+  margin-top: 3rem;
+  width: 70%;
+  justify-content: space-around;
+  text-align: center;
+}
+.client__images{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.client__image{
+  width: 100%;
+  height:auto;
+  max-width: 20vw;
+  z-index: 10;
+  right: 0; 
 }
 
 .client__text{
   font-size: 40px;
+}
+.client__page{
+  background-color: black;
+}
+
+.client__info{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1000px;
+  width: 90%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  gap: 1rem;
 }
 
 .scroller{
@@ -312,12 +354,12 @@
 .service{
   text-transform: uppercase;
   margin: auto;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  width: 70%;
   display: flex;
   flex-direction: column;
   border-bottom: solid 1px white;
-  margin-bottom: 1rem;
+  border-radius: 25px;
+  margin-bottom: 4rem;
 }
 
 .cross{
@@ -327,7 +369,8 @@
 .service__banner{
   display: flex;
   flex-direction: row;
-  margin-bottom: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 
 }
 
@@ -355,7 +398,8 @@
   overflow: hidden;
   align-self: start;
   padding-bottom: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   gap: 5rem;
   transition: all 1s cubic-bezier(0.33, 1, 0.68, 1)
 }
@@ -509,7 +553,7 @@
   position: relative;
   height: 100vh;
   padding: 3rem 0;
-  font-size: 3vw;
+  font-size: 2.5rem;
 }
 
 .center2 {
@@ -520,7 +564,7 @@
   position: relative;
   height: 50vh;
   padding: 3rem 0;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .center::before {
@@ -572,27 +616,31 @@
 @media (max-width: 700px) {
   .nav {
     padding: 0.5rem;
+    font-size: 1rem;
   }
 
   .description{
     font-size: 24px;
     padding-top: 2rem;
+    margin: auto;
+    width: 95%;
   }
   .page{
     gap: 1rem;
   }
   .page__title{
     width: 100%;
-    padding-left: 1rem;
-    padding-bottom: 3rem;
+    padding: 1rem;
+    
   }
 
   .paragraph{
-    font-size: 3vh;
+    font-size: 20px;
     padding: 1rem;
     text-align: center;
     margin-left: 0rem;
     margin-right: 0rem;
+    width: 100%;
     gap: 0px;
   }
 
@@ -609,8 +657,10 @@
   }
 
   .service{
-    margin-left: 1rem;
-    margin-right: 1rem;
+    width: 100%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
   }
 
   .service__list__show{
@@ -632,10 +682,14 @@
 
     max-width: 5rem;
   }
+  .client__banner{
+    width: 90%;
+  }
 
   .client__display{
     margin-top: 10rem;
     padding: 1rem;
+    width: 100%;
   
   }
   .client__content{
@@ -644,6 +698,30 @@
     flex-direction: row;
     gap: 1rem;
     margin: 0px;
+    margin-top: 3rem;
+    width: 100%;
+    padding-bottom: 2rem;
+    border-bottom: 1px white solid;
+    border-radius: 20px;
+  }
+  .client__info{
+    width: 90%;
+    margin-top: 1rem;
+  }
+  .client__images{
+    width: 15rem;
+    overflow-x: auto;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 20px;
+  }
+
+  .client__image{
+    max-width: 90vw;
+  }
+  .client__title{
+    font-size: 2rem;
+    text-align: center;
   }
 
   .title{
@@ -655,12 +733,13 @@
   }
   .WWW{
     margin-top: 5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: auto;
+    width: 90%;
+    padding: 1rem;
     margin-bottom: 2rem;
   }
   .www__title{
-    font-size: 3rem;
+    font-size: 2rem;
     margin: auto;
   }
   .center{
@@ -734,6 +813,10 @@
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
+  .title {
+    font-size: 9vh;
+    padding-left: 1rem;
+  }
 
   .content{
     flex-direction: column;
@@ -750,6 +833,9 @@
     padding-top: 2rem;
     border-top: 1px solid #000000;
     width: 40rem;
+  }
+  .client__banner{
+    width: 90%;
   }
 
   .service{
@@ -773,8 +859,6 @@
     font-size: 3vh;
     padding: 1rem;
     text-align: center;
-    margin-left: 5rem;
-    margin-right: 0rem;
     gap: 0px;
   }
 
@@ -785,17 +869,15 @@
 
   }
   .WWW{
-    margin-top: 5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-top: 5rem;;
     margin-bottom: 2rem;
   }
   .www__title{
-    font-size: 6rem;
+    font-size: 5rem;
     margin: auto;
   }
   .center{
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .tuMarca{

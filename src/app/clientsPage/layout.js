@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   
   return (
-    <div>
+    <div style={{background: 'black'}}>
         {children}
         <ClientsRed/>
     </div>
