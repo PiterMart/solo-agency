@@ -60,6 +60,8 @@ export default function Home() {
       <div className={styles.client__content}>
         <div data-scroll data-scroll-speed="0.7">
           <p className={styles.client__title}>Sale 2024</p>
+          <div style={{display: 'flex', flexDirection: 'row'}}>
+          <p style={{margin: "auto", fontSize: '3rem', alignSelf: 'center', padding: '2rem'}}> {'<'} </p>
           <div className={styles.client__images}>
             <Image
                 className={styles.client__image}
@@ -86,6 +88,9 @@ export default function Home() {
                 sizes="100vw"
             />
           </div>
+          <p style={{margin: "auto", fontSize: '3rem', alignSelf: 'center', padding: '2rem'}}> {'>'} </p>
+
+          </div>
         </div>
       </div>
       <div className={styles.client__content}>
@@ -101,7 +106,7 @@ export default function Home() {
                 data-scroll data-scroll-speed="0.1"
             />
           <div className={styles.client__images}>
-            <video autoPlay muted loop playsInline className={styles.client__image}>
+            <video controls loop playsInline className={styles.client__image}>
                 <source src="/dollstore/sale23.mp4" />
             </video>
             <Image
@@ -113,6 +118,9 @@ export default function Home() {
                 sizes="100vw"
             />
           </div>
+        </div>
+        <div style={{background: 'black', position: 'fixed', height:'100vh', width: '100vw',bottom: '0', zIndex: '-1'}}>
+
         </div>
       </div>
 

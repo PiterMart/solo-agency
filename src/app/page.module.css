@@ -279,6 +279,8 @@
   max-width: 20vw;
   z-index: 10;
   right: 0; 
+  border: 5px solid black;
+  border-radius: 20px;
 }
 
 .client__text{
@@ -712,7 +714,7 @@
     width: 15rem;
     overflow-x: auto;
     margin: auto;
-    border: 5px solid black;
+    box-shadow: 0 0 20px 1px rgb(76, 76, 76);
     border-radius: 20px;
   }
 
