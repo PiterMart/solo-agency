@@ -265,7 +265,6 @@
   flex-direction: column;
   width: 70%;
   margin: auto;
-  margin-top: 5rem;
   align-items: center;
 }
 .client__title{
@@ -310,7 +309,7 @@
 }
 .client__page{
   background-color: black;
-  margin-top: 100vh;
+  margin-top: 80vh;
   z-index: 1;
 }
 
@@ -323,7 +322,20 @@
   margin-top: 5rem;
   margin-bottom: 5rem;
   gap: 1rem;
-  font-size: 20px;
+  font-size: 45px;
+}
+.client__scroller__inner{
+  font-size: 30px;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: nowrap;
+  width: max-content;
+  animation: scroll 25s linear infinite;
+  margin-bottom: 2rem;
+}
+.client__content__subtitle{
+  font-size: 50px;
+  margin: 5rem;
 }
 
 .scroller{
@@ -753,7 +765,7 @@
     max-width: 90vw;
   }
   .client__title{
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
   }
 

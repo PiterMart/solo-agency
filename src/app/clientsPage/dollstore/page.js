@@ -70,6 +70,17 @@ export default function Home() {
         <div className={styles.client__content}>
           <div>
             <p className={styles.client__title}>SALE 2024</p>
+              <Image
+                className={styles.client__image}
+                src="/dollstore/sale preview 4 png.png"
+                alt="Solo Agency"
+                width={0}
+                height={0}
+                sizes="100vw"
+                data-scroll data-scroll-speed="0.1"
+                style={{border: "none"}}
+              />
+              
             <div style={{display: 'flex', flexDirection: 'row'}}>
             {/* <p style={{margin: "auto", fontSize: '3rem', alignSelf: 'center', padding: '2rem'}}> {'<'} </p> */}
             <div className={styles.client__images}>
@@ -135,7 +146,7 @@ export default function Home() {
           </div> */}
         </div>
         <div className={styles.client__content}>
-          <div data-scroll data-scroll-speed="0.7">
+          <div>
             <p className={styles.client__title}>NAVIDAD 2023</p>
             <Image
                   className={styles.client__image}
@@ -211,10 +222,10 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.client__content}>
-          <div data-scroll data-scroll-speed="0.7">
+          <div>
             <p className={styles.client__title}>LLEVATE TODO DOLL</p>
             <div >
-              <p className={styles.subtitle}>Carnaval</p>
+            <p className={styles.client__content__subtitle}>Carnaval</p>
               <div className={styles.client__images}>
                 <Image
                     className={styles.client__image}
@@ -243,7 +254,7 @@ export default function Home() {
               </div>
             </div>
             <div >
-              <p className={styles.subtitle}>Summer Edition</p>
+            <p className={styles.client__content__subtitle}>Summer Edition</p>
               <div className={styles.client__images}>
                 <video controls autoPlay muted  loop playsInline className={styles.client__image}>
                     <source src="/dollstore/llevatetododollsummerreel.mp4" />
@@ -300,6 +311,103 @@ export default function Home() {
                   width={0}
                   height={0}
                   sizes="100vw"
+              />
+            </div>
+          </div>
+        </div>
+        <div className={styles.client__content}>
+          <div>
+            <p className={styles.client__title}>DIGITAL BRANDING</p>
+            <div className={styles.client__images}>
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/digitalbranding1.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  data-scroll data-scroll-speed="0.1"
+                  style={{border: "none"}}
+              />
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/digitalbranding2.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  data-scroll data-scroll-speed="0.1"
+                  style={{border: "none"}}
+              />
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/digitalbranding3.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  data-scroll data-scroll-speed="0.1"
+                  style={{border: "none"}}
+              />
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/digitalbranding4.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  data-scroll data-scroll-speed="0.1"
+                  style={{border: "none"}}
+              />
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/digitalbranding5.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  data-scroll data-scroll-speed="0.1"
+                  style={{border: "none"}}
+              />
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/digitalbranding6.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  data-scroll data-scroll-speed="0.1"
+                  style={{border: "none"}}
+              />
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/digitalbranding7.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  data-scroll data-scroll-speed="0.1"
+                  style={{border: "none"}}
+              />
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/digitalbranding8.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  data-scroll data-scroll-speed="0.1"
+                  style={{border: "none"}}
+              />
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/digitalbranding9.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  data-scroll data-scroll-speed="0.1"
+                  style={{border: "none"}}
               />
             </div>
           </div>
