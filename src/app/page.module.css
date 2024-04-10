@@ -57,6 +57,23 @@
   color: white;
 }
 
+.button {
+  background: #00000000;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-family: Aron;
+  text-transform: uppercase;
+  border: none;
+}
+
+.button:hover {
+  color: black;
+  text-decoration: none;
+}
+
 .title {
   font-weight: bold;
   font-size: 12vh;
@@ -273,6 +290,10 @@
   flex-direction: row;
   gap: 1.5rem;
   flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0 0px;
 }
 .client__image{
   width: 100%;
@@ -282,6 +303,7 @@
   right: 0; 
   border: 5px solid black;
   border-radius: 20px;
+  scroll-snap-align: start;
 }
 
 .client__text{

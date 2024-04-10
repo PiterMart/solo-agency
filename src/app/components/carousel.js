@@ -149,6 +149,9 @@ export default function Carousel(){
                 />
                 </div>
             </div>
+            {/* <button className={styles.button}>
+                <p>See all clients</p>
+            </button> */}
         </div>
     )
 
