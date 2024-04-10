@@ -290,10 +290,9 @@
   flex-direction: row;
   gap: 1.5rem;
   flex-wrap: wrap;
-  justify-content: center;
-  justify-items: center;
   scroll-snap-type: x mandatory;
   scroll-padding: 0 0px;
+  justify-content: center;
 }
 .client__image{
   width: 100%;
@@ -747,6 +746,7 @@
     box-shadow: 0 0 20px 1px rgb(76, 76, 76);
     border-radius: 20px;
     flex-wrap: nowrap;
+    justify-content: start;
   }
 
   .client__image{
@@ -869,6 +869,10 @@
   }
   .client__banner{
     width: 90%;
+  }
+  .client__images{
+    justify-content: center;
+    justify-items: center;
   }
 
   .service{

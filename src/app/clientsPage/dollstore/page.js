@@ -117,7 +117,7 @@ export default function Home() {
                   style={{border: "none"}}
               />
             <div className={styles.client__images}>
-              <video controls loop playsInline className={styles.client__image}>
+              <video autoPlay muted controls loop playsInline className={styles.client__image}>
                   <source src="/dollstore/sale23.mp4" />
               </video>
               <Image
@@ -137,8 +137,18 @@ export default function Home() {
         <div className={styles.client__content}>
           <div data-scroll data-scroll-speed="0.7">
             <p className={styles.client__title}>NAVIDAD 2023</p>
+            <Image
+                  className={styles.client__image}
+                  src="/dollstore/dollstore navidad GIFT silver 4.png"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  data-scroll data-scroll-speed="0.1"
+                  style={{border: "none"}}
+              />
             <div className={styles.client__images}>
-              <video controls loop playsInline className={styles.client__image}>
+              <video control autoPlay muted  loop playsInline className={styles.client__image}>
                   <source src="/dollstore/navidadVideo.mp4" />
               </video>
               <Image
@@ -206,12 +216,25 @@ export default function Home() {
             <div >
               <p className={styles.subtitle}>Carnaval</p>
               <div className={styles.client__images}>
-                <video controls loop playsInline className={styles.client__image}>
-                    <source src="/dollstore/navidadVideo.mp4" />
-                </video>
                 <Image
                     className={styles.client__image}
-                    src="/dollstore/navidad1.jpg"
+                    src="/dollstore/llevatetododoll1.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                />
+                <Image
+                    className={styles.client__image}
+                    src="/dollstore/llevatetododoll2.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                />
+                <Image
+                    className={styles.client__image}
+                    src="/dollstore/llevatetododoll3.jpg"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -222,12 +245,28 @@ export default function Home() {
             <div >
               <p className={styles.subtitle}>Summer Edition</p>
               <div className={styles.client__images}>
-                <video controls loop playsInline className={styles.client__image}>
-                    <source src="/dollstore/navidadVideo.mp4" />
+                <video controls autoPlay muted  loop playsInline className={styles.client__image}>
+                    <source src="/dollstore/llevatetododollsummerreel.mp4" />
                 </video>
                 <Image
                     className={styles.client__image}
-                    src="/dollstore/navidad1.jpg"
+                    src="/dollstore/llevatetododollsum1.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                />
+                <Image
+                    className={styles.client__image}
+                    src="/dollstore/llevatetododollsum2.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                />
+                <Image
+                    className={styles.client__image}
+                    src="/dollstore/llevatetododollsum3.jpg"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -237,6 +276,35 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className={styles.client__content}>
+          <div>
+            <p className={styles.client__title}>FINAL SALE</p>
+            <Image
+                  className={styles.client__image}
+                  src="/dollstore/finalsaledollstorelogo.png"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  data-scroll data-scroll-speed="0.1"
+                  style={{border: "none"}}
+              />
+            <div className={styles.client__images}>
+              <video controls autoPlay muted  loop playsInline className={styles.client__image}>
+                  <source src="/dollstore/finalsalereel.mp4" />
+              </video>
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/finalsale1.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+              />
+            </div>
+          </div>
+        </div>
+
 
       </div>
     </main>
