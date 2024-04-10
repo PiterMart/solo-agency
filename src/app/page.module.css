@@ -272,11 +272,12 @@
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
+  flex-wrap: wrap;
 }
 .client__image{
   width: 100%;
   height:auto;
-  max-width: 20vw;
+  max-width: 15vw;
   z-index: 10;
   right: 0; 
   border: 5px solid black;
@@ -288,6 +289,8 @@
 }
 .client__page{
   background-color: black;
+  margin-top: 100vh;
+  z-index: 1;
 }
 
 .client__info{
@@ -299,6 +302,7 @@
   margin-top: 5rem;
   margin-bottom: 5rem;
   gap: 1rem;
+  font-size: 20px;
 }
 
 .scroller{
@@ -679,6 +683,10 @@
     font-size: 3vh;
   
   }
+  .service__banner{
+    margin-bottom: -1rem;
+
+  }
 
   .client__logo{
 
@@ -716,6 +724,7 @@
     margin: auto;
     box-shadow: 0 0 20px 1px rgb(76, 76, 76);
     border-radius: 20px;
+    flex-wrap: nowrap;
   }
 
   .client__image{
@@ -817,7 +826,7 @@
   }
   .title {
     font-size: 9vh;
-    padding-left: 1rem;
+    padding-bottom: 1rem;
   }
 
   .content{
