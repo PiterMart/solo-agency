@@ -15,9 +15,8 @@ export default function Carousel(){
           </div>
           <div className={styles.smLinks}>
               <p><Link href="/artists">Instagram</Link></p>
+              <p><Link href="/contact">Whatsapp</Link></p>
               <p><Link href="/exhibitions">LinkedIn</Link></p>
-              <p><Link href="/contact">Twitter</Link></p>
-              <p><Link href="/contact">Facebook</Link></p>
           </div>
           {/* <div>
           <div className={styles.mail}>

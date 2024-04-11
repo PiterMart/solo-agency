@@ -45,31 +45,39 @@ export default function Home() {
           }}>
             <div className={styles.service__banner}>
               <Image
-              className={styles.logo}
+              className={styles.client__page__logo}
               src="/logos/dollstoreLogo.png"
               alt="Solo Agency"
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px', marginBottom: '-7vh'}}
+              style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
               />
             </div>
-            <div className={styles.client__info}>
+            <div className={styles.client__info} style={{marginTop:  '5rem'}}>
           <div>
-            <p className={styles.subtitle}>Servicios</p>
+            <p className={styles.subtitle}>SERVICIOS</p>
           </div>
-          <div>
-              <p>Análisis y estrategia</p>
-              <p>Community management</p>
-              <p>Calendarización</p>
-              <p>Diseño</p>
+          <div className={styles.client__info__list}>
+              <p>‐ Análisis y estrategia</p>
+              <p>‐ Community management</p>
+              <p>‐ Calendarización</p>
+              <p>‐ Diseño</p>
             </div>
 
         </div>
         </motion.div>
         <div className={styles.client__content}>
-          <div>
+          <div className={styles.client__content__container}>
             <p className={styles.client__title}>SALE 2024</p>
+            <div style={{display: 'flex', flexDirection: 'row',}}>
+              {/* <div className={styles.client__info__list}>
+                <p>‐ Photo</p>
+                <p>‐ 3d</p>
+                <p>‐ Graphic Design</p>
+              </div> */}
+              <p className={styles.client__text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius lectus ac leo ultricies, ac pellentesque sem semper. Etiam tempor nisl nec lectus molestie mattis. </p>
+            </div>
               <Image
                 className={styles.client__image}
                 src="/dollstore/sale preview 4 png.png"
@@ -78,10 +86,9 @@ export default function Home() {
                 height={0}
                 sizes="100vw"
                 data-scroll data-scroll-speed="0.1"
-                style={{border: "none"}}
+                style={{border: "none", margin: '-2rem'}}
               />
               
-            <div style={{display: 'flex', flexDirection: 'row'}}>
             {/* <p style={{margin: "auto", fontSize: '3rem', alignSelf: 'center', padding: '2rem'}}> {'<'} </p> */}
             <div className={styles.client__images}>
               <Image
@@ -110,13 +117,19 @@ export default function Home() {
               />
             </div>
             {/* <p style={{margin: "auto", fontSize: '3rem', alignSelf: 'center', padding: '2rem'}}> {'>'} </p> */}
-
-            </div>
           </div>
         </div>
         <div className={styles.client__content}>
-          <div>
+          <div className={styles.client__content__container}>
             <p className={styles.client__title}>SALE 2023</p>
+            <div style={{display: 'flex', flexDirection: 'row',}}>
+              {/* <div className={styles.client__info__list}>
+                <p>‐ Photo</p>
+                <p>‐ 3d</p>
+                <p>‐ Graphic Design</p>
+              </div> */}
+              <p className={styles.client__text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius lectus ac leo ultricies, ac pellentesque sem semper. Etiam tempor nisl nec lectus molestie mattis. </p>
+            </div>
             <Image
                   className={styles.client__image}
                   src="/dollstore/sale23text.png"
@@ -125,7 +138,7 @@ export default function Home() {
                   height={0}
                   sizes="100vw"
                   data-scroll data-scroll-speed="0.1"
-                  style={{border: "none"}}
+                  style={{border: "none", margin: '-2rem'}}
               />
             <div className={styles.client__images}>
               <video autoPlay muted controls loop playsInline className={styles.client__image}>
@@ -146,8 +159,16 @@ export default function Home() {
           </div> */}
         </div>
         <div className={styles.client__content}>
-          <div>
+          <div className={styles.client__content__container}>
             <p className={styles.client__title}>NAVIDAD 2023</p>
+            <div style={{display: 'flex', flexDirection: 'row',}}>
+              {/* <div className={styles.client__info__list}>
+                <p>‐ Photo</p>
+                <p>‐ 3d</p>
+                <p>‐ Graphic Design</p>
+              </div> */}
+              <p className={styles.client__text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius lectus ac leo ultricies, ac pellentesque sem semper. Etiam tempor nisl nec lectus molestie mattis. </p>
+            </div>
             <Image
                   className={styles.client__image}
                   src="/dollstore/dollstore navidad GIFT silver 4.png"
@@ -156,7 +177,7 @@ export default function Home() {
                   height={0}
                   sizes="100vw"
                   data-scroll data-scroll-speed="0.1"
-                  style={{border: "none"}}
+                  style={{border: "none", margin: '-2rem'}}
               />
             <div className={styles.client__images}>
               <video control autoPlay muted  loop playsInline className={styles.client__image}>
@@ -222,10 +243,17 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.client__content}>
-          <div>
+          <div className={styles.client__content__container}>
             <p className={styles.client__title}>LLEVATE TODO DOLL</p>
+            <div style={{display: 'flex', flexDirection: 'row',}}>
+              {/* <div className={styles.client__info__list}>
+                <p>‐ Photo</p>
+                <p>‐ 3d</p>
+                <p>‐ Graphic Design</p>
+              </div> */}
+              <p className={styles.client__text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius lectus ac leo ultricies, ac pellentesque sem semper. Etiam tempor nisl nec lectus molestie mattis. </p>
+            </div>
             <div >
-            <p className={styles.client__content__subtitle}>Carnaval</p>
               <div className={styles.client__images}>
                 <Image
                     className={styles.client__image}
@@ -254,7 +282,7 @@ export default function Home() {
               </div>
             </div>
             <div >
-            <p className={styles.client__content__subtitle}>Summer Edition</p>
+            {/* <p className={styles.client__content__subtitle}>Summer Edition</p> */}
               <div className={styles.client__images}>
                 <video controls autoPlay muted  loop playsInline className={styles.client__image}>
                     <source src="/dollstore/llevatetododollsummerreel.mp4" />
@@ -288,8 +316,16 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.client__content}>
-          <div>
+          <div className={styles.client__content__container}>
             <p className={styles.client__title}>FINAL SALE</p>
+            <div style={{display: 'flex', flexDirection: 'row',}}>
+              {/* <div className={styles.client__info__list}>
+                <p>‐ Photo</p>
+                <p>‐ 3d</p>
+                <p>‐ Graphic Design</p>
+              </div> */}
+              <p className={styles.client__text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius lectus ac leo ultricies, ac pellentesque sem semper. Etiam tempor nisl nec lectus molestie mattis. </p>
+            </div>
             <Image
                   className={styles.client__image}
                   src="/dollstore/finalsaledollstorelogo.png"
@@ -298,7 +334,7 @@ export default function Home() {
                   height={0}
                   sizes="100vw"
                   data-scroll data-scroll-speed="0.1"
-                  style={{border: "none"}}
+                  style={{border: "none", margin: '-2rem'}}
               />
             <div className={styles.client__images}>
               <video controls autoPlay muted  loop playsInline className={styles.client__image}>
@@ -316,8 +352,16 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.client__content}>
-          <div>
+          <div className={styles.client__content__container}>
             <p className={styles.client__title}>DIGITAL BRANDING</p>
+            <div style={{display: 'flex', flexDirection: 'row',}}>
+              {/* <div className={styles.client__info__list}>
+                <p>‐ Photo</p>
+                <p>‐ 3d</p>
+                <p>‐ Graphic Design</p>
+              </div> */}
+              <p className={styles.client__text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius lectus ac leo ultricies, ac pellentesque sem semper. Etiam tempor nisl nec lectus molestie mattis. </p>
+            </div>
             <div className={styles.client__images}>
               <Image
                   className={styles.client__image}
@@ -349,7 +393,7 @@ export default function Home() {
                   data-scroll data-scroll-speed="0.1"
                   style={{border: "none"}}
               />
-              <Image
+              {/* <Image
                   className={styles.client__image}
                   src="/dollstore/digitalbranding4.jpg"
                   alt="Solo Agency"
@@ -358,7 +402,7 @@ export default function Home() {
                   sizes="100vw"
                   data-scroll data-scroll-speed="0.1"
                   style={{border: "none"}}
-              />
+              /> */}
               <Image
                   className={styles.client__image}
                   src="/dollstore/digitalbranding5.jpg"

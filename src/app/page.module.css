@@ -6,7 +6,7 @@
 @font-face{
   font-family: "Aron";
   src: url('/fonts/Aron-Black.woff') format('woff');
-  font-weight: normal;
+  font-weight: black;
   font-style: normal;
 }
 @font-face{
@@ -82,7 +82,8 @@
 }
 
 .subtitle{
-  font-weight: 600;
+  font-family: Aron;
+  font-weight: bold;
 }
 
 .section_title{
@@ -249,6 +250,13 @@
 
   max-width: 10rem;
 }
+.client__page__logo{
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-bottom: -10rem;
+
+}
 
 .client__display{
   margin-top: 10rem;
@@ -268,9 +276,11 @@
   align-items: center;
 }
 .client__title{
-    font-size: 3.5rem;
-    margin: 1rem;
+    font-size: 3rem;
+    margin: auto;
     font-weight: 600;
+    text-align: center;
+    width: 90%;
 }
 
 .client__content{
@@ -283,6 +293,11 @@
   width: 70%;
   justify-content: space-around;
   text-align: center;
+  border-bottom: 1px white solid;
+  border-radius: 20px;
+}
+.client__content__container{
+  width: 100%;
 }
 .client__images{
   display: flex;
@@ -292,6 +307,8 @@
   scroll-snap-type: x mandatory;
   scroll-padding: 0 0px;
   justify-content: center;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
 }
 .client__image{
   width: 100%;
@@ -305,7 +322,11 @@
 }
 
 .client__text{
-  font-size: 40px;
+  font-size: 18px;
+  width: 50%;
+  margin: auto;
+  padding: 1.5rem;
+  text-align: center;
 }
 .client__page{
   background-color: black;
@@ -315,14 +336,24 @@
 
 .client__info{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: auto;
   max-width: 1000px;
   width: 90%;
   margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
+  gap: 5rem;
+  font-size: 24px;
+  justify-content: center;
+}
+.client__info__list{
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
-  font-size: 45px;
+  font-family: Aron;
+  font-weight: black;
+  text-align: left;
+  justify-content: center;
 }
 .client__scroller__inner{
   font-size: 30px;
@@ -410,6 +441,10 @@
   flex-direction: row;
   padding-right: 2rem;
   padding-left: 2rem;
+  cursor: pointer;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: -1rem;
 
 }
 
@@ -465,8 +500,8 @@
   margin: auto;
   color: white;
   background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,1) 65%, rgba(0,0,0,0) 94%);
-  padding-top: 5rem;
+  /* background: linear-gradient(0deg, rgba(0,0,0,1) 65%, rgba(0,0,0,0) 94%); */
+  /* padding-top: 5rem; */
   text-align: center;
   bottom: 0;
 }
@@ -718,7 +753,15 @@
   }
   .service__banner{
     margin-bottom: -1rem;
+    margin-top: 0rem;
 
+  }
+
+  .client__page{
+    margin-top: 25vh;
+  }
+  .client__page__logo{
+    display: none;
   }
 
   .client__logo{
@@ -727,6 +770,15 @@
   }
   .client__banner{
     width: 90%;
+    padding: 0;
+    margin: 0;
+  }
+  .client__text{
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+    padding: 1.5rem;
+    text-align: left;
   }
 
   .client__display{
@@ -750,6 +802,9 @@
   .client__info{
     width: 90%;
     margin-top: 1rem;
+    font-size: 24px;
+    flex-direction: column;
+    gap: 1rem;
   }
   .client__images{
     width: 15rem;
@@ -766,7 +821,9 @@
   }
   .client__title{
     font-size: 3rem;
-    text-align: center;
+    text-align: left;
+    margin: 0;
+    padding-left: 1rem;
   }
 
   .title{
@@ -879,6 +936,14 @@
     border-top: 1px solid #000000;
     width: 40rem;
   }
+  .section_title{
+
+    font-size: 50px;
+  
+  }
+  .client__page{
+    margin-top: 0vh;
+  }
   .client__banner{
     width: 90%;
   }
@@ -886,10 +951,15 @@
     justify-content: center;
     justify-items: center;
   }
+  .client__image{
+   max-width: 20vw; 
+  }
 
   .service{
     margin-left: 2rem;
     margin-right: 2rem;
+    width: 90%;
+    margin: auto;
   }
 
   .service__list{

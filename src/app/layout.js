@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Solo Agency",
-  description: "",
+  description: "No somos SOLO una agencia",
 };
 
 export default function RootLayout({ children }) {
