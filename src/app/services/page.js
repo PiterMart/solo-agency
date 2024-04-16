@@ -24,7 +24,7 @@ export default function Services() {
 
   const services = [
     { 
-      name: 'Community Management',
+      name: 'Social Media',
       item1: '- Calendarizacion', 
       item2:'- Copywriting',
       item3: '- Posting'
@@ -39,7 +39,7 @@ export default function Services() {
     {
       name: 'Graphic design & branding',
       item1: '- Logo design',
-      item2: '- Brand Books',
+      item2: '- BrandBooks',
       item3: '- Social Media',
       item4: '- Packaging',
       item5: '- Visual Merchandising'
@@ -53,14 +53,21 @@ export default function Services() {
     },
     {
       name: 'Creative Strategy',
+      item1: '- Análisis',
+      item2: '- Concept',
+      item3: '- Report',
 
     },
     {
       name: 'Production & Styling',
-
+      item1: '- Concept crafting',
+      item2: '- Resources Management'
     },
     {
       name: '3D design',
+      item1: '- Modeling',
+      item2: '- Rendering',
+      item3: '- Animation'
 
     },
 

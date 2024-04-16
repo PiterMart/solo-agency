@@ -4,7 +4,6 @@ import styles from "./page.module.css";
 import Paragraph from './components/paragraph'
 import Carousel from "./components/carousel";
 import WWW from "./components/www";
-import Footer from "./components/footer"
 import { useEffect } from "react";
 import NoSomos from "./components/noSomos";
 import { motion } from "framer-motion";

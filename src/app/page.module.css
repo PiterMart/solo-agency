@@ -455,7 +455,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  width: 100%;
+  margin-left: 2rem;
+  justify-content: space-between;
   overflow: hidden;
   align-self: start;
   gap: 5rem;
@@ -468,7 +470,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  width: 100%;
+  margin-left: 2rem;
+  justify-content: space-between;
   overflow: hidden;
   align-self: start;
   padding-bottom: 2rem;
@@ -740,11 +744,16 @@
   .service__list__show{
     gap: 2rem;
     flex-wrap: wrap;
+    padding-bottom: 0;
+    width: 80%;
   }
   .service__list{
     gap: 2rem;
     flex-wrap: wrap;
+    padding-bottom: 0;
+    width: 90%;
   }
+  
 
   .section_title{
 
@@ -964,9 +973,15 @@
 
   .service__list{
     gap: 3rem;
+    width: 100%;
+    margin-left: 2rem;
+    justify-content: space-between;
   }
   .service__list__show{
     gap: 3rem;
+    width: 100%;
+    margin-left: 2rem;
+    justify-content: space-between;
   }
 
   .page__title{
