@@ -131,7 +131,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dollstore/sale242.png"
+                      src="/dollstore/sale242.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -185,7 +185,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dollstore/sale23.png"
+                      src="/dollstore/sale23.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -195,7 +195,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dollstore/sale232.png"
+                      src="/dollstore/sale232.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
