@@ -184,16 +184,24 @@
 .embla {
   mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
   -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  /* margin: auto;
+  width: 50vw; */
+  margin-bottom: 4rem;
 }
 .embla__container {
   display: flex;
+  margin: auto;
+  width: 70%;
+  justify-content: space-evenly;
   
 }
 .embla__slide {
   flex: 0 0 100%;
   min-width: 0;
-  max-width: 13.5rem;
-  
+  max-width: 14rem;
+}
+.embla__viewport{
+  /* max-width: 13.5rem; */
 }
 
 
