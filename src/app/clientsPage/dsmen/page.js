@@ -182,7 +182,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmennavidad.jpg"
+                      src="/dsmen/dsmenNavidad.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -192,7 +192,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmennavidad2.jpg"
+                      src="/dsmen/dsmenNavidad2.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -202,7 +202,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmennavidad3.jpg"
+                      src="/dsmen/dsmenNavidad3.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -212,7 +212,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmennavidad4.jpg"
+                      src="/dsmen/dsmenNavidad4.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -222,7 +222,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmennavidad5.jpg"
+                      src="/dsmen/dsmenNavidad5.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -232,7 +232,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmennavidad6.jpg"
+                      src="/dsmen/dsmenNavidad6.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -242,7 +242,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmennavidad7.jpg"
+                      src="/dsmen/dsmenNavidad7.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -252,7 +252,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmennavidad8.jpg"
+                      src="/dsmen/dsmenNavidad8.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -262,7 +262,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmennavidad9.jpg"
+                      src="/dsmen/dsmenNavidad9.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
