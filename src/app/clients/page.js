@@ -39,11 +39,11 @@ export default function Clients() {
   const brands = [
     // Assuming you have an array of brand objects
     { name: 'dollstore', imageLocation: '/logos/dollstoreLogo.png', category: 'Fashion', route: '/clientsPage/dollstore'},
+    { name: 'dsmen', imageLocation: '/logos/dsmenLogo.png', category: 'Fashion', route: '/clientsPage/dsmen'},
     { name: 'AIA', imageLocation: '/logos/aiaLogo.png', category: 'Fashion', route: '/clientsPage/aia'},
     { name: 'Thurman', imageLocation: '/logos/thurmanLogo.png', category: 'Fashion', route: '/clientsPage/thurman'},
     { name: 'Cape Diablo', imageLocation: '/logos/capediabloLogo.png', category: 'Fashion', route: '/clientsPage/capeDiablo'},
     { name: 'Cristho', imageLocation: '/logos/cristhoLogo.png', category: 'Fashion', route: '/clientsPage/aia'},
-    { name: 'dsmen', imageLocation: '/logos/dsmenLogo.png', category: 'Fashion', route: '/clientsPage/aia'},
     { name: 'Justa Osadia', imageLocation: '/logos/justaosadiaLogo.png', category: 'Fashion', route: '/clientsPage/aia'},
     { name: 'Pucheta', imageLocation: '/logos/puchetaLogo.png', category: 'Fashion', route: '/clientsPage/aia'},
     { name: 'HiSilvie', imageLocation: '/logos/hisilvieLogo.png', category: 'Fashion', route: '/clientsPage/aia' },

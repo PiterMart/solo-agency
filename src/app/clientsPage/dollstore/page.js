@@ -51,7 +51,7 @@ export default function Home() {
     <main className={styles.main}>
       <div>
         <Image
-                  src="/dollstore/dollstoreBanner.png"
+                  src="/dollstore/dollstoreBanner2.png"
                   alt="Solo Agency"
                   width={0}
                   height={0}
@@ -80,8 +80,14 @@ export default function Home() {
               style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
               />
             </div>
+            <div className={styles.client__info}>
+            <p>
+              Reconocida marca de moda Argentina recurre a nuestro servicio 360. Desde creative strategy, social media management, content creation y paid media (Meta ads) acompañamos en todos los desafíos que comprenden comunicación visual y digital.
+              </p>
+            </div>
             <div className={styles.client__info} style={{marginTop:  '5rem'}}>
           <div>
+            
             <p className={styles.subtitle}>SERVICIOS</p>
           </div>
           <div className={styles.client__info__list}>
