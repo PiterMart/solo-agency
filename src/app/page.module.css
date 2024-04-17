@@ -179,6 +179,24 @@
   color: #ffffff69;
 }
 
+/*EMBLA CAROUSEL*/
+
+.embla {
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+.embla__container {
+  display: flex;
+  
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  max-width: 13.5rem;
+  
+}
+
+
 /* PAGE CONTAINER */
 
 .page{

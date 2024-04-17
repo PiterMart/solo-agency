@@ -6,18 +6,8 @@ import Image from "next/image";
 import React, { useCallback} from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-// import {
-//   Carousel,
-//   CarouselContent,
-//   CarouselItem,
-//   CarouselNext,
-//   CarouselPrevious,
-// } from "@/components/ui/carousel"
-
 
 const  paragraph = "Somos un booster de marcas, creadores y de tus ideas. Creemos firmemente que hoy en día detrás de cada medio lo que más importa es el carácter humano otorgándole a tu marca su propia identidad siendo única e irrepetible. "
-
-useEmblaCarousel.globalOptions = { loop: true }
 
 export default function Home() {
 
@@ -31,16 +21,14 @@ export default function Home() {
     )()
   }, [])
 
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '2000', jump: 'false', playOnInit: 'true'})])
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '2000', jump: 'false', stopOnMouseEnter: 'true', playOnInit: 'true'})])
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev()
+  }, [emblaApi])
 
-// const scrollPrev = useCallback(() => {
-//   if (emblaApi) emblaApi.scrollPrev()
-// }, [emblaApi])
-
-// const scrollNext = useCallback(() => {
-//   if (emblaApi) emblaApi.scrollNext()
-// }, [emblaApi])
-
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext()
+  }, [emblaApi])
 
   return (
     <main className={styles.main}>
@@ -104,8 +92,8 @@ export default function Home() {
                 sizes="100vw"
                 data-scroll data-scroll-speed="0.1"
                 style={{border: "none", margin: '-2rem'}}
-            />
-            <div className={styles.embla} class='embla'>
+              />
+            <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef}>
                 <div className={styles.embla__container}>
                   <div className={styles.embla__slide}>
@@ -139,12 +127,12 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                {/* <button className={styles.embla__prev} onClick={scrollPrev}>
+                <button className={styles.embla__prev} onClick={scrollPrev}>
                   {'<'}
                 </button>
                 <button className={styles.embla__next} onClick={scrollNext}>
                   {'>'}
-                </button> */}
+                </button>
               </div>
             </div>
           </div>
@@ -153,6 +141,12 @@ export default function Home() {
           <div className={styles.client__content__container}>
             <p className={styles.client__title}>SALE 2023</p>
             <div style={{display: 'flex', flexDirection: 'row',}}>
+              {/* <div className={styles.client__info__list}>
+                <p>‐ Photo</p>
+                <p>‐ 3d</p>
+                <p>‐ Graphic Design</p>
+              </div> */}
+              <p className={styles.client__text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius lectus ac leo ultricies, ac pellentesque sem semper. Etiam tempor nisl nec lectus molestie mattis. </p>
             </div>
             <Image
                   className={styles.client__image}
@@ -164,39 +158,34 @@ export default function Home() {
                   data-scroll data-scroll-speed="0.1"
                   style={{border: "none", margin: '-2rem'}}
               />
-            <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef}>
-                <div className={styles.embla__container}>
-                  <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                      <source src="/dollstore/sale23.mp4" />
-                    </video>
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/sale23.png"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                </div>
-                {/* <button className={styles.embla__prev} onClick={scrollPrev}>
-                  {'<'}
-                </button>
-                <button className={styles.embla__next} onClick={scrollNext}>
-                  {'>'}
-                </button> */}
-              </div>
-            </div>  
+            <div className={styles.client__images}>
+              <video autoPlay muted controls loop playsInline className={styles.client__image}>
+                  <source src="/dollstore/sale23.mp4" />
+              </video>
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/sale23.png"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+              />
+            </div>
           </div>
+          {/* <div style={{background: 'black', position: 'fixed', height:'50vh', width: '50vw',bottom: '0', zIndex: '-3', marginTop: '200px'}}>
+
+          </div> */}
         </div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
             <p className={styles.client__title}>NAVIDAD 2023</p>
             <div style={{display: 'flex', flexDirection: 'row',}}>
+              {/* <div className={styles.client__info__list}>
+                <p>‐ Photo</p>
+                <p>‐ 3d</p>
+                <p>‐ Graphic Design</p>
+              </div> */}
+              <p className={styles.client__text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius lectus ac leo ultricies, ac pellentesque sem semper. Etiam tempor nisl nec lectus molestie mattis. </p>
             </div>
             <Image
                   className={styles.client__image}
@@ -208,93 +197,66 @@ export default function Home() {
                   data-scroll data-scroll-speed="0.1"
                   style={{border: "none", margin: '-2rem'}}
               />
-              <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef}>
-                <div className={styles.embla__container}>
-                  <div className={styles.embla__slide}>
-                    <video control autoPlay muted  loop playsInline className={styles.client__image}>
-                      <source src="/dollstore/navidadVideo.mp4" />
-                    </video>
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/navidad1.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/navidad2.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/navidad3.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/navidad4.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/navidad5.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/navidad6.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/navidad7.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  
-                </div>
-                {/* <button className={styles.embla__prev} onClick={scrollPrev}>
-                  {'<'}
-                </button>
-                <button className={styles.embla__next} onClick={scrollNext}>
-                  {'>'}
-                </button> */}
-              </div>
+            <div className={styles.client__images}>
+              <video control autoPlay muted  loop playsInline className={styles.client__image}>
+                  <source src="/dollstore/navidadVideo.mp4" />
+              </video>
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/navidad1.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+              />
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/navidad2.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+              />
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/navidad3.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+              />
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/navidad4.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+              />
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/navidad5.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+              />
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/navidad6.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+              />
+              <Image
+                  className={styles.client__image}
+                  src="/dollstore/navidad7.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+              />
             </div>
           </div>
         </div>
@@ -302,6 +264,11 @@ export default function Home() {
           <div className={styles.client__content__container}>
             <p className={styles.client__title}>LLEVATE TODO DOLL</p>
             <div style={{display: 'flex', flexDirection: 'row',}}>
+              {/* <div className={styles.client__info__list}>
+                <p>‐ Photo</p>
+                <p>‐ 3d</p>
+                <p>‐ Graphic Design</p>
+              </div> */}
               <p className={styles.client__text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius lectus ac leo ultricies, ac pellentesque sem semper. Etiam tempor nisl nec lectus molestie mattis. </p>
             </div>
             <div >
