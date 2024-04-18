@@ -31,12 +31,12 @@ export default function Home() {
     )()
   }, [])
 
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '2000', jump: 'false', playOnInit: 'true'})])
-  const [emblaRef2,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '2000', jump: 'false', playOnInit: 'true'})])
-  const [emblaRef3,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '2000', jump: 'false', playOnInit: 'true'})])
-  const [emblaRef4,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '2000', jump: 'false', playOnInit: 'true'})])
-  const [emblaRef5,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '2000', jump: 'false', playOnInit: 'true'})])
-  const [emblaRef6,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '2000', jump: 'false', playOnInit: 'true'})])
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
+  const [emblaRef2,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
+  const [emblaRef3,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
+  const [emblaRef4,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
+  const [emblaRef5,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
+  const [emblaRef6,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
 
 // const scrollPrev = useCallback(() => {
 //   if (emblaApi) emblaApi.scrollPrev()
@@ -51,7 +51,7 @@ export default function Home() {
     <main className={styles.main}>
       <div>
         <Image
-                  src="/dollstore/dollstoreBanner2.png"
+                  src="/dollstore/dollstoreBanner.png"
                   alt="Solo Agency"
                   width={0}
                   height={0}
@@ -69,7 +69,7 @@ export default function Home() {
           x: { duration: 0.25 }
           
           }}>
-            <div className={styles.service__banner}>
+            <div className={styles.client__banner}>
               <Image
               className={styles.client__page__logo}
               src="/logos/dollstoreLogo.png"

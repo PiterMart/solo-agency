@@ -307,6 +307,7 @@
     font-weight: 600;
     text-align: center;
     width: 90%;
+    margin-bottom: 3rem;
 }
 
 .client__content{
@@ -356,7 +357,7 @@
 }
 .client__page{
   background-color: black;
-  margin-top: 80vh;
+  margin-top: 0vh;
   z-index: 1;
 }
 
@@ -791,12 +792,13 @@
     margin-top: 0rem;
 
   }
+  
 
   .client__page{
-    margin-top: 25vh;
+    margin-top: 0vh;
   }
   .client__page__logo{
-    display: none;
+    /* display: none; */
   }
 
   .client__logo{
@@ -807,6 +809,7 @@
     width: 90%;
     padding: 0;
     margin: 0;
+    margin-bottom: 2rem;
   }
   .client__text{
     font-size: 20px;
@@ -858,6 +861,7 @@
     font-size: 3rem;
     text-align: left;
     margin: 0;
+    margin-bottom: 2rem;
     padding-left: 1rem;
   }
 
