@@ -6,30 +6,6 @@ import Image from "next/image";
 import React, { useCallback} from "react";
 import Script from "next/script";
 
-const lightbox = document.createElement('div')
-lightbox.className = 'page_lightbox__OJ8S1'
-document.body.appendChild(lightbox)
-
-const images = document.querySelectorAll('img')
-images.forEach(image => {
-  image.addEventListener('click', e => {
-    lightbox.classList.remove('page_lightbox__OJ8S1')
-    lightbox.classList.add('page_lightbox__active__dviH9')
-    const img = document.createElement('img')
-    img.src = image.src
-    while (lightbox.firstChild) {
-      lightbox.removeChild(lightbox.firstChild)
-    }
-    lightbox.appendChild(img)
-  })
-})
-
-
-lightbox.addEventListener('click', e => {
-  if (e.target !== e.currentTarget) return
-  lightbox.classList.remove('page_lightbox__active__dviH9')
-})
-
 export default function Home() {
 
   useEffect( () => {
@@ -43,6 +19,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+      <Script type="text/javascript" src="/scripts/lightbox.js"/>
       <div className={styles.client__page}>
       {/* <div className={styles.lightbox__active}>
         <p>hola</p>

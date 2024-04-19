@@ -6,18 +6,7 @@ import Image from "next/image";
 import React, { useCallback} from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-// import {
-//   Carousel,
-//   CarouselContent,
-//   CarouselItem,
-//   CarouselNext,
-//   CarouselPrevious,
-// } from "@/components/ui/carousel"
-
-
-const  paragraph = "Somos un booster de marcas, creadores y de tus ideas. Creemos firmemente que hoy en día detrás de cada medio lo que más importa es el carácter humano otorgándole a tu marca su propia identidad siendo única e irrepetible. "
-
-// useEmblaCarousel.globalOptions = { loop: true }
+import Script from "next/script";
 
 export default function Home() {
 
@@ -41,17 +30,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <div>
-        <Image
-                  src="/dollstore/dollstoreBanner2.png"
-                  alt="Solo Agency"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: '100%',maxHeight: '100vh', position: 'fixed', objectFit: 'cover', right: '0', top: '0', pointerEvents: 'none', zIndex: '-1' }}
-              />
-
-        </div>
+      <Script type="text/javascript" src="/scripts/lightbox.js"/>
       <div className={styles.client__page}>
         <motion.div
           className={styles.client__banner} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} 

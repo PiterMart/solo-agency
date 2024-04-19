@@ -6,18 +6,7 @@ import Image from "next/image";
 import React, { useCallback} from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-// import {
-//   Carousel,
-//   CarouselContent,
-//   CarouselItem,
-//   CarouselNext,
-//   CarouselPrevious,
-// } from "@/components/ui/carousel"
-
-
-const  paragraph = "Somos un booster de marcas, creadores y de tus ideas. Creemos firmemente que hoy en día detrás de cada medio lo que más importa es el carácter humano otorgándole a tu marca su propia identidad siendo única e irrepetible. "
-
-// useEmblaCarousel.globalOptions = { loop: true }
+import Script from "next/script";
 
 export default function Home() {
 
@@ -38,17 +27,9 @@ export default function Home() {
   const [emblaRef5,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
   const [emblaRef6,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
 
-// const scrollPrev = useCallback(() => {
-//   if (emblaApi) emblaApi.scrollPrev()
-// }, [emblaApi])
-
-// const scrollNext = useCallback(() => {
-//   if (emblaApi) emblaApi.scrollNext()
-// }, [emblaApi])
-
-
   return (
     <main className={styles.main}>
+      <Script type="text/javascript" src="/scripts/lightbox.js"/>
       <div className={styles.client__page}>
         <motion.div
           className={styles.client__banner} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} 
