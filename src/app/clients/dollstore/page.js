@@ -6,18 +6,7 @@ import Image from "next/image";
 import React, { useCallback} from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-// import {
-//   Carousel,
-//   CarouselContent,
-//   CarouselItem,
-//   CarouselNext,
-//   CarouselPrevious,
-// } from "@/components/ui/carousel"
-
-
-const  paragraph = "Somos un booster de marcas, creadores y de tus ideas. Creemos firmemente que hoy en día detrás de cada medio lo que más importa es el carácter humano otorgándole a tu marca su propia identidad siendo única e irrepetible. "
-
-// useEmblaCarousel.globalOptions = { loop: true }
+import Script from "next/script";
 
 export default function Home() {
 
@@ -49,6 +38,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+      <Script type="text/javascript" src="/scripts/lightbox.js"/>
       <div>
         <Image
                   src="/dollstore/dollstoreBanner.png"

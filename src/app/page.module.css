@@ -43,6 +43,36 @@
   font-style: normal;
 }
 
+/*LIGHBOX*/
+
+.lightbox {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .8);
+  display: none;
+}
+
+.lightbox__active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.lightbox__active img {
+  max-width: 100vw;
+  max-height: 80%;
+}
+
+
 .html{
   scroll-behavior: smooth;
 
@@ -799,6 +829,7 @@
   }
   .client__page__logo{
     /* display: none; */
+    max-width: 300px;
   }
 
   .client__logo{
@@ -806,10 +837,11 @@
     max-width: 5rem;
   }
   .client__banner{
-    width: 90%;
+    width: 100%;
     padding: 0;
-    margin: 0;
-    margin-bottom: 2rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
   }
   .client__text{
     font-size: 20px;

@@ -32,7 +32,7 @@ export default function Home() {
   }, [])
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
-  const [emblaRef2,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
+  const [emblaRef2,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '5000', jump: 'false', playOnInit: 'true'})])
   const [emblaRef3,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
   const [emblaRef4,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
   const [emblaRef5,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
@@ -49,17 +49,6 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <div>
-        <Image
-                  src="/dollstore/dollstoreBanner2.png"
-                  alt="Solo Agency"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: '100%',maxHeight: '100vh', position: 'fixed', objectFit: 'cover', right: '0', top: '0', pointerEvents: 'none', zIndex: '-1' }}
-              />
-
-        </div>
       <div className={styles.client__page}>
         <motion.div
           className={styles.client__banner} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} 
@@ -69,7 +58,7 @@ export default function Home() {
           x: { duration: 0.25 }
           
           }}>
-            <div className={styles.service__banner}>
+            <div className={styles.client__banner}>
               <Image
               className={styles.client__page__logo}
               src="/logos/aiaLogo.png"
