@@ -978,6 +978,11 @@
   .endpage{
     margin-top: 2rem;
   }
+
+  .embla__container {
+    width: 50%;
+    
+  }
   
 }
 
