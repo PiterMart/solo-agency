@@ -20,8 +20,8 @@ export default function Home() {
     )()
   }, [])
 
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
-  const [emblaRef2,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true })
+  const [emblaRef2,] = useEmblaCarousel({ loop: true })
   const [emblaRef3,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
   const [emblaRef4,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
   const [emblaRef5,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
@@ -292,12 +292,6 @@ export default function Home() {
                   </div>
                   
                 </div>
-                {/* <button className={styles.embla__prev} onClick={scrollPrev}>
-                  {'<'}
-                </button>
-                <button className={styles.embla__next} onClick={scrollNext}>
-                  {'>'}
-                </button> */}
               </div>
             </div>
           </div>
@@ -382,11 +376,6 @@ export default function Home() {
           <div className={styles.client__content__container}>
             <p className={styles.client__title}>FINAL SALE</p>
             <div style={{display: 'flex', flexDirection: 'row',}}>
-              {/* <div className={styles.client__info__list}>
-                <p>‐ Photo</p>
-                <p>‐ 3d</p>
-                <p>‐ Graphic Design</p>
-              </div> */}
             </div>
             <Image
                   className={styles.client__image}
@@ -516,8 +505,6 @@ export default function Home() {
               </div>
           </div>
         </div>
-
-
       </div>
     </main>
   );
