@@ -39,17 +39,6 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Script type="text/javascript" src="/scripts/lightbox.js"/>
-      <div>
-        <Image
-                  src="/dollstore/dollstoreBanner.png"
-                  alt="Solo Agency"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: '100%',maxHeight: '100vh', position: 'fixed', objectFit: 'cover', right: '0', top: '0', pointerEvents: 'none', zIndex: '-1' }}
-              />
-
-        </div>
       <div className={styles.client__page}>
         <motion.div
           className={styles.client__banner} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} 
