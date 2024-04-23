@@ -128,12 +128,6 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                {/* <button className={styles.embla__prev} onClick={scrollPrev}>
-                  {'<'}
-                </button>
-                <button className={styles.embla__next} onClick={scrollNext}>
-                  {'>'}
-                </button> */}
               </div>
             </div>
           </div>
