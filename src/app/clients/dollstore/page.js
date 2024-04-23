@@ -132,7 +132,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <div className={styles.client__content}>
+        <div className={styles.client__content}>
           <div className={styles.client__content__container}>
             <p className={styles.client__title}>SALE 2023</p>
             <div style={{display: 'flex', flexDirection: 'row',}}>
@@ -487,7 +487,7 @@ export default function Home() {
                 </div>
               </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </main>
   );
