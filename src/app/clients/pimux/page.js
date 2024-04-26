@@ -67,7 +67,7 @@ export default function Home() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
+              style={{ width: '100%', height: 'auto', marginBottom: '0rem', borderRadius: '30px', padding: '0.5rem'}}
             />
           </div>
           <div className={styles.client__content__container}>
@@ -77,7 +77,7 @@ export default function Home() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
+              style={{ width: '100%', height: 'auto', marginBottom: '0rem', borderRadius: '30px', padding: '0.5rem'}}
             />
           </div>
           <div className={styles.client__content__container}>
@@ -87,7 +87,7 @@ export default function Home() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
+              style={{ width: '100%', height: 'auto', marginBottom: '0rem', borderRadius: '30px', padding: '0.5rem'}}
             />
           </div>
           <div className={styles.client__content__container}>
@@ -97,7 +97,7 @@ export default function Home() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
+              style={{ width: '100%', height: 'auto', marginBottom: '0rem', borderRadius: '30px', padding: '0.5rem'}}
             />
           </div>
           <div className={styles.client__content__container}>
@@ -107,7 +107,7 @@ export default function Home() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
+              style={{ width: '100%', height: 'auto', marginBottom: '0rem', borderRadius: '30px', padding: '0.5rem'}}
             />
           </div>
           <div className={styles.client__content__container}>
@@ -117,7 +117,7 @@ export default function Home() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
+              style={{ width: '100%', height: 'auto', marginBottom: '0rem', borderRadius: '30px', padding: '0.5rem'}}
             />
           </div>
           <div className={styles.client__content__container}>
@@ -127,7 +127,7 @@ export default function Home() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
+              style={{ width: '100%', height: 'auto', marginBottom: '0rem', borderRadius: '30px', padding: '0.5rem'}}
             />
           </div>
           <div className={styles.client__content__container}>
@@ -137,7 +137,7 @@ export default function Home() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
+              style={{ width: '100%', height: 'auto', marginBottom: '0rem', borderRadius: '30px', padding: '0.5rem'}}
             />
           </div>
           <div className={styles.client__content__container}>
@@ -147,7 +147,7 @@ export default function Home() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
+              style={{ width: '100%', height: 'auto', marginBottom: '0rem', borderRadius: '30px', padding: '0.5rem'}}
             />
           </div>
           <div className={styles.client__content__container}>
@@ -157,7 +157,7 @@ export default function Home() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
+              style={{ width: '100%', height: 'auto', marginBottom: '0rem', borderRadius: '30px', padding: '0.5rem'}}
             />
           </div>
         </div>

@@ -204,6 +204,11 @@ export default function Home() {
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
+                    <video control autoPlay muted  loop playsInline className={styles.client__image}>
+                      <source src="/dollstore/dollstoreNavidad.mp4" />
+                    </video>
+                  </div>
+                  <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
                       src="/dollstore/navidad1.jpg"

@@ -15,118 +15,146 @@ export default function Carousel(){
             <p className={styles.title}><Link href={'/clients'}>CLIENTS</Link></p>
             <div className={styles.scroller} >
                 <div className={styles.scroller__inner}>
-                <Image
-                    src="/logos/elgourmetLogo.png"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                    alt="Picture of the author"
-                />
-                <Image
-                    src="/logos/dollstoreLogo.png"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                    alt="Picture of the author"
-                />
-                <Image
-                    src="/logos/eucerinLogo.png"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                    alt="Picture of the author"
-                />
-                <Image
-                    src="/logos/justaosadiaLogo.png"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                    alt="Picture of the author"
-                />
-                <Image
-                    src="/logos/lidhermaLogo.png"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                    alt="Picture of the author"
-                />
-                <Image
-                    src="/logos/mercadolibreLogo.png"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                    alt="Picture of the author"
-                />
-                <Image
-                    src="/logos/puchetaLogo.png"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                    alt="Picture of the author"
-                />
-                <Image
-                    src="/logos/elgourmetLogo.png"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                    alt="Picture of the author"
-                />
-                <Image
-                    src="/logos/dollstoreLogo.png"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                    alt="Picture of the author"
-                />
-                <Image
-                    src="/logos/eucerinLogo.png"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                    alt="Picture of the author"
-                />
-                <Image
-                    src="/logos/justaosadiaLogo.png"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                    alt="Picture of the author"
-                />
-                <Image
-                    src="/logos/lidhermaLogo.png"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                    alt="Picture of the author"
-                />
-                <Image
-                    src="/logos/mercadolibreLogo.png"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                    alt="Picture of the author"
-                />
-                <Image
-                    src="/logos/puchetaLogo.png"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                    alt="Picture of the author"
-                />
+                <Link href={'../clients/elGorumet'}>
+                    <Image
+                        src="/logos/elgourmetLogo.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                        alt="Picture of the author"
+                    />
+                </Link>
+                <Link href={'../clients/dollstore'}>
+                    <Image
+                        src="/logos/dollstoreLogo.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                        alt="Picture of the author"
+                    />
+                </Link>
+                <Link href={'../clients/eucerin'}>
+                    <Image
+                        src="/logos/eucerinLogo.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                        alt="Picture of the author"
+                    />
+                </Link>
+                <Link href={'../clients/justaOsadia'}>
+                    <Image
+                        src="/logos/justaosadiaLogo.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                        alt="Picture of the author"
+                    />
+                </Link>
+                <Link href={'../clients/lidherma'}>
+                    <Image
+                        src="/logos/lidhermaLogo.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                        alt="Picture of the author"
+                    />
+                </Link>
+                <Link href={'../clients/mercadolibre'}>
+                    <Image
+                        src="/logos/mercadolibreLogo.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                        alt="Picture of the author"
+                    />
+                </Link>
+                <Link href={'../clients/pucheta'}>
+                    <Image
+                        src="/logos/puchetaLogo.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                        alt="Picture of the author"
+                    />
+                </Link>
+                <Link href={'../clients/elGorumet'}>
+                    <Image
+                        src="/logos/elgourmetLogo.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                        alt="Picture of the author"
+                    />
+                </Link>
+                <Link href={'../clients/dollstore'}>
+                    <Image
+                        src="/logos/dollstoreLogo.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                        alt="Picture of the author"
+                    />
+                </Link>
+                <Link href={'../clients/eucerin'}>
+                    <Image
+                        src="/logos/eucerinLogo.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                        alt="Picture of the author"
+                    />
+                </Link>
+                <Link href={'../clients/justaOsadia'}>
+                    <Image
+                        src="/logos/justaosadiaLogo.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                        alt="Picture of the author"
+                    />
+                </Link>
+                <Link href={'../clients/lidherma'}>
+                    <Image
+                        src="/logos/lidhermaLogo.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                        alt="Picture of the author"
+                    />
+                </Link>
+                <Link href={'../clients/mercadolibre'}>
+                    <Image
+                        src="/logos/mercadolibreLogo.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                        alt="Picture of the author"
+                    />
+                </Link>
+                <Link href={'../clients/pucheta'}>
+                    <Image
+                        src="/logos/puchetaLogo.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                        alt="Picture of the author"
+                    />
+                </Link>
                 </div>
             </div>
             {/* <button className={styles.button}>

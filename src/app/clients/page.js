@@ -9,8 +9,6 @@ import Inner from "../inner/inner";
 import { AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
-
-
 export default function Clients() {
 
   const  [isActive, setIsActive] = useState(true);
@@ -35,7 +33,6 @@ export default function Clients() {
       setSelected(i)
     }
 
-
   const brands = [
     // Assuming you have an array of brand objects
     { name: 'dollstore', imageLocation: '/logos/dollstoreLogo.png', category: 'Fashion', route: 'clients/dollstore'},
@@ -44,12 +41,12 @@ export default function Clients() {
     { name: 'Thurman', imageLocation: '/logos/thurmanLogo.png', category: 'Fashion', route: '/clients/thurman'},
     { name: 'Cape Diablo', imageLocation: '/logos/capediabloLogo.png', category: 'Fashion', route: '/clients/capeDiablo'},
     { name: 'Cristho', imageLocation: '/logos/cristhoLogo.png', category: 'Fashion', route: '/clients/aia'},
-    { name: 'Justa Osadia', imageLocation: '/logos/justaosadiaLogo.png', category: 'Fashion', route: '/clients/aia'},
+    { name: 'Justa Osadia', imageLocation: '/logos/justaosadiaLogo.png', category: 'Fashion', route: '/clients/justaOsadia'},
     { name: 'Pucheta', imageLocation: '/logos/puchetaLogo.png', category: 'Fashion', route: '/cliente/aia'},
-    { name: 'HiSilvie', imageLocation: '/logos/hisilvieLogo.png', category: 'Fashion', route: '/clients/aia' },
+    { name: 'HiSilvie', imageLocation: '/logos/hisilvieLogo.png', category: 'Fashion', route: '/clients/hiSilvie' },
     { name: 'UBK', imageLocation: '/logos/ubkLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'Pimux', imageLocation: '/logos/pimuxLogo.png', category: 'Lifestyle', route: '/clients/pimux' },
-    { name: 'Mercado Libre', imageLocation: '/logos/mercadolibreLogo.png', category: 'Lifestyle', route: '/clients/aia' },
+    { name: 'Mercado Libre', imageLocation: '/logos/mercadolibreLogo.png', category: 'Lifestyle', route: '/clients/mercadolibre' },
     { name: 'Lagouarde', imageLocation: '/logos/lagouardeLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'Faithful', imageLocation: '/logos/faitfulLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'El Gourmet', imageLocation: '/logos/elgourmetLogo.png', category: 'Lifestyle', route: '/clients/aia' },
@@ -58,10 +55,10 @@ export default function Clients() {
     { name: 'Compañia Nativa', imageLocation: '/logos/companianativaLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'Terrazas de los Andes', imageLocation: '/logos/terrazasdelosandesLogo.png', category: 'Food & other pleasures', route: '/clients/aia' },
     { name: 'Lagouarde Catering', imageLocation: '/logos/lagouardeLogo.png', category: 'Food & other pleasures', route: '/clients/aia' },
-    { name: 'Celebre in culina', imageLocation: '/logos/celebreinculinaLogo.png', category: 'Food & other pleasures', route: '/clients/aia' },
+    { name: 'Celebre in culina', imageLocation: '/logos/celebreinculinaLogo.png', category: 'Food & other pleasures', route: '/clients/celebreInCulina' },
     { name: 'Yellow', imageLocation: '/logos/yellowLogo.png', category: 'Health & beauty', route: '/clients/aia' },
     { name: 'Timeless', imageLocation: '/logos/timelessLogo.png', category: 'Health & beauty', route: '/clients/timeless' },
-    { name: 'Lidherma', imageLocation: '/logos/lidhermaLogo.png', category: 'Health & beauty', route: '/clients/aia' },
+    { name: 'Lidherma', imageLocation: '/logos/lidhermaLogo.png', category: 'Health & beauty', route: '/clients/lidherma' },
     { name: 'JP Peluquerias', imageLocation: '/logos/jpLogo.png', category: 'Health & beauty', route: '/clients/aia' },
     { name: 'Eucerin', imageLocation: '/logos/eucerinLogo.png', category: 'Health & beauty', route: '/clients/aia' },
   ];

@@ -277,6 +277,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className={styles.client__content}>
+          <div className={styles.client__content__container}>
             <p className={styles.client__title}>E COMMERCE</p>
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef2}>
@@ -559,98 +563,31 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className={styles.client__content}>
+          <div className={styles.client__content__container}>
+            <p className={styles.client__title}>Social Media</p>
+            <Image
+              src="/thurman/thurmanFeed.png"
+              alt="Solo Agency"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
+            />
             <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef3}>
+              <div className={styles.embla__viewport} ref={emblaRef2}>
                 <div className={styles.embla__container}>
                   <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom27.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom28.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom29.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom30.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom31.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom32.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom33.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom34.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
                       <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/thurman/ecom/thurmanEcom34.mp4" />
+                        <source src="/thurman/thurmanSocialMedia.mp4" />
                       </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom35.jpg"
+                      src="/thurman/thurmanSocialMedia.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -660,7 +597,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom36.jpg"
+                      src="/thurman/thurmanSocialMedia2.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -670,7 +607,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom37.jpg"
+                      src="/thurman/thurmanSocialMedia3.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -680,7 +617,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom38.jpg"
+                      src="/thurman/thurmanSocialMedia4.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -690,22 +627,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom39.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/thurman/ecom/thurmanEcom39.mp4" />
-                      </video>
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom40.jpg"
+                      src="/thurman/thurmanSocialMedia5.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -715,7 +637,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom41.jpg"
+                      src="/thurman/thurmanSocialMedia6.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -725,22 +647,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom42.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/thurman/ecom/thurmanEcom42.mp4" />
-                      </video>
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom43.jpg"
+                      src="/thurman/thurmanSocialMedia7.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -750,7 +657,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom44.jpg"
+                      src="/thurman/thurmanSocialMedia8.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -760,7 +667,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom45.jpg"
+                      src="/thurman/thurmanSocialMedia9.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -770,7 +677,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom46.jpg"
+                      src="/thurman/thurmanSocialMedia10.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -778,17 +685,49 @@ export default function Home() {
                     />
                   </div>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/thurman/ecom/thurmanEcom46.mp4" />
-                      </video>
+                    <Image
+                      className={styles.client__image}
+                      src="/thurman/thurmanSocialMedia12.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
                   </div>
-                  
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
+        <div className={styles.client__content}>
+          <div className={styles.client__content__container}>
+            <p className={styles.client__title}>Paid Media</p>
+            <Image
+              src="/thurman/thurmanNews.jpg"
+              alt="Solo Agency"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
+            />
+            <Image
+              src="/thurman/thurmanNews2.jpg"
+              alt="Solo Agency"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
+            />
+            <Image
+              src="/thurman/thurmanNews3.jpg"
+              alt="Solo Agency"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
+            />
+          </div>
+        </div>
       </div>
     </main>
   );

@@ -48,7 +48,7 @@ export default function Home() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
+              style={{ width: '100%', height: 'auto', maxWidth: '500px', marginBottom: '-5rem'}}
               />
             </div>
             <div className={styles.client__info}>
@@ -121,26 +121,6 @@ export default function Home() {
                     <Image
                       className={styles.client__image}
                       src="/dsmen/dsmensale5.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dsmen/dsmensale6.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dsmen/dsmensale7.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -258,6 +238,24 @@ export default function Home() {
             <p className={styles.client__title}>BRANDING DIGITAL</p>
             <div style={{display: 'flex', flexDirection: 'row',}}>
             </div>
+            <div>
+                    <Image
+                      className={styles.client__image}
+                      src="/dsmen/dsmenBranding6.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                    <Image
+                      className={styles.client__image}
+                      src="/dsmen/dsmenBranding7.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+              </div>
               <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef3}>
                 <div className={styles.embla__container}>
@@ -311,33 +309,7 @@ export default function Home() {
                       sizes="100vw"
                     />
                   </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dsmen/dsmenBranding6.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dsmen/dsmenBranding7.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
                 </div>
-                {/* <button className={styles.embla__prev} onClick={scrollPrev}>
-                  {'<'}
-                </button>
-                <button className={styles.embla__next} onClick={scrollNext}>
-                  {'>'}
-                </button> */}
               </div>
             </div>
           </div>

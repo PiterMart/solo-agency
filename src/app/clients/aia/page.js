@@ -47,7 +47,7 @@ export default function Home() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
+              style={{ width: '100%', height: 'auto', maxWidth: '300px', marginTop: '5rem', marginBottom: '-5rem'}}
               />
             </div>
             <div className={styles.client__info}>
