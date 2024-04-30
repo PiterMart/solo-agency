@@ -65,16 +65,6 @@ export default function Carousel(){
                         alt="Picture of the author"
                     />
                 </Link>
-                <Link href={'../clients/mercadolibre'}>
-                    <Image
-                        src="/logos/mercadolibreLogo.png"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                        alt="Picture of the author"
-                    />
-                </Link>
                 <Link href={'../clients/pucheta'}>
                     <Image
                         src="/logos/puchetaLogo.png"
@@ -128,16 +118,6 @@ export default function Carousel(){
                 <Link href={'../clients/lidherma'}>
                     <Image
                         src="/logos/lidhermaLogo.png"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
-                        alt="Picture of the author"
-                    />
-                </Link>
-                <Link href={'../clients/mercadolibre'}>
-                    <Image
-                        src="/logos/mercadolibreLogo.png"
                         width={0}
                         height={0}
                         sizes="100vw"

@@ -577,7 +577,7 @@ export default function Home() {
               style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
             />
             <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef2}>
+              <div className={styles.embla__viewport} ref={emblaRef3}>
                 <div className={styles.embla__container}>
                   <div className={styles.embla__slide}>
                       <video autoPlay muted controls loop playsInline className={styles.client__image}>

@@ -46,7 +46,6 @@ export default function Clients() {
     { name: 'HiSilvie', imageLocation: '/logos/hisilvieLogo.png', category: 'Fashion', route: '/clients/hiSilvie' },
     { name: 'UBK', imageLocation: '/logos/ubkLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'Pimux', imageLocation: '/logos/pimuxLogo.png', category: 'Lifestyle', route: '/clients/pimux' },
-    { name: 'Mercado Libre', imageLocation: '/logos/mercadolibreLogo.png', category: 'Lifestyle', route: '/clients/mercadolibre' },
     { name: 'Lagouarde', imageLocation: '/logos/lagouardeLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'Faithful', imageLocation: '/logos/faitfulLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'El Gourmet', imageLocation: '/logos/elgourmetLogo.png', category: 'Lifestyle', route: '/clients/aia' },

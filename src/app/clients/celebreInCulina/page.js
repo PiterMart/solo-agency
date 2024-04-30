@@ -52,7 +52,8 @@ export default function Home() {
             </div>
             <div className={styles.client__info}>
               <p>
-                Se ha gestionado la cobertura del evento deportivo Southfit 2023 del que Mercado libre participa como sponsor oficial.   
+                Producción audiovisual y estrategia de contenido gastronómico mensual para audiencia 
+                de redes sociales y streaming, instagram & Youtube
               </p>
             </div>
             <div className={styles.client__info} style={{marginTop:  '5rem'}}>
