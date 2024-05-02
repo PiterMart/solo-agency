@@ -7,6 +7,9 @@ import React, { useCallback} from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Script from "next/script";
+import Paragraph from "@/app/components/paragraph";
+
+const  paragraph = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, nibh in viverra tristique. "
 
 export default function Home() {
 
@@ -27,6 +30,7 @@ export default function Home() {
   const [emblaRef5,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
   const [emblaRef6,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
 
+  const newLocal = <p className={styles.client__content__subtitle} style={{ margin: 'auto' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, nibh in viverra tristique.</p>;
   return (
     <main className={styles.main}>
       <Script type="text/javascript" src="/scripts/lightbox.js"/>
@@ -567,15 +571,18 @@ export default function Home() {
         </div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p className={styles.client__title}>Social Media</p>
-            <Image
-              src="/thurman/thurmanFeed.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
-            />
+            <p className={styles.client__title}>SOCIAL MEDIA</p>
+            <div className={styles.client__imagetext}>
+              <Image
+                src="/thurman/thurmanFeed.png"
+                alt="Solo Agency"
+                width={0}
+                height={0}
+                sizes="100vw"
+                // style={{ width: '35vw', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
+              />
+              <Paragraph value={paragraph} />
+            </div>
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef3}>
                 <div className={styles.embla__container}>
@@ -701,31 +708,33 @@ export default function Home() {
         </div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p className={styles.client__title}>Paid Media</p>
-            <Image
-              src="/thurman/thurmanNews.jpg"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
-            />
-            <Image
-              src="/thurman/thurmanNews2.jpg"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
-            />
-            <Image
-              src="/thurman/thurmanNews3.jpg"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
-            />
+            <p className={styles.client__title}>PAID MEDIA</p>
+            <div className={styles.client__content__container}>
+              <Image
+                src="/thurman/thurmanNews.jpg"
+                alt="Solo Agency"
+                width={0}
+                height={0}
+                sizes="100vw"
+                className={styles.client__paid__image}
+              />
+              <Image
+                src="/thurman/thurmanNews2.jpg"
+                alt="Solo Agency"
+                width={0}
+                height={0}
+                sizes="100vw"
+                className={styles.client__paid__image}
+              />
+              <Image
+                src="/thurman/thurmanNews3.jpg"
+                alt="Solo Agency"
+                width={0}
+                height={0}
+                sizes="100vw"
+                className={styles.client__paid__image}
+              />
+            </div>
           </div>
         </div>
       </div>

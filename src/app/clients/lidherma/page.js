@@ -7,6 +7,7 @@ import React, { useCallback} from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Script from "next/script";
+import Paragraph from "@/app/components/paragraph";
 
 export default function Home() {
 
@@ -68,6 +69,16 @@ export default function Home() {
         </div>
         </motion.div>
         <div className={styles.client__content}>
+          <div className={styles.client__content__container}>
+          <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>SKIN COLOUR</p>
+            <p className={styles.client__title}>BB CREAM</p>
+            <div className={styles.client__imagetext}>
+              <Paragraph value={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nulla tincidunt, consectetur lectus quis, malesuada nulla. Ut pretium arcu eget sem euismod, sed tincidunt eros maximus.'} className={styles.client__metrics_container_title} />
+              <video autoPlay muted controls loop playsInline style={{margin: 'auto'}}>
+                <source src="/lidherma/lidhermaV.mp4" />
+              </video>
+            </div>
+          </div>
           <div className={styles.client__content__container}>
             <p className={styles.client__title}>PHOTO</p>
             <div style={{display: 'flex', flexDirection: 'row',}}>
@@ -227,7 +238,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
       </div>
     </main>
   );

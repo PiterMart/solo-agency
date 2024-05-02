@@ -85,11 +85,6 @@ export default function Home() {
                   </div>
                   <div className={styles.embla__slide}>
                       <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/celebreinculina/celebreInCulina3.mp4" />
-                      </video>
-                  </div>
-                  <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
                         <source src="/celebreinculina/celebreInCulina4.mp4" />
                       </video>
                   </div>
@@ -106,10 +101,10 @@ export default function Home() {
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
             <p className={styles.client__title}>YouTube</p>
-            <iframe style={{ marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}} width="560" height="315" src="https://www.youtube.com/embed/OghYBQWpRbY?si=nGTyJlDHSeXOpVcV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe style={{ marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}} width="560" height="315" src="https://www.youtube.com/embed/Q3bVEPhMXKE?si=fPdfMIqHP6hLGMGF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe style={{ marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}} width="560" height="315" src="https://www.youtube.com/embed/GdHiL9zUkEM?si=b_xDjpiFIGVElIEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe style={{ marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}} width="560" height="315" src="https://www.youtube.com/embed/t1EQRf_6C94?si=x-7g860HhJALZBKf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe style={{borderRadius: '30px', padding: '1rem', maxWidth: '100%'}} width="560" height="315" src="https://www.youtube.com/embed/OghYBQWpRbY?si=nGTyJlDHSeXOpVcV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe style={{borderRadius: '30px', padding: '1rem', maxWidth: '100%'}} width="560" height="315" src="https://www.youtube.com/embed/Q3bVEPhMXKE?si=fPdfMIqHP6hLGMGF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe style={{borderRadius: '30px', padding: '1rem', maxWidth: '100%'}} width="560" height="315" src="https://www.youtube.com/embed/GdHiL9zUkEM?si=b_xDjpiFIGVElIEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe style={{borderRadius: '30px', padding: '1rem', maxWidth: '100%'}} width="560" height="315" src="https://www.youtube.com/embed/t1EQRf_6C94?si=x-7g860HhJALZBKf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>

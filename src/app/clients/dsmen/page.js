@@ -235,7 +235,8 @@ export default function Home() {
         </div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p className={styles.client__title}>BRANDING DIGITAL</p>
+          <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>DIGITAL</p>
+            <p className={styles.client__title}>BRANDING</p>
             <div style={{display: 'flex', flexDirection: 'row',}}>
             </div>
             <div>
@@ -316,7 +317,8 @@ export default function Home() {
         </div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p className={styles.client__title}>STREETSTYLE</p>
+          <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>STREET</p>
+            <p className={styles.client__title}>STYLE</p>
             <div style={{display: 'flex', flexDirection: 'row',}}>
             </div>
             <div className={styles.embla}>

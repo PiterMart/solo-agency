@@ -22,9 +22,9 @@ export default function Home() {
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true })
   const [emblaRef2,] = useEmblaCarousel({ loop: true })
-  const [emblaRef3,] = useEmblaCarousel({ loop: true })
-  const [emblaRef4,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
-  const [emblaRef5,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
+  const [emblaRef3,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
+  const [emblaRef4,] = useEmblaCarousel({ loop: true })
+  const [emblaRef5,] = useEmblaCarousel({ loop: true })
   const [emblaRef6,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
 
 // const scrollPrev = useCallback(() => {
@@ -81,19 +81,17 @@ export default function Home() {
         </motion.div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p className={styles.client__title}>SALE 2024</p>
-            <div style={{display: 'flex', flexDirection: 'row',}}>
+            <div className={styles.client__sale}>
+              <Image
+                  src="/dollstore/sale preview 4 png.png"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  data-scroll data-scroll-speed="0.1"
+              />
+              <p className={styles.client__title}>2024</p>
             </div>
-            <Image
-                className={styles.client__image}
-                src="/dollstore/sale preview 4 png.png"
-                alt="Solo Agency"
-                width={0}
-                height={0}
-                sizes="100vw"
-                data-scroll data-scroll-speed="0.1"
-                style={{border: "none", margin: '-2rem'}}
-            />
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef}>
                 <div className={styles.embla__container}>
@@ -134,19 +132,17 @@ export default function Home() {
         </div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p className={styles.client__title}>SALE 2023</p>
-            <div style={{display: 'flex', flexDirection: 'row',}}>
-            </div>
-            <Image
-                  className={styles.client__image}
+          <div className={styles.client__sale}>
+          <Image
                   src="/dollstore/sale23text.png"
                   alt="Solo Agency"
                   width={0}
                   height={0}
                   sizes="100vw"
                   data-scroll data-scroll-speed="0.1"
-                  style={{border: "none", margin: '-2rem'}}
               />
+            <p className={styles.client__title}>2023</p>
+            </div>
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef2}>
                 <div className={styles.embla__container}>
@@ -193,7 +189,7 @@ export default function Home() {
                   height={0}
                   sizes="100vw"
                   data-scroll data-scroll-speed="0.1"
-                  style={{border: "none", margin: '-2rem'}}
+                  style={{border: "none", margin: '-2rem', height: '200px', width: 'auto', maxWidth: '500px',}}
               />
               <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef3}>
@@ -286,7 +282,7 @@ export default function Home() {
         </div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p className={styles.client__title}>LLEVATE TODO DOLL</p>
+            <p className={styles.client__title}>LLEVATE <span style={{color: 'gray', marginBottom: '-1rem'}}>TODO</span> DOLL</p>
             <div style={{display: 'flex', flexDirection: 'row',}}>
             </div>
             <div className={styles.embla}>
@@ -362,7 +358,8 @@ export default function Home() {
         </div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p className={styles.client__title}>FINAL SALE</p>
+          <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>FINAL</p>
+            <p className={styles.client__title}>SALE</p>
             <div style={{display: 'flex', flexDirection: 'row',}}>
             </div>
             <Image
@@ -392,7 +389,8 @@ export default function Home() {
         </div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p className={styles.client__title}>DIGITAL BRANDING</p>
+          <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>DIGITAL</p>
+            <p className={styles.client__title}>BRANDING</p>
             <div style={{display: 'flex', flexDirection: 'row',}}>
             </div>
             <div className={styles.embla}>

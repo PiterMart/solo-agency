@@ -7,6 +7,9 @@ import React, { useCallback} from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Script from "next/script";
+import Paragraph from "@/app/components/paragraph";
+const  paragraph = "The girl next door... "
+
 
 export default function Home() {
 
@@ -55,7 +58,7 @@ export default function Home() {
                 Caso de éxito Solo Agency. Bajo la estrategia creativa, la generación de contenido y el análisis de métricas convertimos al perfil de silvie en una marca referente de moda argentina consiguiendo más de 100.000 seguidores en tres meses.   
               </p>
             </div>
-            <div className={styles.client__info} style={{marginTop:  '5rem'}}>
+            <div className={styles.client__info} >
           <div>
             
             <p className={styles.subtitle}>SERVICIOS</p>
@@ -70,55 +73,23 @@ export default function Home() {
         </motion.div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <Image
-              src="/hisilvie/Mediakit Hisilvie español_page-0001.jpg"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/hisilvie/Mediakit Hisilvie español_page-0002.jpg"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/hisilvie/Mediakit Hisilvie español_page-0003.jpg"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/hisilvie/Mediakit Hisilvie español_page-0004.jpg"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', marginBottom: '1rem', borderRadius: '30px', padding: '1rem'}}
-            />
-          </div>
-        </div>
-        <div className={styles.client__content}>
-          <div className={styles.client__content__container}>
-          <p className={styles.client__title}>PHOTO</p>
-            <div style={{display: 'flex', flexDirection: 'row',}}>
+          <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>CREATIVE</p>
+            <p className={styles.client__title}>STRATEGY</p>
+            <div className={styles.client__imagetext}>
+              <Image
+                src="/hisilvie/hiSilvie2.jpg"
+                alt="Solo Agency"
+                width={0}
+                height={0}
+                sizes="100vw"
+              />
+              <Paragraph value={paragraph} className={styles.client__metrics_container_title} />
             </div>
+            <p className={styles.client__title} style={{marginTop: '4rem'}}>IMAGE</p>
             <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef}>
+              <div className={styles.embla__viewport} ref={emblaRef3}>
                 <div className={styles.embla__container}>
-                  <div className={styles.embla__slide}>
+                <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
                       src="/hisilvie/hiSilvie.jpg"
@@ -139,6 +110,11 @@ export default function Home() {
                     />
                   </div>
                   <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
+                        <source src="/hisilvie/looks inspirados en... SILVIE_H.264.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
                       src="/hisilvie/hiSilvie3.jpg"
@@ -147,6 +123,11 @@ export default function Home() {
                       height={0}
                       sizes="100vw"
                     />
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
+                        <source src="/hisilvie/looks para ir a trabajar SILVIE_H.264.mp4" />
+                      </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -178,26 +159,9 @@ export default function Home() {
                       sizes="100vw"
                     />
                   </div>
-                </div>
-              </div>
-            </div>
-            <p className={styles.client__title}>VIDEO</p>
-            <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef2}>
-                <div className={styles.embla__container}>
                   <div className={styles.embla__slide}>
                       <video autoPlay muted controls loop playsInline className={styles.client__image}>
                         <source src="/hisilvie/LOOK OLD MONEY final_H.264.mp4" />
-                      </video>
-                  </div>
-                  <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/hisilvie/looks inspirados en... SILVIE_H.264.mp4" />
-                      </video>
-                  </div>
-                  <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/hisilvie/looks para ir a trabajar SILVIE_H.264.mp4" />
                       </video>
                   </div>
                 </div>
@@ -205,12 +169,48 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className={styles.client__content}>
+          <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>MONTHLY</p>
+          <p className={styles.client__title}>STATISTICS</p>
+          <div className={styles.client__metrics_container}>
+            <div className={styles.client__metrics_left}>
+              <div className={styles.client__metrics_box}>
+                <p className={styles.client__metrics_container_title}>17k</p>
+                <p>FOLLOWERS</p>
+              </div>
+              <div className={styles.client__metrics_box}>
+                <p className={styles.client__metrics_container_title}>11,547k</p>
+                <p>INTERACTIONS</p>
+              </div>
+            </div>
+            <div className={styles.client__metrics_right}>
+              <div className={styles.client__metrics_box}>
+                <p className={styles.client__metrics_container_title}>91k</p>
+                <p>MEDIA PLAYS</p>
+              </div>
+              <div className={styles.client__metrics_box}>
+                <p className={styles.client__metrics_container_title}>167,278k</p>
+                <p>REACH</p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className={styles.client__content} style={{display: 'flex', flexDirection: 'column'}}>
           <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-around', marginBottom: '1rem'}}>
-            <p className={styles.subtitle}>Before</p>
-            <p className={styles.subtitle}>After</p>
           </div>
-          <div className={styles.client__images} style={{justifyContent: 'space-around'}}>
+          <div className={styles.client__social_media}>
+          <Image
+                src="/instagram.svg"
+                alt="Solo Agency"
+                width={0}
+                height={0}
+                sizes="100vw"
+              />
+            <a href="https://www.instagram.com/hisilvie_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="blank"><p>@HISILVIE_</p></a>
+          </div>
+          <div className={styles.client__comparison}>
+            <div>
+              <p className={styles.title} style={{color: 'gray'}}>Before</p>
               <Image
                 className={styles.client__image}
                 src="/hisilvie/Graphic 01.jpg"
@@ -219,6 +219,9 @@ export default function Home() {
                 height={0}
                 sizes="100vw"
               />
+            </div>
+            <div>
+              <p className={styles.title}>After</p>
               <Image
                 className={styles.client__image}
                 src="/hisilvie/Graphic 02.jpg"
@@ -227,21 +230,22 @@ export default function Home() {
                 height={0}
                 sizes="100vw"
               />
+            </div>
           </div>
         </div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p className={styles.client__title} style={{fontSize: '34px'}}>#UNCAFECONVOS</p>
-            <div style={{display: 'flex', flexDirection: 'row',}}>
+          <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>#UNCAFE</p>
+            <p className={styles.client__title}>CONVOS</p>
+            <div className={styles.client__imagetext}>
+              <Paragraph value={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nulla tincidunt, consectetur lectus quis, malesuada nulla. Ut pretium arcu eget sem euismod, sed tincidunt eros maximus.'} className={styles.client__metrics_container_title} />
+              <video autoPlay muted controls loop playsInline style={{margin: 'auto'}}>
+                <source src="/hisilvie/uncafeconvos.mp4" />
+              </video>
             </div>
-            <div className={styles.embla}>
+              <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef6}>
                 <div className={styles.embla__container}>
-                  <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                      <source src="/hisilvie/uncafeconvos.mp4" />
-                    </video>
-                  </div>
                   <div className={styles.embla__slide}>
                     <video autoPlay muted controls loop playsInline className={styles.client__image}>
                       <source src="/hisilvie/uncafeconvos2.mp4" />
@@ -250,6 +254,11 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <video autoPlay muted controls loop playsInline className={styles.client__image}>
                       <source src="/hisilvie/uncafeconvos3.mp4" />
+                    </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <video autoPlay muted controls loop playsInline className={styles.client__image}>
+                      <source src="/hisilvie/uncafeconvos4.mp4" />
                     </video>
                   </div>
                 </div>
