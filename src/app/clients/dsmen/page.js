@@ -7,6 +7,7 @@ import React, { useCallback} from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Script from "next/script";
+import ClientsRed from "@/app/components/clientsRedirect";
 
 export default function Home() {
 
@@ -689,8 +690,7 @@ export default function Home() {
               </div>
           </div>
         </div>
-
-
+        <ClientsRed/>
       </div>
     </main>
   );

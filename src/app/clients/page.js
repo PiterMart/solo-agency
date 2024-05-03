@@ -8,6 +8,7 @@ import React from 'react';
 import Inner from "../inner/inner";
 import { AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import ClientsRed from "../components/clientsRedirect";
 
 export default function Clients() {
 
@@ -44,18 +45,18 @@ export default function Clients() {
     { name: 'Justa Osadia', imageLocation: '/logos/justaosadiaLogo.png', category: 'Fashion', route: '/clients/justaOsadia'},
     { name: 'Pucheta', imageLocation: '/logos/puchetaLogo.png', category: 'Fashion', route: '/cliente/aia'},
     { name: 'HiSilvie', imageLocation: '/logos/hisilvieLogo.png', category: 'Fashion', route: '/clients/hiSilvie' },
-    { name: 'UBK', imageLocation: '/logos/ubkLogo.png', category: 'Lifestyle', route: '/clients/aia' },
+    { name: 'UBK', imageLocation: '/logos/ubkLogo.png', category: 'Lifestyle', route: '/clients/ubk' },
     { name: 'Pimux', imageLocation: '/logos/pimuxLogo.png', category: 'Lifestyle', route: '/clients/pimux' },
     { name: 'Lagouarde', imageLocation: '/logos/lagouardeLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'Faithful', imageLocation: '/logos/faitfulLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'El Gourmet', imageLocation: '/logos/elgourmetLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'Dr Aromas', imageLocation: '/logos/doctoraromasLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'DA Design', imageLocation: '/logos/dadesignLogo.png', category: 'Lifestyle', route: '/clients/aia' },
-    { name: 'Compañia Nativa', imageLocation: '/logos/companianativaLogo.png', category: 'Lifestyle', route: '/clients/aia' },
-    { name: 'Terrazas de los Andes', imageLocation: '/logos/terrazasdelosandesLogo.png', category: 'Food & other pleasures', route: '/clients/aia' },
+    { name: 'Compañia Nativa', imageLocation: '/logos/companianativaLogo.png', category: 'Lifestyle', route: '/clients/companiaNativa' },
+    { name: 'Terrazas de los Andes', imageLocation: '/logos/terrazasdelosandesLogo.png', category: 'Food & other pleasures', route: '/clients/terrazas' },
     { name: 'Lagouarde Catering', imageLocation: '/logos/lagouardeLogo.png', category: 'Food & other pleasures', route: '/clients/aia' },
     { name: 'Celebre in culina', imageLocation: '/logos/celebreinculinaLogo.png', category: 'Food & other pleasures', route: '/clients/celebreInCulina' },
-    { name: 'Yellow', imageLocation: '/logos/yellowLogo.png', category: 'Health & beauty', route: '/clients/aia' },
+    { name: 'Yellow', imageLocation: '/logos/yellowLogo.png', category: 'Health & beauty', route: '/clients/yellow' },
     { name: 'Timeless', imageLocation: '/logos/timelessLogo.png', category: 'Health & beauty', route: '/clients/timeless' },
     { name: 'Lidherma', imageLocation: '/logos/lidhermaLogo.png', category: 'Health & beauty', route: '/clients/lidherma' },
     { name: 'JP Peluquerias', imageLocation: '/logos/jpLogo.png', category: 'Health & beauty', route: '/clients/aia' },

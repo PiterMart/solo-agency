@@ -7,6 +7,8 @@ import React, { useCallback} from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Script from "next/script";
+import ClientsRed from "@/app/components/clientsRedirect";
+import Paragraph from "@/app/components/paragraph";
 
 export default function Home() {
 
@@ -68,16 +70,19 @@ export default function Home() {
         </div>
         </motion.div>
         <div className={styles.client__content}>
+        <div className={styles.client__content__container}>
+            <div className={styles.client__imagetext}>
+              <Paragraph value={'La intinmidad de tus celebridades favoritas desde su casa'} className={styles.client__metrics_container_title} />
+              <video autoPlay muted controls loop playsInline>
+                <source src="/celebreinculina/celebreInCulina.mp4" />
+              </video>
+            </div>
+          </div>
           <div className={styles.client__content__container}>
-            <p className={styles.client__title}>VIDEO</p>
+            <p className={styles.client__title}>REELS</p>
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef2}>
                 <div className={styles.embla__container}>
-                  <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/celebreinculina/celebreInCulina.mp4" />
-                      </video>
-                  </div>
                   <div className={styles.embla__slide}>
                       <video autoPlay muted controls loop playsInline className={styles.client__image}>
                         <source src="/celebreinculina/celebreInCulina2.mp4" />
@@ -107,6 +112,7 @@ export default function Home() {
             <iframe style={{borderRadius: '30px', padding: '1rem', maxWidth: '100%'}} width="560" height="315" src="https://www.youtube.com/embed/t1EQRf_6C94?si=x-7g860HhJALZBKf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
+        <ClientsRed/>
       </div>
     </main>
   );

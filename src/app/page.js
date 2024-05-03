@@ -42,6 +42,11 @@ export default function Home() {
         />
         <p id="subtitle">NO SOMOS <strong>SOLO</strong> UNA AGENCIA</p>
       </motion.div>
+
+      <video autoPlay muted controls loop playsInline style={{marginBottom: '50vh'}}>
+        <source src="/SOLOAGENCY.mp4" />
+      </video>
+
       <WWW />
 
       <Paragraph value={paragraph} />

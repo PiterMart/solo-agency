@@ -8,7 +8,10 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Script from "next/script";
 import Paragraph from "@/app/components/paragraph";
+import ClientsRed from "@/app/components/clientsRedirect";
+
 const  paragraph = "The girl next door... "
+
 
 
 export default function Home() {
@@ -266,6 +269,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <ClientsRed/>
       </div>
     </main>
   );

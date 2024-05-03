@@ -8,6 +8,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Script from "next/script";
 import Paragraph from "@/app/components/paragraph";
+import ClientsRed from "@/app/components/clientsRedirect";
 
 const  paragraph = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, nibh in viverra tristique. "
 
@@ -285,7 +286,7 @@ export default function Home() {
         </div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p className={styles.client__title}>E COMMERCE</p>
+            <p className={styles.client__title}>E-COMMERCE</p>
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef2}>
                 <div className={styles.embla__container}>
@@ -737,6 +738,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <ClientsRed/>
       </div>
     </main>
   );

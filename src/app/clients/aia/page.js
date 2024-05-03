@@ -7,6 +7,8 @@ import React, { useCallback} from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Script from "next/script";
+import ClientsRed from "@/app/components/clientsRedirect";
+import Paragraph from "@/app/components/paragraph";
 
 export default function Home() {
 
@@ -67,6 +69,16 @@ export default function Home() {
         </div>
         </motion.div>
         <div className={styles.client__content}>
+        <div className={styles.client__content__container}>
+            <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>BE FREE</p>
+            <p className={styles.client__title}>BE AIA</p>
+            <div className={styles.client__imagetext}>
+              <Paragraph value={'ATHLEISURE WEAR FOR EVERYDAY LIFE'} className={styles.client__metrics_container_title} />
+              <video autoPlay muted controls loop playsInline style={{margin: 'auto'}}>
+                <source src="/aia/aiaLycraVision.mp4" />
+              </video>
+            </div>
+          </div>
           <div className={styles.client__content__container}>
             <p className={styles.client__title}>PHOTO</p>
             <div style={{display: 'flex', flexDirection: 'row',}}>
@@ -196,7 +208,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
+        <ClientsRed/>
       </div>
     </main>
   );
