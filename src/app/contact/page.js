@@ -20,7 +20,6 @@ export default function Contact() {
   return (
     <main className={styles.main}>
       <Inner>
-        <div className={styles.contact}>
           <div className={styles.page__title}>
             <div className={styles.tuMarca} id="footer">
               <div>
@@ -31,7 +30,6 @@ export default function Contact() {
             </div>
           </div>
           <ContactForm/>
-        </div>
       </Inner>
     </main>
 

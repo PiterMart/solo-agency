@@ -1,21 +1,17 @@
 'use client'
-import Image from "next/image";
 import { useEffect } from "react";
 import styles from '../page.module.css'
-import Flecha2 from "../components/flecha2";
 import { useState } from "react";
 import React from 'react';
 import Inner from "../inner/inner";
 import { AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import ClientsRed from "../components/clientsRedirect";
 
 export default function Clients() {
 
   const  [isActive, setIsActive] = useState(true);
 
   useEffect( () => {
-    
     (
       async () => {
         const LocomotiveScroll = (await import('locomotive-scroll')).default;
@@ -35,7 +31,7 @@ export default function Clients() {
     }
 
   const brands = [
-    // Assuming you have an array of brand objects
+    //array of brand objects
     { name: 'dollstore', imageLocation: '/logos/dollstoreLogo.png', category: 'Fashion', route: 'clients/dollstore'},
     { name: 'dsmen', imageLocation: '/logos/dsmenLogo.png', category: 'Fashion', route: '/clients/dsmen'},
     { name: 'AIA', imageLocation: '/logos/aiaLogo.png', category: 'Fashion', route: '/clients/aia'},
@@ -64,7 +60,7 @@ export default function Clients() {
   ];
 
   const categories = [
-    // Assuming you have an array of category objects
+    //category objects
     { name: 'Fashion',},
     { name: 'Lifestyle',},
     { name: 'Food & other pleasures', },
@@ -72,38 +68,35 @@ export default function Clients() {
     // Add more category objects here
   ];
 
-
   return (
           
     <main className={styles.main} >
       <AnimatePresence mode="wait"> 
         <Inner>
-          <div className={styles.page__title}>
+          <div className={styles.page__info}>
             <p className={styles.title}>CLIENTS</p>
-            <p className={styles.description}>En Solo Agency nos enorgullece ser tu aliado creativo en el mundo de la identidad visual. Nuestro enfoque se centra en potenciar tus valores y comunicar todo aquello que no se puede expresar con palabras.</p>
+            <p className={styles.page__description}>En Solo Agency nos enorgullece ser tu aliado creativo en el mundo de la identidad visual. Nuestro enfoque se centra en potenciar tus valores y comunicar todo aquello que no se puede expresar con palabras.</p>
           </div>
           <div className={styles.services_container}>
             {categories.map((category, i) => (
               <div key={i} className={styles.service}>
-                <div className={styles.service__banner}
-                    // onClick={() => {setIsActive(!isActive)}}
-                    onClick={() => toggle(i)}
-                    >
-                      <p className={styles.section_title}>{category.name}</p>
-                      <span className={styles.cross}>{selected === i ? '_' : "+"}</span>
+                <div 
+                  className={styles.service__banner}
+                  onClick={() => toggle(i)}
+                >
+                  <p className={styles.section_title}>{category.name}</p>
+                  <span className={styles.cross}>{selected === i ? '_' : "+"}</span>
+                </div>
+                <div className={selected == i ?  'page_service__list__show__37KEC' : 'page_service__list__aU9Ez'}>
+                  {brands.filter(brand => brand.category === category.name).map((brand, brandIndex) => (
+                    <div key={brandIndex}>
+                      <Link href={brand.route} alt={brand.name}>
+                        <img src={brand.imageLocation} alt={brand.name} className={styles.client__logo} />
+                        {/* <p>{brand.name}</p> */}
+                      </Link>
                     </div>
-                    <div className={selected == i ?  'page_service__list__show__37KEC' : 'page_service__list__aU9Ez'}>
-                        {brands
-                          .filter(brand => brand.category === category.name)
-                          .map((brand, brandIndex) => (
-                            <div key={brandIndex}>
-                              <Link href={brand.route} alt={brand.name}>
-                              <img src={brand.imageLocation} alt={brand.name} className={styles.client__logo} />
-                              {/* <p>{brand.name}</p> */}
-                              </Link>
-                            </div>
-                          ))}
-                    </div>
+                  ))}
+                </div>
               </div>
             ))}
           </div>

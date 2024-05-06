@@ -241,7 +241,7 @@ export default function Home() {
           <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>#UNCAFE</p>
             <p className={styles.client__title}>CONVOS</p>
             <div className={styles.client__imagetext}>
-              <Paragraph value={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nulla tincidunt, consectetur lectus quis, malesuada nulla. Ut pretium arcu eget sem euismod, sed tincidunt eros maximus.'} className={styles.client__metrics_container_title} />
+              <Paragraph value={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium arcu eget sem euismod, sed tincidunt eros maximus.'} className={styles.client__metrics_container_title} />
               <video autoPlay muted controls loop playsInline style={{margin: 'auto'}}>
                 <source src="/hisilvie/uncafeconvos.mp4" />
               </video>

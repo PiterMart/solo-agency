@@ -1,9 +1,8 @@
 'use client'
-import { motion, AnimatePresence } from "framer-motion";
+import { motion,} from "framer-motion";
 import styles from '../page.module.css'
 
-
-
+// Page-in animation
 
 export default function Inner({ children }) {
 
@@ -32,7 +31,6 @@ export default function Inner({ children }) {
         transition: {
             duration: 0.5
         }
-        
       }
     }
 
@@ -56,7 +54,6 @@ export default function Inner({ children }) {
       }
       }
     }
-  
     
     return (
       <div className={styles.inner}>

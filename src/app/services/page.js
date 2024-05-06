@@ -1,14 +1,10 @@
 'use client'
-import Image from "next/image";
 import { useEffect } from "react";
 import styles from '../page.module.css'
-import Flecha2 from "../components/flecha2";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Inner from "../inner/inner";
 import Carousel from "../components/carousel";
-
-
 
 export default function Services() {
 
@@ -18,7 +14,6 @@ export default function Services() {
     if (selected == i){
       return setSelected(null)
     }
-
     setSelected(i)
   }
 
@@ -34,7 +29,6 @@ export default function Services() {
       item1: '- Google ads',
       item2: '- Meta ads',
       item3: '- Mailing'
-
     },
     {
       name: 'Graphic design & branding',
@@ -43,20 +37,17 @@ export default function Services() {
       item3: '- Social Media',
       item4: '- Packaging',
       item5: '- Visual Merchandising'
-
     },
     {
       name: 'Content',
       item1: '- Photo',
       item2: '- Video',
-
     },
     {
       name: 'Creative Strategy',
       item1: '- Análisis',
       item2: '- Concept',
       item3: '- Report',
-
     },
     {
       name: 'Production & Styling',
@@ -68,11 +59,8 @@ export default function Services() {
       item1: '- Modeling',
       item2: '- Rendering',
       item3: '- Animation'
-
     },
-
   ]
-  
 
   const  [isActive, setIsActive] = useState(true);
 
@@ -90,39 +78,35 @@ export default function Services() {
     <main className={styles.main} >
       <AnimatePresence mode="wait">
         <Inner>
-          <div className={styles.page__title}>
+          <div className={styles.page__info}>
               <p className={styles.title}>SERVICES</p>
-              <p className={styles.description}>Solo Agency es una agencia creativa espacializada en el diseño de identidad visual y comunicacion efectiva.</p>
+              <p className={styles.page__description}>Solo Agency es una agencia creativa espacializada en el diseño de identidad visual y comunicacion efectiva.</p>
           </div>
           <div className={styles.services_container}>
-              {services.map((service, i) => {
-                return(
-                  <div key={i} className={styles.service}>
-                    <div className={styles.service__banner}
-                    // onClick={() => {setIsActive(!isActive)}}
+            {services.map((service, i) => {
+              return(
+                <div key={i} className={styles.service}>
+                  <div 
+                    className={styles.service__banner}
                     onClick={() => toggle(i)}
-                    
-                    >
-                      <p className={styles.section_title}>{service.name}</p>
-                      <span className={styles.cross}>{selected === i ? '_' : "+"}</span>
-                    </div>
-                    <div className={selected == i ?  'page_service__list__show__37KEC' : 'page_service__list__aU9Ez'}>          
-                        <p className={styles.subtitle}>{service.item1}</p>
-                        <p className={styles.subtitle}>{service.item2}</p>
-                        <p className={styles.subtitle}>{service.item3}</p>
-                        <p className={styles.subtitle}>{service.item4}</p>
-                        <p className={styles.subtitle}>{service.item5}</p>
-                    </div>
+                  >
+                    <p className={styles.section_title}>{service.name}</p>
+                    <span className={styles.cross}>{selected === i ? '_' : "+"}</span>
                   </div>
-                )
-              })}
-              <Carousel/>
+                  <div className={selected == i ?  'page_service__list__show__37KEC' : 'page_service__list__aU9Ez'}>          
+                    <p className={styles.subtitle}>{service.item1}</p>
+                    <p className={styles.subtitle}>{service.item2}</p>
+                    <p className={styles.subtitle}>{service.item3}</p>
+                    <p className={styles.subtitle}>{service.item4}</p>
+                    <p className={styles.subtitle}>{service.item5}</p>
+                  </div>
+                </div>
+              )
+            })}
+            <Carousel/>
           </div>
-
         </Inner>
       </AnimatePresence>
-
     </main>
-
   );
 }
