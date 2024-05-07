@@ -1089,6 +1089,9 @@
   .client__banner{
     width: 90%;
   }
+  .client__content{
+    width: 90%;
+  }
   .client__title{
     font-size: 6rem;
     text-align: left;

@@ -13,7 +13,7 @@ export default function ClientsRed() {
                 <Link href={'/clients'}>
                     <div className={styles.redirect}>
                         <Image
-                            src="/flecha.svg"
+                            src="/FLECHA.svg"
                             alt="Solo Agency"
                             width={0}
                             height={0}

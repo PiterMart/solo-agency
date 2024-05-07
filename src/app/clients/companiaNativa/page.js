@@ -44,7 +44,7 @@ export default function Home() {
             <div>
               <Image
               className={styles.client__page__logo}
-              src="/logos/companiaNativaLogo.png"
+              src="/logos/companianativaLogo.png"
               alt="Solo Agency"
               width={0}
               height={0}
