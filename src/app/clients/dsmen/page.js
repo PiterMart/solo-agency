@@ -41,7 +41,7 @@ export default function Home() {
           x: { duration: 0.25 }
           
           }}>
-            <div className={styles.client__banner}>
+            <div>
               <Image
               className={styles.client__page__logo}
               src="/logos/dsmenLogo.png"
@@ -49,7 +49,7 @@ export default function Home() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px', marginBottom: '-5rem'}}
+              style={{ width: '100%', height: 'auto', maxWidth: '500px'}}
               />
             </div>
             <div className={styles.client__info}>

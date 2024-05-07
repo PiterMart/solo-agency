@@ -20,11 +20,11 @@ export default function Contact() {
   return (
     <main className={styles.main}>
       <Inner>
-          <div className={styles.page__title}>
-            <div className={styles.tuMarca} id="footer">
+          <div className={styles.page__info}>
+            <div className={styles.title} id="footer">
               <div>
                 <p>
-                  Tu marca se codifica con el mensaje del éxito.  
+                  Tu marca se codifica con el mensaje del éxito
                 </p>
               </div>
             </div>

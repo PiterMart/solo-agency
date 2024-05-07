@@ -41,7 +41,7 @@ export default function Home() {
           x: { duration: 0.25 }
           
           }}>
-            <div className={styles.client__banner}>
+            <div>
               <Image
               className={styles.client__page__logo}
               src="/logos/terrazasdelosandesLogo.png"

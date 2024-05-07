@@ -39,39 +39,36 @@ export default function Home() {
           ease: [0.65, 0, 0.35, 1],
           duration: 0.75,
           x: { duration: 0.25 }
-          
-          }}>
-            <div className={styles.client__banner}>
-              <Image
+        }}>
+          <div>
+            <Image
               className={styles.client__page__logo}
               src="/logos/lidhermaLogo.png"
               alt="Solo Agency"
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
-              />
-            </div>
-            <div className={styles.client__info}>
-              <p>
-                Tras el lanzamiento de sus nuevas bases “SKIN COLOUR BB CREAM” 
-                Realizamos todo el contenido audiovisual nacional para todos sus canales de comunicación. 
-              </p>
-            </div>
-            <div className={styles.client__info} style={{marginTop:  '5rem'}}>
-          <div>
-            
-            <p className={styles.subtitle}>SERVICIOS</p>
+              style={{ width: '100%', height: 'auto', maxWidth: '500px', marginBottom: '0rem'}}
+            />
           </div>
-          <div className={styles.client__info__list}>
+          <div className={styles.client__info}>
+            <p>
+              Tras el lanzamiento de sus nuevas bases “SKIN COLOUR BB CREAM” 
+              Realizamos todo el contenido audiovisual nacional para todos sus canales de comunicación. 
+            </p>
+          </div>
+          <div className={styles.client__info} style={{marginTop:  '5rem'}}>
+            <div>
+              <p className={styles.subtitle}>SERVICIOS</p>
+            </div>
+            <div className={styles.client__info__list}>
               <p>‐ Content</p>
             </div>
-
-        </div>
+          </div>
         </motion.div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-          <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>SKIN COLOUR</p>
+            <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>SKIN COLOUR</p>
             <p className={styles.client__title}>BB CREAM</p>
             <div className={styles.client__imagetext}>
               <Paragraph value={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nulla tincidunt, consectetur lectus quis, malesuada nulla. Ut pretium arcu eget sem euismod, sed tincidunt eros maximus.'} className={styles.client__metrics_container_title} />
@@ -82,8 +79,6 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <p className={styles.client__title}>PHOTO</p>
-            <div style={{display: 'flex', flexDirection: 'row',}}>
-            </div>
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef}>
                 <div className={styles.embla__container}>

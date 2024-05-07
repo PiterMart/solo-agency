@@ -15,7 +15,7 @@ export default function Nav() {
     const currentPath = usePathname();
 
     const pages = [
-        { name: 'ABOUT', path: '/about'},
+        { name: 'ABOUT US', path: '/about'},
         { name: 'SERVICES', path: '/services'},
         { name: 'CLIENTS', path: '/clients'},
         { name: 'CONTACT', path: '/contact'},
@@ -39,7 +39,7 @@ export default function Nav() {
             </Link>
             <div className={styles.list}>
                 <motion.ul
-                    animate={{top: isActive ? "-15px": "-175px"}}
+                    animate={{top: isActive ? "-15px": "-225px"}}
                     transition={{duration: 0.5, ease: [0.33, 1, 0.68, 1]}}
                 >
                     {pages.map((page, index) => {

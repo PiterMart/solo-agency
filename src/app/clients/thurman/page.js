@@ -31,7 +31,6 @@ export default function Home() {
   const [emblaRef5,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
   const [emblaRef6,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
 
-  const newLocal = <p className={styles.client__content__subtitle} style={{ margin: 'auto' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, nibh in viverra tristique.</p>;
   return (
     <main className={styles.main}>
       <Script type="text/javascript" src="/scripts/lightbox.js"/>
@@ -44,7 +43,7 @@ export default function Home() {
           x: { duration: 0.25 }
           
           }}>
-            <div className={styles.client__banner}>
+            <div>
               <Image
               className={styles.client__page__logo}
               src="/logos/thurmanLogo.png"

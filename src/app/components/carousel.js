@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Carousel(){
 
     return(
-        <div className={styles.client__carousel}>
+        <div className={styles.carousel}>
             <p className={styles.title}><Link href={'/clients'}>CLIENTS</Link></p>
             <div className={styles.scroller} >
                 <div className={styles.scroller__inner}>
@@ -119,6 +119,9 @@ export default function Carousel(){
                         />
                     </Link>
                 </div>
+            </div>
+            <div style={{display: 'flex', flexDirection: 'row'}}>
+              <p className={styles.button2} style={{margin: '2rem',marginLeft: '0px', textAlign: 'left', right: '0'}}><Link href="/clients">ALL CLIENTS</Link></p>
             </div>
         </div>
     )

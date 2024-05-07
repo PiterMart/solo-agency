@@ -40,7 +40,7 @@ export default function Home() {
           duration: 0.75,
           x: { duration: 0.25 }
           }}>
-            <div className={styles.client__banner}>
+            <div>
               <Image
               className={styles.client__page__logo}
               src="/logos/capediabloLogo.png"
@@ -48,7 +48,7 @@ export default function Home() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '200px', marginTop: '5rem'}}
+              style={{ width: '100%', height: 'auto', maxWidth: '200px', marginTop: '5rem', marginBottom: '-2rem'}}
               />
             </div>
             <div className={styles.client__info}>
@@ -69,8 +69,6 @@ export default function Home() {
         </motion.div>
         <div className={styles.client__content}>
         <div className={styles.client__content__container}>
-            {/* <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>BE FREE</p>
-            <p className={styles.client__title}>BE AIA</p> */}
             <div className={styles.client__imagetext}>
               <Paragraph value={'Los relojes no solamente marcan el tiempo, sino que son sinónimo de estilo'} className={styles.client__metrics_container_title} />
               <Image

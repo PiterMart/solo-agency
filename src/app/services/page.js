@@ -103,9 +103,9 @@ export default function Services() {
                 </div>
               )
             })}
-            <Carousel/>
           </div>
         </Inner>
+        <Carousel/>
       </AnimatePresence>
     </main>
   );

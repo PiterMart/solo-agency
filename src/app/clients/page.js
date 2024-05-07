@@ -6,6 +6,7 @@ import React from 'react';
 import Inner from "../inner/inner";
 import { AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import ServicesCarousel from "../components/servicesCarousel";
 
 export default function Clients() {
 
@@ -101,6 +102,7 @@ export default function Clients() {
             ))}
           </div>
         </Inner>
+        <ServicesCarousel/>
       </AnimatePresence>   
     </main>
   );

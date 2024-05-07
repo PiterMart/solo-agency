@@ -45,7 +45,7 @@ export default function Home() {
           x: { duration: 0.25 }
           
           }}>
-            <div className={styles.client__banner}>
+            <div>
               <Image
               className={styles.client__page__logo}
               src="/logos/hisilvieLogo.png"
@@ -176,7 +176,7 @@ export default function Home() {
           <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>MONTHLY</p>
           <p className={styles.client__title}>STATISTICS</p>
           <div className={styles.client__metrics_container}>
-            <div className={styles.client__metrics_left}>
+            <div className={styles.client__metrics}>
               <div className={styles.client__metrics_box}>
                 <p className={styles.client__metrics_container_title}>17k</p>
                 <p>FOLLOWERS</p>
@@ -186,7 +186,7 @@ export default function Home() {
                 <p>INTERACTIONS</p>
               </div>
             </div>
-            <div className={styles.client__metrics_right}>
+            <div className={styles.client__metrics}>
               <div className={styles.client__metrics_box}>
                 <p className={styles.client__metrics_container_title}>91k</p>
                 <p>MEDIA PLAYS</p>

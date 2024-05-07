@@ -22,10 +22,6 @@ export default function Home() {
     <main className={styles.main}>
       <Script type="text/javascript" src="/scripts/lightbox.js"/>
       <div className={styles.client__page}>
-      {/* <div className={styles.lightbox__active}>
-        <p>hola</p>
-
-      </div> */}
         <motion.div
           className={styles.client__banner} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} 
           transition={{
@@ -34,7 +30,7 @@ export default function Home() {
           x: { duration: 0.25 }
           
           }}>
-            <div className={styles.client__banner}>
+            <div>
               <Image
               className={styles.client__page__logo}
               src="/logos/pimuxLogo.png"
