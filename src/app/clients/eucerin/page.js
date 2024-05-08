@@ -85,7 +85,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                     <Image
                       className={styles.masonry__image}
-                      src="/eucerin/eucerin.jpg"
+                      src="/eucerin/Eucerin.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
