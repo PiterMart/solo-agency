@@ -351,7 +351,7 @@
   width: 100%;
 }
 .client__title{
-  font-size: 10rem;
+  font-size: 8rem;
   margin: auto;
   font-weight: 600;
   text-align: left;
@@ -399,14 +399,14 @@
   justify-content: space-evenly;
 }
 .client__imagetext img{
-  width: 30vw;
+  width: 25vw;
   height: auto;
   margin-bottom: 1rem;
   border-radius: 30px;
   padding: 1rem;
 }
 .client__imagetext video{
-  width: 25vw;
+  width: 23vw;
   height: auto;
   margin-bottom: 1rem;
   border-radius: 30px;
@@ -618,6 +618,36 @@
     height: 100%;
     width: 100%;
   }
+}
+
+/* MASONRY */
+.masonry__container{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.masonry__galery{
+  columns: auto 10rem;
+  gap: 0px;
+  column-gap: 0.5rem;
+  margin: auto;
+  width: 100%;
+}
+.masonry__galery img{
+  max-width: 100%;
+  width: 95%;
+  height: auto;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 0.5rem;
+}
+.masonry__galery video{
+  max-width: 100%;
+  width: 95%;
+  height: auto;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 0.5rem;
 }
 
 /*OTHER COMPONENTS*/
@@ -997,6 +1027,7 @@
     margin-right: 0rem;
     width: 100%;
     gap: 0px;
+    margin-top: 2rem;
   }
   .carousel{
     margin-top: 2rem;
@@ -1004,11 +1035,19 @@
     padding: 1rem;
     width: 100%;
   }
+
   /*SCROLLER*/
   .scroller{
     max-width: 400px;
     margin: 0;
   }
+
+  /* MASONRY */
+  .masonry__galery{
+    width: 100%;
+    columns: 3 5rem;
+  }
+
   /*OTHER COMPONENTS*/
   .arrow{
     display:block;
@@ -1161,6 +1200,13 @@
     min-width: 0;
     max-width: 14rem;
   }
+
+  /* MASONRY */
+  .masonry__galery{
+    width: 90%;
+    columns: 3 5rem;
+  }
+
   /*OTHER COMPONENTS*/
   .WWW{
     width: 90%;

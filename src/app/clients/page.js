@@ -38,7 +38,7 @@ export default function Clients() {
     { name: 'AIA', imageLocation: '/logos/aiaLogo.png', category: 'Fashion', route: '/clients/aia'},
     { name: 'Thurman', imageLocation: '/logos/thurmanLogo.png', category: 'Fashion', route: '/clients/thurman'},
     { name: 'Cape Diablo', imageLocation: '/logos/capediabloLogo.png', category: 'Fashion', route: '/clients/capeDiablo'},
-    { name: 'Cristho', imageLocation: '/logos/cristhoLogo.png', category: 'Fashion', route: '/clients/aia'},
+    { name: 'Cristho', imageLocation: '/logos/cristhoLogo.png', category: 'Fashion', route: '/clients/cristho'},
     { name: 'Justa Osadia', imageLocation: '/logos/justaosadiaLogo.png', category: 'Fashion', route: '/clients/justaOsadia'},
     { name: 'Pucheta', imageLocation: '/logos/puchetaLogo.png', category: 'Fashion', route: '/cliente/aia'},
     { name: 'HiSilvie', imageLocation: '/logos/hisilvieLogo.png', category: 'Fashion', route: '/clients/hiSilvie' },
@@ -47,7 +47,7 @@ export default function Clients() {
     { name: 'Lagouarde', imageLocation: '/logos/lagouardeLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'Faithful', imageLocation: '/logos/faitfulLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'El Gourmet', imageLocation: '/logos/elgourmetLogo.png', category: 'Lifestyle', route: '/clients/aia' },
-    { name: 'Dr Aromas', imageLocation: '/logos/doctoraromasLogo.png', category: 'Lifestyle', route: '/clients/aia' },
+    { name: 'Dr Aromas', imageLocation: '/logos/doctoraromasLogo.png', category: 'Lifestyle', route: '/clients/drAromas' },
     { name: 'DA Design', imageLocation: '/logos/dadesignLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'Compañia Nativa', imageLocation: '/logos/companianativaLogo.png', category: 'Lifestyle', route: '/clients/companiaNativa' },
     { name: 'Terrazas de los Andes', imageLocation: '/logos/terrazasdelosandesLogo.png', category: 'Food & other pleasures', route: '/clients/terrazas' },
@@ -57,7 +57,7 @@ export default function Clients() {
     { name: 'Timeless', imageLocation: '/logos/timelessLogo.png', category: 'Health & beauty', route: '/clients/timeless' },
     { name: 'Lidherma', imageLocation: '/logos/lidhermaLogo.png', category: 'Health & beauty', route: '/clients/lidherma' },
     { name: 'JP Peluquerias', imageLocation: '/logos/jpLogo.png', category: 'Health & beauty', route: '/clients/aia' },
-    { name: 'Eucerin', imageLocation: '/logos/eucerinLogo.png', category: 'Health & beauty', route: '/clients/aia' },
+    { name: 'Eucerin', imageLocation: '/logos/eucerinLogo.png', category: 'Health & beauty', route: '/clients/eucerin' },
   ];
 
   const categories = [
