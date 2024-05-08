@@ -12,8 +12,6 @@ import ClientsRed from "@/app/components/clientsRedirect";
 
 const  paragraph = "The girl next door... "
 
-
-
 export default function Home() {
 
   useEffect( () => {
@@ -61,9 +59,8 @@ export default function Home() {
                 Caso de éxito Solo Agency. Bajo la estrategia creativa, la generación de contenido y el análisis de métricas convertimos al perfil de silvie en una marca referente de moda argentina consiguiendo más de 100.000 seguidores en tres meses.   
               </p>
             </div>
-            <div className={styles.client__info} >
+            <div className={styles.client__info}>
           <div>
-            
             <p className={styles.subtitle}>SERVICIOS</p>
           </div>
           <div className={styles.client__info__list}>
@@ -71,7 +68,6 @@ export default function Home() {
               <p>‐ Production & Styling</p>
               <p>‐ Content</p>
             </div>
-
         </div>
         </motion.div>
         <div className={styles.client__content}>

@@ -46,7 +46,7 @@ export default function Home() {
                 Brandbook design development. Brand kit essentials. Haciendo énfasis en sus cimientos basados en la arquitectura contemporánea desarrollamos el re - branding y la identidad visual de la marca, adecuándose al nuevo sistema de consumo, bajo el objetivo de acercarla a un nuevo nicho de arquitectos jóvenes.  
               </p>
             </div>
-            <div className={styles.client__info} style={{marginTop:  '5rem'}}>
+            <div className={styles.client__info}>
           <div>
             
             <p className={styles.subtitle}>SERVICIOS</p>

@@ -58,7 +58,7 @@ export default function Home() {
                 de redes sociales y streaming, instagram & Youtube
               </p>
             </div>
-            <div className={styles.client__info} style={{marginTop:  '5rem'}}>
+            <div className={styles.client__info}>
           <div>
             
             <p className={styles.subtitle}>SERVICIOS</p>

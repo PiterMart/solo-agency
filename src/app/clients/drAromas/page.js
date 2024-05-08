@@ -57,7 +57,7 @@ export default function Home() {
                 Solo agency for export, realizamos la dirección estratégica y la generación de contenido audiovisual para reconocida marca de aromatizantes con base en Miami, USA. 
               </p>
             </div>
-            <div className={styles.client__info} style={{marginTop:  '5rem'}}>
+            <div className={styles.client__info}>
           <div>
             
             <p className={styles.subtitle}>SERVICIOS</p>

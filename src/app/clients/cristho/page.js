@@ -57,7 +57,7 @@ export default function Home() {
                 Una marca que resignifica los valores del boho chic recurre a la dirección creativa y estratégica de Solo Agency para la gestión y producción de su campaña 2022. Junto a diseño gráfico y comunicación estratégica reforzamos sus canales digitales para los nuevos desafíos del mercado. 
               </p>
             </div>
-            <div className={styles.client__info} style={{marginTop:  '5rem'}}>
+            <div className={styles.client__info}>
           <div>
             
             <p className={styles.subtitle}>SERVICIOS</p>

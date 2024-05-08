@@ -46,7 +46,7 @@ export default function Clients() {
     { name: 'Pimux', imageLocation: '/logos/pimuxLogo.png', category: 'Lifestyle', route: '/clients/pimux' },
     { name: 'Lagouarde', imageLocation: '/logos/lagouardeLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'Faithful', imageLocation: '/logos/faitfulLogo.png', category: 'Lifestyle', route: '/clients/aia' },
-    { name: 'El Gourmet', imageLocation: '/logos/elgourmetLogo.png', category: 'Lifestyle', route: '/clients/aia' },
+    { name: 'El Gourmet', imageLocation: '/logos/elgourmetLogo.png', category: 'Lifestyle', route: '/clients/elGourmet' },
     { name: 'Dr Aromas', imageLocation: '/logos/doctoraromasLogo.png', category: 'Lifestyle', route: '/clients/drAromas' },
     { name: 'DA Design', imageLocation: '/logos/dadesignLogo.png', category: 'Lifestyle', route: '/clients/aia' },
     { name: 'Compañia Nativa', imageLocation: '/logos/companianativaLogo.png', category: 'Lifestyle', route: '/clients/companiaNativa' },

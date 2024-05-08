@@ -61,7 +61,7 @@ export default function Home() {
                 Servicio 360. Desde creative strategy, social media management, content creation y graphic design acompañamos en todos los desafíos que comprenden comunicación visual y digital de la marca. 
               </p>
             </div>
-            <div className={styles.client__info} >
+            <div className={styles.client__info}>
           <div>
             
             <p className={styles.subtitle}>SERVICIOS</p>

@@ -65,7 +65,7 @@ export default function Home() {
               Reconocida marca de moda Argentina recurre a nuestro servicio 360. Desde creative strategy, social media management, content creation y paid media (Meta ads) acompañamos en todos los desafíos que comprenden comunicación visual y digital.
               </p>
             </div>
-            <div className={styles.client__info} style={{marginTop:  '5rem'}}>
+            <div className={styles.client__info}>
           <div>
             
             <p className={styles.subtitle}>SERVICIOS</p>

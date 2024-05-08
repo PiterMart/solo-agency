@@ -56,7 +56,7 @@ export default function Home() {
                 Marca norteamericana que aterriza en buenos aires bajo el lema de: “Los relojes no solamente marcan el tiempo, sino que son sinónimo de estilo”. Con esta premisa se han desarrollado piezas de fotografía y video con fines publicitarios y de branding.  
               </p>
             </div>
-            <div className={styles.client__info} style={{marginTop:  '5rem'}}>
+            <div className={styles.client__info}>
           <div>
             
             <p className={styles.subtitle}>SERVICIOS</p>

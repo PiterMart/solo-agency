@@ -57,7 +57,7 @@ export default function Home() {
                 Solo Agency ha tenido el rol de registrar el evento de lanzamiento de su línea de vinos reserva, elaborando piezas fotográficas y audiovisuales del mismo.
               </p>
             </div>
-            <div className={styles.client__info} style={{marginTop:  '5rem'}}>
+            <div className={styles.client__info}>
           <div>
             
             <p className={styles.subtitle}>SERVICIOS</p>

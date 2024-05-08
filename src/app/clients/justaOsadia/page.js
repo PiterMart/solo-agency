@@ -57,7 +57,7 @@ export default function Home() {
               Marca de moda Argentina, recurre a Solo Agency para la producción audiovisual de la cápsula SS24.  
               </p>
             </div>
-            <div className={styles.client__info} style={{marginTop:  '5rem'}}>
+            <div className={styles.client__info}>
           <div>
             
             <p className={styles.subtitle}>SERVICIOS</p>
@@ -77,6 +77,57 @@ export default function Home() {
               <video autoPlay muted controls loop playsInline style={{margin: 'auto'}}>
                 <source src="/justaOsadia/justaOsadia.mp4" />
               </video>
+            </div>
+          </div>
+          <div className={styles.client__content__container}>
+            <div className={styles.masonry__container}>
+              <div className={styles.masonry__galery} style={{width: '95%'}}>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline>
+                        <source src="/justaOsadia/justaOsadia2.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline>
+                        <source src="/justaOsadia/justaOsadia3.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline>
+                        <source src="/justaOsadia/justaOsadia4.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline>
+                        <source src="/justaOsadia/justaOsadia5.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline>
+                        <source src="/justaOsadia/justaOsadia6.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline>
+                        <source src="/justaOsadia/justaOsadia7.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline>
+                        <source src="/justaOsadia/justaOsadia8.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline>
+                        <source src="/justaOsadia/justaOsadia9.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline>
+                        <source src="/justaOsadia/justaOsadia10.mp4" />
+                      </video>
+                  </div>
+              </div>
             </div>
           </div>
           <div className={styles.client__content__container}>

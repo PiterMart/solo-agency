@@ -57,7 +57,7 @@ export default function Home() {
                 Una marca que transforma el movimiento en acción recurre a la dirección creativa y estratégica de Solo Agency para la gestión y producción de su campaña 2024.  
               </p>
             </div>
-            <div className={styles.client__info} style={{marginTop:  '5rem'}}>
+            <div className={styles.client__info}>
           <div>
             
             <p className={styles.subtitle}>SERVICIOS</p>

@@ -59,7 +59,7 @@ export default function Home() {
                 Marca líder en su rubro, Thurman conquista la Argentina con el denim. Buscando fortalecer su presencia en redes, recurre a Solo Agency para una intervención 360 gestionando la estrategia creativa, sus redes sociales y la pauta publicitaria en todas las plataformas digitales. Además de la producción de la campaña AW24 y su ecommerce.  
               </p>
             </div>
-            <div className={styles.client__info} style={{marginTop:  '5rem'}}>
+            <div className={styles.client__info}>
           <div>
             
             <p className={styles.subtitle}>SERVICIOS</p>

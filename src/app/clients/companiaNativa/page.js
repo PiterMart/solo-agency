@@ -57,7 +57,7 @@ export default function Home() {
                 Marca referente de mobiliario contemporáneo, recurre a la agencia para el desarrollo de piezas audiovisuales orientadas a conectar con su audiencia y resaltar el valor agregado en cada uno de sus productos y servicios. 
               </p>
             </div>
-            <div className={styles.client__info} style={{marginTop:  '5rem'}}>
+            <div className={styles.client__info}>
           <div>
             <p className={styles.subtitle}>SERVICIOS</p>
           </div>
@@ -89,6 +89,132 @@ export default function Home() {
             <Paragraph value={'AMBIENTES DE PAZ Y TRANQUILIDAD'} className={styles.client__metrics_container_title} />
           </div>
           <div className={styles.client__content__container}>
+            <div className={styles.masonry__container}>
+              <div className={styles.masonry__galery} >
+              <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline >
+                        <source src="/companiaNativa/Armado mesa Quadra_H.264.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      
+                      src="/companiaNativa/companiaNativa2.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline >
+                        <source src="/companiaNativa/Armado exterior_H.264.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      
+                      src="/companiaNativa/companiaNativa3.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      
+                      src="/companiaNativa/companiaNativa4.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline >
+                        <source src="/companiaNativa/Centro de mesa navideño_H.264.mp4" />
+                      </video>
+                  </div>
+                  <div>
+                    <Image
+                      className={styles.client__image}
+                      src="/companiaNativa/companiaNativa5.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline >
+                        <source src="/companiaNativa/Saludo de fin año_H.264.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      
+                      src="/companiaNativa/companiaNativa6.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline >
+                        <source src="/companiaNativa/Mesa navideña día_ noche_H.264.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      
+                      src="/companiaNativa/companiaNativa7.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline >
+                        <source src="/companiaNativa/Sillas de exterior_H.264.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      
+                      src="/companiaNativa/companiaNativa8.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline >
+                        <source src="/companiaNativa/Proceso de armado mesa Rocky_H.264.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      
+                      src="/companiaNativa/companiaNativa9.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline >
+                        <source src="/companiaNativa/Saludo de fin año_H.264.mp4" />
+                      </video>
+                  </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className={styles.client__content__container}>
             <p className={styles.client__title}>MEDIA</p>
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef2}>
@@ -216,7 +342,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className={styles.client__content}>
         <div className={styles.client__content__container}>
