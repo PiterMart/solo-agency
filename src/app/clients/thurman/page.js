@@ -64,15 +64,13 @@ export default function Home() {
             
             <p className={styles.subtitle}>SERVICIOS</p>
           </div>
-          <div className={styles.client__info__list}>
+            <div className={styles.client__info__list}>
               <p>‐ Creative Strategy</p>
               <p>- Social Media</p>
               <p>- Content</p>
-              <p>- Prroduction & Styling</p>
-              <p>- Content</p>
+              <p>- Production & Styling</p>
               <p>- Paid Media</p>
             </div>
-
         </div>
         </motion.div>
         <div className={styles.client__content}>
