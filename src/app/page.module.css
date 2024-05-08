@@ -789,7 +789,6 @@
     width: 90%;
     font-size: 4rem;
     padding: 0px;
-    margin-bottom: -10rem;
   }
   .button2{
     font-size: 1rem;
@@ -818,7 +817,8 @@
   }
   /*FOOTER*/
   .footer{
-    z-index: 0;
+    z-index: -1;
+    margin-top: -15rem;
   }
   .footer__section_container{
     flex-direction: column;
@@ -1035,7 +1035,7 @@
   }
   .carousel{
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     padding: 1rem;
     width: 100%;
   }
