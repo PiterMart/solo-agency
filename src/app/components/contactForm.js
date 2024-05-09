@@ -33,11 +33,11 @@ export default function ContactForm() {
         <form onSubmit={onSubmit} className={styles.form}>
           <input type="hidden" name="access_key" value="6604ebc9-8946-4dbe-aec9-5bcfb8f95429"/>
           {/* <p>Nombre</p> */}
-          <input type="text" name="name" placeholder="name" required/>
+          <input type="text" name="Name" placeholder="name" required/>
           {/* <p>Email</p> */}
-          <input type="email" name="email" placeholder="email" required/>
-          <p>MENSAJE</p>
-          <textarea name="message" required></textarea>
+          <input type="email" name="Email" placeholder="email" required/>
+          {/* <p>MENSAJE</p> */}
+          <textarea name="message" placeholder="Message" required></textarea>
           <span style={{height: '2.5rem', color: 'gray'}}>{result}</span>
           <button className={styles.button} type="submit">ENVIAR</button>
         </form>
