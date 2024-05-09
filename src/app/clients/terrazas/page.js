@@ -39,33 +39,30 @@ export default function Home() {
           ease: [0.65, 0, 0.35, 1],
           duration: 0.75,
           x: { duration: 0.25 }
-          
-          }}>
-            <div>
-              <Image
-              className={styles.client__page__logo}
-              src="/logos/terrazasdelosandesLogo.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
-              />
-            </div>
-            <div className={styles.client__info}>
-              <p>
-                Solo Agency ha tenido el rol de registrar el evento de lanzamiento de su línea de vinos reserva, elaborando piezas fotográficas y audiovisuales del mismo.
-              </p>
-            </div>
-            <div className={styles.client__info}>
+        }}>
           <div>
-            
-            <p className={styles.subtitle}>SERVICIOS</p>
+            <Image
+            className={styles.client__page__logo}
+            src="/logos/terrazasdelosandesLogo.png"
+            alt="Solo Agency"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
+            />
           </div>
-          <div className={styles.client__info__list}>
+          <div className={styles.client__info}>
+            <p>
+              Solo Agency ha tenido el rol de registrar el evento de lanzamiento de su línea de vinos reserva, elaborando piezas fotográficas y audiovisuales del mismo.
+            </p>
+          </div>
+          <div className={styles.client__info}>
+            <div>
+              <p className={styles.subtitle}>SERVICIOS</p>
+            </div>
+            <div className={styles.client__info__list}>
               <p>‐ Content</p>
             </div>
-
         </div>
         </motion.div>
         <div className={styles.client__content}>
@@ -73,87 +70,68 @@ export default function Home() {
             <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>TERRAZAS DE</p>
             <p className={styles.client__title}>LOS ANDES</p>
             <div className={styles.client__imagetext}>
-              <Paragraph value={'CULTIVANDO DONDE EL CIELO Y LA TIERRA SE ENCUENTRAN'} className={styles.client__metrics_container_title} />
+              <Paragraph value={'LA MAGIA DE LA MONTAÑA'} className={styles.client__metrics_container_title} />
               <video autoPlay muted controls loop playsInline style={{margin: 'auto'}}>
                 <source src="/terrazas/terrazasUnboxing.mp4" />
               </video>
             </div>
           </div>
-          <div className={styles.client__imagetext}>
-            <Image
-              src="/terrazas/terrazas.jpg"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-            />
-            <Paragraph value={'LA MAGIA DE LA MONTAÑA'} className={styles.client__metrics_container_title} />
-          </div>
           <div className={styles.client__content__container}>
-            <p className={styles.client__title}>MEDIA</p>
-            <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef2}>
-                <div className={styles.embla__container}>
+            <div className={styles.masonry__container}>
+              <div className={styles.masonry__galery} style={{width: '95%'}}>
                 <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/terrazas/terrazas.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/terrazas/terrazas2.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/terrazas/terrazas3.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/terrazas/terrazas4.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/terrazas/terrazas5.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/terrazas/terrazas6.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
+                  <Image
+                    src="/terrazas/terrazas.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                  />
+                </div>
+                <div className={styles.embla__slide}>
+                  <Image
+                    src="/terrazas/terrazas2.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                  />
+                </div>
+                <div className={styles.embla__slide}>
+                  <Image
+                    src="/terrazas/terrazas3.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                  />
+                </div>
+                <div className={styles.embla__slide}>
+                  <Image
+                    src="/terrazas/terrazas4.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                  />
+                </div>
+                <div className={styles.embla__slide}>
+                  <Image
+                    src="/terrazas/terrazas5.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                  />
+                </div>
+                <div className={styles.embla__slide}>
+                  <Image
+                    src="/terrazas/terrazas6.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                  />
                 </div>
               </div>
             </div>

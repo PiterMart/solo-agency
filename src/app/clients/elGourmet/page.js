@@ -70,7 +70,7 @@ export default function Home() {
         </div>
         </motion.div>
         <div className={styles.client__content}>
-        <div className={styles.client__content__container}>
+          <div className={styles.client__content__container}>
             <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>RUTA</p>
             <p className={styles.client__title}>40</p>
             <div className={styles.client__imagetext}>
@@ -80,42 +80,46 @@ export default function Home() {
               </video>
             </div>
           </div>
-          <div className={styles.client__content__container}>
-            <div className={styles.masonry__container}>
-              <div className={styles.masonry__galery}>
+        
+        <div className={styles.client__content__container}>
+          <p className={styles.client__title}>SALE</p>
+          <div className={styles.embla}>
+            <div className={styles.embla__viewport} ref={emblaRef}>
+              <div className={styles.embla__container}>
                 <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
-                      <source src="/elGourmet/DIA2JUJUY.mp4" />
-                    </video>
+                  <video autoPlay muted controls loop playsInline className={styles.client__image}>
+                    <source src="/elGourmet/DIA2JUJUY.mp4" />
+                  </video>
                 </div>
                 <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
-                      <source src="/elGourmet/DIA3JUJUY.mp4" />
-                    </video>
+                  <video autoPlay muted controls loop playsInline className={styles.client__image}>
+                    <source src="/elGourmet/DIA3JUJUY.mp4" />
+                  </video>
                 </div>
                 <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
-                      <source src="/elGourmet/DIA4SALTA.mp4" />
-                    </video>
+                  <video autoPlay muted controls loop playsInline className={styles.client__image}>
+                    <source src="/elGourmet/DIA4SALTA.mp4" />
+                  </video>
                 </div>
                 <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
-                      <source src="/elGourmet/DIA5SALTA.mp4" />
-                    </video>
+                  <video autoPlay muted controls loop playsInline className={styles.client__image}>
+                    <source src="/elGourmet/DIA5SALTA.mp4" />
+                  </video>
                 </div>
                 <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
-                      <source src="/elGourmet/DIA6SALTA.mp4" />
-                    </video>
+                  <video autoPlay muted controls loop playsInline className={styles.client__image}>
+                    <source src="/elGourmet/DIA6SALTA.mp4" />
+                  </video>
                 </div>
                 <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
-                      <source src="/elGourmet/DIA15CATAMARCA.mp4" />
-                    </video>
+                  <video autoPlay muted controls loop playsInline className={styles.client__image}>
+                    <source src="/elGourmet/DIA15CATAMARCA.mp4" />
+                  </video>
                 </div>
               </div>
             </div>
           </div>
+        </div>
         </div>
         <ClientsRed/>
       </div>

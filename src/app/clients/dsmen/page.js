@@ -73,8 +73,6 @@ export default function Home() {
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
             <p className={styles.client__title}>SALE</p>
-            <div style={{display: 'flex', flexDirection: 'row',}}>
-            </div>
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef}>
                 <div className={styles.embla__container}>

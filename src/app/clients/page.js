@@ -102,7 +102,6 @@ export default function Clients() {
             ))}
           </div>
         </Inner>
-        <ServicesCarousel/>
       </AnimatePresence>   
     </main>
   );

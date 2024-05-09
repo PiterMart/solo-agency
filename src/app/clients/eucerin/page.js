@@ -75,7 +75,7 @@ export default function Home() {
             <div className={styles.client__imagetext} style={{flexDirection: 'column'}}>
               <Paragraph value={'LIFE-CHANGING POWER OF DERMATOLOGICAL SKINCARE'} className={styles.client__metrics_container_title} />
               <video autoPlay muted controls loop playsInline style={{margin: 'auto', width: '100%'}}>
-                <source src="/eucerin/eucerinVideo.mp4" />
+                <source src="/eucerin/eucerinVideo2.mp4" />
               </video>
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function Home() {
                   </div>
                   <div className={styles.embla__slide}>
                       <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
-                        <source src="/eucerin/eucerinVideo2.mp4" />
+                        <source src="/eucerin/eucerinVideo.mp4" />
                       </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -342,7 +342,7 @@ export default function Home() {
                       sizes="100vw"
                     />
                   </div>
-            </div>
+              </div>
             </div>
           </div>
         </div>

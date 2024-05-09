@@ -44,7 +44,7 @@ export default function Home() {
         />
         <p id="subtitle">NO SOMOS <strong>SOLO</strong> UNA AGENCIA</p>
       </motion.div>
-      <video autoPlay muted controls loop playsInline style={{marginBottom: '25vh'}}>
+      <video autoPlay muted controls loop playsInline style={{marginBottom: '20vh'}}>
         <source src="/SOLOAGENCY.mp4" />
       </video>
       <div className={styles.WWW}>
@@ -66,7 +66,7 @@ export default function Home() {
               somos todo eso que queres contar.
             </p>
             <div style={{display: 'flex', flexDirection: 'row'}}>
-              <p className={styles.button2} style={{margin: '2rem', textAlign: 'left'}}><Link href="/about">ABOUT US</Link></p>
+              <p className={styles.button2} style={{textAlign: 'left'}}><Link href="/about">ABOUT US</Link></p>
             </div>
         </div>
       <Carousel/>

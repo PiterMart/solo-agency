@@ -4,16 +4,13 @@ import styles from "../page.module.css";
 export default function Idea(){
 
   return(
-    <div>
       <div className={styles.idea}>
         <div>
-          <p>Tenes una</p>
-          <p>idea?</p>
+          <p>Tenes una idea?</p>
         </div>
-        <div>
-        <p className={styles.button2}><Link href="/contact">CONTACTANOS</Link></p>
+        <div style={{display: 'flex', flexDirection: 'row'}}>
+          <p className={styles.button2} style={{marginLeft: '0rem'}}><Link href="/contact">CONTACTANOS</Link></p>
         </div>
       </div>
-    </div> 
   )
 }

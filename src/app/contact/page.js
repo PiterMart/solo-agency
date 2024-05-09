@@ -21,17 +21,29 @@ export default function Contact() {
     <main className={styles.main}>
       <Inner>
           <div className={styles.page__info}>
-            <div className={styles.title} id="footer">
-              <div>
+            <div id="footer">
+              <div className={styles.tuMarca}>
                 <p>
-                  Tu marca se codifica con el mensaje del éxito
+                  TU MARCA SE CODIFICA CON EL MENSAJE DEL EXITO
                 </p>
               </div>
             </div>
           </div>
-          <ContactForm/>
+          <div className={styles.contact__page}>
+            <div className={styles.contact__page__details}>
+              <p className={styles.contact__page__title}>CONTACT DETAILS</p>
+              <div className={styles.contact__page__details__section}>
+                <p className={styles.subtitle}>PHONE</p>
+                <p>+52-33-12345678</p>
+              </div>
+              <div className={styles.contact__page__details__section}>
+                <p className={styles.subtitle}>EMAIL</p>
+                <p>soloagency6@gmail.com</p>
+              </div>
+            </div>
+            <ContactForm/>
+          </div>
       </Inner>
     </main>
-
   );
 }

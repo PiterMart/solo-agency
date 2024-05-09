@@ -62,102 +62,87 @@ export default function Home() {
             <p className={styles.subtitle}>SERVICIOS</p>
           </div>
           <div className={styles.client__info__list}>
-              <p>‐ Content</p>
-            </div>
-
+            <p>‐ Content</p>
+          </div>
         </div>
         </motion.div>
         <div className={styles.client__content}>
-        <div className={styles.client__content__container}>
+          <div className={styles.client__content__container}>
             <div className={styles.client__imagetext}>
               <Paragraph value={'Los relojes no solamente marcan el tiempo, sino que son sinónimo de estilo'} className={styles.client__metrics_container_title} />
               <Image
-                      src="/capeDiablo/capediablo.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
+                src="/capeDiablo/capediablo.jpg"
+                alt="Solo Agency"
+                width={0}
+                height={0}
+                sizes="100vw"
+              />
             </div>
           </div>
           <div className={styles.client__content__container}>
-            <p className={styles.client__title}>PHOTO</p>
-            <div style={{display: 'flex', flexDirection: 'row',}}>
-            </div>
-            <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef}>
-                <div className={styles.embla__container}>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/capeDiablo/capediablo.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/capeDiablo/capediablo2.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/capeDiablo/capediablo3.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/capeDiablo/capediablo4.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/capeDiablo/capediablo5.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/capeDiablo/capediablo6.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
+            <div className={styles.masonry__container}>
+              <div className={styles.masonry__galery} style={{width: '95%'}}>
+                <div className={styles.embla__slide}>
+                  <Image
+                    src="/capeDiablo/capediablo.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                  />
                 </div>
+                <div className={styles.embla__slide}>
+                  <Image
+                    src="/capeDiablo/capediablo2.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                  />
+                </div>
+                <div className={styles.embla__slide}>
+                  <Image
+                    src="/capeDiablo/capediablo3.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                  />
+                </div>
+                <div className={styles.embla__slide}>
+                  <Image
+                    src="/capeDiablo/capediablo4.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                  />
+                </div>
+                <div className={styles.embla__slide}>
+                  <Image
+                    src="/capeDiablo/capediablo5.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                  />
+                </div>
+                <div className={styles.embla__slide}>
+                  <Image 
+                    src="/capeDiablo/capediablo6.jpg"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                  />
+                </div>
+                <video autoPlay muted controls loop playsInline>
+                  <source src="/capeDiablo/capediabloV.mp4" />
+                </video>
+                <video autoPlay muted controls loop playsInline>
+                  <source src="/capeDiablo/capediabloV2.mp4" />
+                </video>
               </div>
-            </div>
-            <p className={styles.client__title}>VIDEO</p>
-            <div className={styles.client__images}>
-              <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                <source src="/capeDiablo/capediabloV.mp4" />
-              </video>
-              <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                <source src="/capeDiablo/capediabloV2.mp4" />
-              </video>
             </div>
           </div>
         </div>

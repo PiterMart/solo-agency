@@ -1,4 +1,3 @@
-
 /*FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face{
@@ -42,24 +41,27 @@
   border-radius: 7px;
   color: #ffffff;
   font-size: 15px;
-  padding: 10px 20px 10px 20px;
+  padding: 0.5rem;
   text-decoration: none;
   font-family: Aron;
   text-transform: uppercase;
   border: none;
   margin: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.362);
+  width: 25%;
+  align-self: flex-end;
+  font-weight: 600;
 }
 .button:hover {
   color: rgb(0, 0, 0);
-  background-color: white;
+  background-color: gray;
   font-weight: 600;
   text-decoration: none;
   animation-duration: 5ms;
 }
 .idea{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-align: left;
   width: 70%;
   margin: auto;
@@ -67,18 +69,18 @@
   /* background-color: #00000098;
   border: 1px solid rgba(255, 255, 255, 0.362);
   border-radius: 20px; */
-  padding: 3rem;
 }
 .button2{
   font-size: 2rem;
-  margin-top: 11.5rem;
-  margin-left: -15rem;
+  /* margin-top: 11.5rem;
+  margin-left: -15rem; */
   cursor: pointer;
   font-weight: 600;
   border: 1px solid rgba(255, 255, 255, 0.362);
   border-radius: 20px;
   padding: 1rem;
   padding-top: 1.5rem;
+  margin: 2rem;
 }
 .button2::after {
   content: '';
@@ -200,13 +202,13 @@
   width: 70%;
   height: 100%;
   margin: auto;
-  padding-top: 10rem;
+  padding-top: 5rem;
   display: flex;
   flex-direction: column;
   gap: 4rem;
 }
 .page__info{
-  width: 100%;
+  width: 90%;
   margin: auto;
   margin-top: 5rem;
 }
@@ -229,7 +231,8 @@
 
 /* SERVICES SECTION*/
 .services_container{
-  width: 100%;
+  width: 95%;
+  margin: auto;
   align-items: center;
   margin-top: 1rem;
 }
@@ -281,7 +284,7 @@
   width: 90%;
   margin-left: 2rem;
   margin-right: 2rem;
-  justify-content: space-between;
+  justify-content: left;
   overflow: hidden;
   align-self: start;
   padding-bottom: 2rem;
@@ -478,6 +481,39 @@
   border: none;
 }
 
+/*CONTACT PAGE*/
+.contact__page{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+  font-size: 2rem;
+}
+.contact__page__title{
+  font-weight: 600;
+  text-align: center;
+  font-size: 2.5rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.contact__page__details{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 1rem;
+  padding-top: 0rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.362);
+}
+.contact__page__details__section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
 /*LIGHBOX*/
 .lightbox {
   position: fixed;
@@ -508,11 +544,13 @@
 .form__container{
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 50%;
   margin: auto;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5rem;
+  z-index: 3;
+  text-align: left;
+  margin-left: 3rem;
 }
 .form__container button{
   margin: 0.5rem;
@@ -525,9 +563,18 @@
   border: 1px solid rgba(255, 255, 255, 0.362);
   border-radius: 20px;
   padding: 1rem;
+  text-align: left;
 }
 .form p{
   font-weight: bold;
+}
+.form input::placeholder {
+  color: rgba(255, 255, 255, 0.671);
+  opacity: 1; /* Firefox */
+}
+
+.form input::-ms-input-placeholder { /* Edge 12 -18 */
+  color: rgba(255, 255, 255, 0.671);
 }
 .form textarea{
   height: 15vh;
@@ -623,16 +670,23 @@
 
 /* MASONRY */
 .masonry__container{
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-bottom: 3rem;
 }
 .masonry__galery{
-  columns: auto 10rem;
+  columns: auto 20rem;
   gap: 0px;
   column-gap: 0.5rem;
   margin: auto;
   width: 100%;
+  height: 100%;
+  /* overflow-x: scroll; */
+  margin-top: 10rem;
+  /* scrollbar-width: none; */
+  align-items: center;
+  /* mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent); */
 }
 .masonry__galery img{
   max-width: 100%;
@@ -698,8 +752,8 @@
   }
 }
 .carousel{
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   text-align: left;
   max-width: 1500px;
   width: 70%;
@@ -768,12 +822,21 @@
   display: flex;
   max-width: 300px;
   margin: auto;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: Aron;
 }
 .redirect:hover{
   animation-name: glow;
   animation-duration: 2s;
   text-shadow: none;
   gap: 0;
+}
+.tuMarca{
+  font-size: 4rem;
+  font-weight: 600;
+  width: 90%;
+  margin: auto;
 }
 
 /* Mobile */
@@ -787,8 +850,9 @@
   }
   .idea{
     width: 90%;
-    font-size: 4rem;
+    font-size: 2.9rem;
     padding: 0px;
+    z-index: 4;
   }
   .button2{
     font-size: 1rem;
@@ -798,8 +862,7 @@
     padding: 1rem;
     padding-top: 1.5rem;
     margin-left: 0px;
-    margin-top: 10rem;
-
+    margin: 0.5rem;
   }
   /*NAVBAR*/
   .nav {
@@ -817,7 +880,7 @@
   }
   /*FOOTER*/
   .footer{
-    z-index: -1;
+    z-index: 0;
     margin-top: -15rem;
   }
   .footer__section_container{
@@ -838,6 +901,7 @@
   .page{
     gap: 1rem;
     width: 95%;
+    padding-top: 5rem;
   }
   .page__title{
     width: 100%;
@@ -851,6 +915,7 @@
   }
   .page__info{
     margin-top: 1rem;
+    width:100%;
   }
   /*ABOUT SECTION*/
   .about__paragraph{
@@ -858,6 +923,9 @@
     line-height: 25px;
   }
   /*SERVICES SECTION*/
+  .services_container{
+    z-index: 3;
+  }
   .service{
     width: 100%;
     margin: auto;
@@ -896,7 +964,7 @@
     padding: 0;
     margin: auto;
     margin-top: 3rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
   }
   .client__page__logo{
     max-width: 300px;
@@ -994,9 +1062,38 @@
   .client__comparison{
     flex-direction: column;
   }
+  /*CONTACT PAGE*/
+  .contact__page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    font-size: 1.5rem;
+  }
+  .contact__page__title{
+    font-weight: 600;
+    text-align: left;
+    font-size: 2rem;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .contact__page__details{
+    width: 100%;
+    margin: auto;
+    border-right: none;
+  }
+  .contact__page__details__section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
   /*FORM*/
   .form__container{
     width: 100%;
+    margin: auto;
   }
   .form{
     width: 95%;
@@ -1031,13 +1128,13 @@
     margin-right: 0rem;
     width: 100%;
     gap: 0px;
-    margin-top: 2rem;
   }
   .carousel{
     margin-top: 2rem;
     margin-bottom: 0rem;
     padding: 1rem;
     width: 100%;
+    z-index: 2;
   }
 
   /*SCROLLER*/
@@ -1072,9 +1169,8 @@
   .aboutredir{
     font-size: 1.5rem;
     height: auto;
-    padding: 1rem;
-    padding-top: 3rem;
-    margin-top: 3rem;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
     text-align: center;
     width: 90%;
   }
@@ -1086,6 +1182,10 @@
   .redirect__container{
     flex-direction: column;
     gap: 5rem;
+  }
+  .tuMarca{
+    font-size: 2.5rem;
+    text-align: center;
   }
 }
 
@@ -1129,7 +1229,7 @@
     gap: 3rem;
     width: 100%;
     margin-left: 2rem;
-    justify-content: space-between;
+    justify-content: left;
   }
   /*CLIENT SECTION*/
   .client__page{

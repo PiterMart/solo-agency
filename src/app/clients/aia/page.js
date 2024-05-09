@@ -69,134 +69,134 @@ export default function Home() {
         </div>
         </motion.div>
         <div className={styles.client__content}>
-        <div className={styles.client__content__container}>
-            <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>BE FREE</p>
-            <p className={styles.client__title}>BE AIA</p>
-            <div className={styles.client__imagetext}>
-              <Paragraph value={'ATHLEISURE WEAR FOR EVERYDAY LIFE'} className={styles.client__metrics_container_title} />
-              <video autoPlay muted controls loop playsInline style={{margin: 'auto'}}>
-                <source src="/aia/aiaLycraVision.mp4" />
-              </video>
-            </div>
-          </div>
           <div className={styles.client__content__container}>
-            <div className={styles.masonry__container}>
-              <div className={styles.masonry__galery}>
-                <div className={styles.embla__slide}>
-                  <Image
-                    className={styles.masonry__image}
-                    src="/aia/aia.jpg"
-                    alt="Solo Agency"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                  />
-                </div>
-                <div className={styles.embla__slide}>
-                  <Image
-                    className={styles.masonry__image}
-                    src="/aia/aia2.jpg"
-                    alt="Solo Agency"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                  />
-                </div>
-                <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
-                      <source src="/aia/aiaReel.mp4" />
-                    </video>
-                </div>
-                <div className={styles.embla__slide}>
-                  <Image
-                    className={styles.masonry__image}
-                    src="/aia/aia3.jpg"
-                    alt="Solo Agency"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                  />
-                </div>
-                <div className={styles.embla__slide}>
-                  <Image
-                    className={styles.masonry__image}
-                    src="/aia/aia4.jpg"
-                    alt="Solo Agency"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                  />
-                </div>
-                <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
-                      <source src="/aia/aiaLycraVision.mp4" />
-                    </video>
-                </div>
-                <div className={styles.embla__slide}>
-                  <Image
-                    className={styles.masonry__image}
-                    src="/aia/aia5.jpg"
-                    alt="Solo Agency"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                  />
-                </div>
-                <div className={styles.embla__slide}>
-                  <Image
-                    className={styles.masonry__image}
-                    src="/aia/aia6.jpg"
-                    alt="Solo Agency"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                  />
-                </div>
-                <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
-                      <source src="/aia/aiaJogginConMusculosa.mp4" />
-                    </video>
-                </div>
-                <div className={styles.embla__slide}>
-                  <Image
-                    className={styles.masonry__image}
-                    src="/aia/aia7.jpg"
-                    alt="Solo Agency"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                  />
-                </div>
-                <div className={styles.embla__slide}>
-                  <Image
-                    className={styles.masonry__image}
-                    src="/aia/aia8.jpg"
-                    alt="Solo Agency"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                  />
-                </div>
-                <div className={styles.embla__slide}>
-                  <Image
-                    className={styles.masonry__image}
-                    src="/aia/aia9.jpg"
-                    alt="Solo Agency"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                  />
-                </div>
-                <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
-                      <source src="/aia/aiaBatallaDeTenis.mp4" />
-                    </video>
-                </div>
+              <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>BE FREE</p>
+              <p className={styles.client__title}>BE AIA</p>
+              <div className={styles.client__imagetext}>
+                <Paragraph value={'ATHLEISURE WEAR FOR EVERYDAY LIFE'} className={styles.client__metrics_container_title} />
+                <video autoPlay muted controls loop playsInline style={{margin: 'auto'}}>
+                  <source src="/aia/aiaLycraVision.mp4" />
+                </video>
+              </div>
             </div>
+            <div className={styles.client__content__container} style={{width: '100%'}}>
+              <div className={styles.masonry__container}>
+                <div className={styles.masonry__galery}>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.masonry__image}
+                      src="/aia/aia.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  {/* <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.masonry__image}
+                      src="/aia/aia2.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div> */}
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
+                        <source src="/aia/aiaReel.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.masonry__image}
+                      src="/aia/aia3.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.masonry__image}
+                      src="/aia/aia4.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
+                        <source src="/aia/aiaLycraVision.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.masonry__image}
+                      src="/aia/aia5.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.masonry__image}
+                      src="/aia/aia6.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
+                        <source src="/aia/aiaJogginConMusculosa.mp4" />
+                      </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.masonry__image}
+                      src="/aia/aia7.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.masonry__image}
+                      src="/aia/aia8.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.masonry__image}
+                      src="/aia/aia9.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                      <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
+                        <source src="/aia/aiaBatallaDeTenis.mp4" />
+                      </video>
+                  </div>
+              </div>
 
+              </div>
             </div>
-          </div>
-          <div className={styles.client__content__container}>
+          {/* <div className={styles.client__content__container}>
             <p className={styles.client__title}>PHOTO</p>
             <div style={{display: 'flex', flexDirection: 'row',}}>
             </div>
@@ -323,7 +323,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <ClientsRed/>
       </div>

@@ -6,7 +6,7 @@ export default function ContactForm() {
   
     const onSubmit = async (event) => {
       event.preventDefault();
-      setResult("Sending....");
+      setResult("Enviando....");
       const formData = new FormData(event.target);
   
       formData.append("access_key", "6604ebc9-8946-4dbe-aec9-5bcfb8f95429");
@@ -19,30 +19,28 @@ export default function ContactForm() {
       const data = await response.json();
   
       if (data.success) {
-        setResult("Form Submitted Successfully");
+        setResult("Muchas gracias!");
         event.target.reset();
       } else {
         console.log("Error", data);
         setResult(data.message);
       }
     };
-  
+
     return (
       <div className={styles.form__container}>
+        <p style={{textAlign: 'left', width: '90%'}} className={styles.contact__page__title}>CONTANOS TU PROPUESTA</p>
         <form onSubmit={onSubmit} className={styles.form}>
-            <input type="hidden" name="access_key" value="6604ebc9-8946-4dbe-aec9-5bcfb8f95429"/>
-            <p>Nombre</p>
-            <input type="text" name="name" required/>
-            <p>Email</p>
-            <input type="email" name="email" required/>
-            <p>Mensaje</p>
-            <textarea name="message" required></textarea>
-  
+          <input type="hidden" name="access_key" value="6604ebc9-8946-4dbe-aec9-5bcfb8f95429"/>
+          {/* <p>Nombre</p> */}
+          <input type="text" name="name" placeholder="name" required/>
+          {/* <p>Email</p> */}
+          <input type="email" name="email" placeholder="email" required/>
+          <p>MENSAJE</p>
+          <textarea name="message" required></textarea>
+          <span style={{height: '2.5rem', color: 'gray'}}>{result}</span>
           <button className={styles.button} type="submit">ENVIAR</button>
-  
         </form>
-        <span>{result}</span>
-  
       </div>
     );
   }
