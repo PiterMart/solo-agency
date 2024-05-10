@@ -31,14 +31,21 @@ export default function Contact() {
           </div>
           <div className={styles.contact__page}>
             <div className={styles.contact__page__details}>
-              <p className={styles.contact__page__title}>CONTACT DETAILS</p>
               <div className={styles.contact__page__details__section}>
-                <p className={styles.subtitle}>PHONE</p>
+                <p className={styles.subtitle}>WHATSAPP</p>
                 <p>+52-33-12345678</p>
               </div>
               <div className={styles.contact__page__details__section}>
-                <p className={styles.subtitle}>EMAIL</p>
-                <p>soloagency6@gmail.com</p>
+                <p className={styles.subtitle}>INSTAGRAM</p>
+                <p>@solo_agency</p>
+              </div>
+              <div className={styles.contact__page__details__section}>
+                <p className={styles.subtitle}>BEHANCE</p>
+                <p>+52-33-12345678</p>
+              </div>
+              <div className={styles.contact__page__details__section}>
+                <p className={styles.subtitle}>LINKEDIN</p>
+                <p>+52-33-12345678</p>
               </div>
             </div>
             <ContactForm/>

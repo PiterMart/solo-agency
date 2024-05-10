@@ -92,7 +92,7 @@ export default function Home() {
                       sizes="100vw"
                     />
                   </div>
-                  {/* <div className={styles.embla__slide}>
+                  <div className={styles.embla__slide}>
                     <Image
                       className={styles.masonry__image}
                       src="/aia/aia2.jpg"
@@ -101,7 +101,7 @@ export default function Home() {
                       height={0}
                       sizes="100vw"
                     />
-                  </div> */}
+                  </div>
                   <div className={styles.embla__slide}>
                       <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
                         <source src="/aia/aiaReel.mp4" />
@@ -196,134 +196,6 @@ export default function Home() {
 
               </div>
             </div>
-          {/* <div className={styles.client__content__container}>
-            <p className={styles.client__title}>PHOTO</p>
-            <div style={{display: 'flex', flexDirection: 'row',}}>
-            </div>
-            <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef}>
-                <div className={styles.embla__container}>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/aia/aia.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/aia/aia2.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/aia/aia3.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/aia/aia4.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/aia/aia5.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/aia/aia6.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/aia/aia7.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/aia/aia8.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/aia/aia9.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <p className={styles.client__title}>VIDEO</p>
-            <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef2}>
-                <div className={styles.embla__container}>
-                  <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/aia/aiaBatallaDeTenis.mp4" />
-                      </video>
-                  </div>
-                  <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/aia/aiaJogginConMusculosa.mp4" />
-                      </video>
-                  </div>
-                  <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/aia/aiaLycraVision.mp4" />
-                      </video>
-                  </div>
-                  <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/aia/aiaReel.mp4" />
-                      </video>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
         <ClientsRed/>
       </div>

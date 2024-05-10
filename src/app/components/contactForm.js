@@ -29,7 +29,7 @@ export default function ContactForm() {
 
     return (
       <div className={styles.form__container}>
-        <p style={{textAlign: 'left', width: '90%'}} className={styles.contact__page__title}>CONTANOS TU PROPUESTA</p>
+        {/* <p style={{textAlign: 'left', width: '90%'}} className={styles.contact__page__title}>CONTANOS TU PROPUESTA</p> */}
         <form onSubmit={onSubmit} className={styles.form}>
           <input type="hidden" name="access_key" value="6604ebc9-8946-4dbe-aec9-5bcfb8f95429"/>
           {/* <p>Nombre</p> */}

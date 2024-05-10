@@ -9,7 +9,6 @@ export default function ClientsRed() {
     return (
         <div className={styles.redirect__background}>
             <div className={styles.redirect__container}>
-                <Link href={'/clients'} style={{width: '100%'}}>
                     <div className={styles.redirect}>
                         {/* <Image
                             src="/FLECHA.svg"
@@ -19,10 +18,11 @@ export default function ClientsRed() {
                             sizes="100vw"
                             style={{height: '70px', width: 'auto', transform: 'rotate(90deg)', margin: 'auto'}}
                         /> */}
+                        <Link href={'/clients'} style={{width: '100%'}}>
                         <p style={{width: '100%'}}>ALL CLIENTS</p>
+                        </Link>
                         {/* <div></div> */}
                     </div>
-                </Link>
             </div>
         </div>
     )
