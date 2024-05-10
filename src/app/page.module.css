@@ -325,7 +325,7 @@
   margin-top: 5rem;
   margin-bottom: 1rem;
   gap: 5rem;
-  font-size: 24px;
+  font-size: 30px;
   justify-content: center;
 }
 .client__info__list{
@@ -848,10 +848,10 @@
 @media (max-width: 700px) {
   /* BASIC HTML*/
   .title{
-    font-size: 7vh;
+    font-size: 5vh;
   }
   .section_title{
-    font-size: 3vh;
+    font-size: 2.5vh;
   }
   .idea{
     width: 90%;
@@ -886,13 +886,13 @@
   /*FOOTER*/
   .footer{
     z-index: 0;
-    margin-top: -15rem;
+    margin-top: 5rem;
   }
   .footer__section_container{
     flex-direction: column;
     border: none;
-    padding-top: 15rem;
-    margin-top: 10rem;
+    padding-top: 0rem;
+    margin-top: 0rem;
   }
   .footer__section{
     margin: 0px;
@@ -1000,7 +1000,7 @@
     padding-right: 0.5rem;
   }
   .client__title{
-    font-size: 4.8rem;
+    font-size: 3.7rem;
     text-align: left;
     margin: 0;
     line-height: 4rem;
@@ -1032,7 +1032,7 @@
   }
   .client__imagetext{
     flex-direction: column;
-    margin-bottom: 5rem;
+    margin-bottom: 0rem;
   }
   .client__imagetext img{
     width: 100%;
@@ -1157,6 +1157,7 @@
   .masonry__galery{
     width: 100%;
     columns: 3 5rem;
+    margin-top: 1rem;
   }
   .masonry__galery img{
     border-radius: 10px;

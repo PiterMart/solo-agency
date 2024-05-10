@@ -47,6 +47,7 @@ export default function Carousel(){
             <p><Link href="/artists">INSTAGRAM</Link></p>
             <p><Link href="/contact">WHATSAPP</Link></p>
             <p><Link href="/exhibitions">LINKEDIN</Link></p>
+            <p><Link href="/exhibitions">BEHANCE</Link></p>
           </div>
         </div>
         <div className={styles.footer__section}>

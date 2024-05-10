@@ -41,11 +41,11 @@ export default function Contact() {
               </div>
               <div className={styles.contact__page__details__section}>
                 <p className={styles.subtitle}>BEHANCE</p>
-                <p>+52-33-12345678</p>
+                <p>-------</p>
               </div>
               <div className={styles.contact__page__details__section}>
                 <p className={styles.subtitle}>LINKEDIN</p>
-                <p>+52-33-12345678</p>
+                <p>-------</p>
               </div>
             </div>
             <ContactForm/>
