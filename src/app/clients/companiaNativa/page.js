@@ -69,7 +69,7 @@ export default function Home() {
         </motion.div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-          <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>COMPAÑIA</p>
+            <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>COMPAÑIA</p>
             <p className={styles.client__title}>NATIVA</p>
             <div className={styles.client__imagetext}>
               <Paragraph value={'DISEÑO, EXCLUSIVIDAD, CALIDAD Y DURABILIDAD'} className={styles.client__metrics_container_title} />

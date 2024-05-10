@@ -354,6 +354,12 @@
 .client__content__container{
   width: 100%;
 }
+.client__content__paidmedia{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
 .client__title{
   font-size: 8rem;
   margin: auto;
@@ -418,7 +424,7 @@
 }
 .client__paid__image{
   width: 25rem;
-  height: auto;
+  height: 100%;
   margin-bottom: 1rem;
   border-radius: 30px;
   padding: 1rem;
@@ -989,6 +995,12 @@
     border-bottom: 1px white solid;
     border-radius: 20px;
   }
+  .client__content__paidmedia{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    padding-right: 0.5rem;
+  }
   .client__title{
     font-size: 4.8rem;
     text-align: left;
@@ -1031,7 +1043,7 @@
     width: 100%;
   }
   .client__paid__image{
-    width: 100%;  
+    width: 18rem;  
   }
   .client__social_media{
     font-size: 2rem;
@@ -1287,7 +1299,7 @@
     width: 100%;
   }
   .client__paid__image{
-    width: 13rem;
+    width: 18rem;
   }
   .client__sale{
     flex-direction: column;

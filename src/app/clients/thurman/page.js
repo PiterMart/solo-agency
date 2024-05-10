@@ -708,30 +708,32 @@ export default function Home() {
           <div className={styles.client__content__container}>
             <p className={styles.client__title}>PAID MEDIA</p>
             <div className={styles.client__content__container}>
-              <Image
-                src="/thurman/thurmanNews.jpg"
-                alt="Solo Agency"
-                width={0}
-                height={0}
-                sizes="100vw"
-                className={styles.client__paid__image}
-              />
-              <Image
-                src="/thurman/thurmanNews2.jpg"
-                alt="Solo Agency"
-                width={0}
-                height={0}
-                sizes="100vw"
-                className={styles.client__paid__image}
-              />
-              <Image
-                src="/thurman/thurmanNews3.jpg"
-                alt="Solo Agency"
-                width={0}
-                height={0}
-                sizes="100vw"
-                className={styles.client__paid__image}
-              />
+              <div className={styles.client__content__paidmedia}>
+                <Image
+                  src="/thurman/thurmanNews.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className={styles.client__paid__image}
+                />
+                <Image
+                  src="/thurman/thurmanNews2.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className={styles.client__paid__image}
+                />
+                <Image
+                  src="/thurman/thurmanNews3.jpg"
+                  alt="Solo Agency"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  className={styles.client__paid__image}
+                />
+              </div>
             </div>
           </div>
         </div>

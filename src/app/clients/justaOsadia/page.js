@@ -74,7 +74,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <div className={styles.masonry__container}>
-              <div className={styles.masonry__galery} style={{width: '95%'}}>
+              <div className={styles.masonry__galery} style={{width: '80%'}}>
                 <div className={styles.embla__slide}>
                     <video autoPlay muted controls loop playsInline>
                       <source src="/justaOsadia/justaOsadia.mp4" />
@@ -85,11 +85,11 @@ export default function Home() {
                       <source src="/justaOsadia/justaOsadia2.mp4" />
                     </video>
                 </div>
-                <div className={styles.embla__slide}>
+                {/* <div className={styles.embla__slide}>
                     <video autoPlay muted controls loop playsInline>
                       <source src="/justaOsadia/justaOsadia3.mp4" />
                     </video>
-                </div>
+                </div> */}
                 <div className={styles.embla__slide}>
                     <video autoPlay muted controls loop playsInline>
                       <source src="/justaOsadia/justaOsadia4.mp4" />

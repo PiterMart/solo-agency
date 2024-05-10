@@ -350,20 +350,30 @@ export default function Home() {
             <p className={styles.client__title}>MEDIA</p>
             <div className={styles.client__imagetext}>
               <Paragraph value={'Tecnología Premium en Dermoestética'} className={styles.client__metrics_container_title} />
-              <video autoPlay muted controls loop playsInline style={{margin: 'auto'}}>
-                <source src="/yellow/yellowPaidMedia.mp4" />
-              </video>
-              <video autoPlay muted controls loop playsInline>
-                      <source src="/yellow/yellowPaidMedia3.mp4" />
+                    <video autoPlay muted controls loop playsInlin>
+                      <source src="/yellow/yellowPaidMedia.mp4" />
                     </video>
             </div>
+            <div className={styles.masonry__container}>
+                <div className={styles.masonry__galery}>
+                  <div className={styles.embla__slide}>
+                    <video autoPlay muted controls loop playsInline style={{margin: 'auto'}} className={styles.masonry__image}>
+                      <source src="/yellow/yellowPaidMedia6.mp4" />
+                    </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
+                      <source src="/yellow/yellowPaidMedia5.mp4" />
+                    </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
+                      <source src="/yellow/yellowPaidMedia3.mp4" />
+                    </video>
+                  </div>
+                </div>
+              </div>
             <div className={styles.client__imagetext}>
-              <video autoPlay muted controls loop playsInline>
-                <source src="/yellow/yellowPaidMedia5.mp4" />
-              </video>
-              <video autoPlay muted controls loop playsInline>
-                <source src="/yellow/yellowPaidMedia6.mp4" />
-              </video>
             </div>
           </div>
         </div>

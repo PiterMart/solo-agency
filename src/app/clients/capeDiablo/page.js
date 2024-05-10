@@ -81,7 +81,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <div className={styles.masonry__container}>
-              <div className={styles.masonry__galery} style={{width: '95%'}}>
+              <div className={styles.masonry__galery} style={{width: '80%'}}>
                 <div className={styles.embla__slide}>
                   <Image
                     src="/capeDiablo/capediablo.jpg"
