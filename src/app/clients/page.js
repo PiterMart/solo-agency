@@ -40,7 +40,7 @@ export default function Clients() {
     { name: 'Cape Diablo', imageLocation: '/logos/capediabloLogo.png', category: 'Fashion', route: '/clients/capeDiablo'},
     { name: 'Cristho', imageLocation: '/logos/cristhoLogo.png', category: 'Fashion', route: '/clients/cristho'},
     { name: 'Justa Osadia', imageLocation: '/logos/justaosadiaLogo.png', category: 'Fashion', route: '/clients/justaOsadia'},
-    { name: 'Pucheta', imageLocation: '/logos/puchetaLogo.png', category: 'Fashion', route: '/cliente/aia'},
+    { name: 'Pucheta', imageLocation: '/logos/puchetaLogo.png', category: 'Fashion', route: '/clients/pucheta'},
     { name: 'HiSilvie', imageLocation: '/logos/hisilvieLogo.png', category: 'Fashion', route: '/clients/hiSilvie' },
     { name: 'UBK', imageLocation: '/logos/ubkLogo.png', category: 'Lifestyle', route: '/clients/ubk' },
     { name: 'Pimux', imageLocation: '/logos/pimuxLogo.png', category: 'Lifestyle', route: '/clients/pimux' },

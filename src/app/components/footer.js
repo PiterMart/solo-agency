@@ -61,7 +61,7 @@ export default function Carousel(){
             style={{width: '20rem', height: 'auto'}}
           /> */}
             {/* <p>NO SOMOS <strong>SOLO</strong> UNA AGENCIA</p> */}
-            <p className={styles.subtitle} style={{margin: '1rem', textAlign: 'left'}}>SUSCRiBITE A NUESTRO NEWSLETTER</p>
+            <p className={styles.subtitle} style={{marginBottom: '1rem', textAlign: 'left'}}>SUSCRiBITE A NUESTRO NEWSLETTER</p>
             <div className={styles.form__container} style={{width: '100%', margin: '0'}}>
               <form onSubmit={onSubmit} className={styles.form} style={{width: '95%'}}>
                 <input type="hidden" name="access_key" value="6604ebc9-8946-4dbe-aec9-5bcfb8f95429"/>

@@ -72,7 +72,7 @@ export default function Home() {
         <div className={styles.client__content}>
         <div className={styles.client__content__container}>
             <div className={styles.client__imagetext}>
-              <Paragraph value={'La intinmidad de tus celebridades favoritas desde su casa'} className={styles.client__metrics_container_title} />
+              <Paragraph value={'LA INTIMIDAD DE TUS CELEBRIDADES FAVORRITAS DESDE SU CASA'} className={styles.client__metrics_container_title} />
               <video autoPlay muted controls loop playsInline>
                 <source src="/celebreinculina/celebreInCulina.mp4" />
               </video>
