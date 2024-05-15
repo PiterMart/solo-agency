@@ -9,7 +9,7 @@ export default function ContactForm() {
       setResult("Enviando....");
       const formData = new FormData(event.target);
   
-      formData.append("access_key", "6604ebc9-8946-4dbe-aec9-5bcfb8f95429");
+      formData.append("access_key", "5708937d-8c8d-405f-b8d6-dbd75827398e");
   
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -29,7 +29,6 @@ export default function ContactForm() {
 
     return (
       <div className={styles.form__container} style={{marginTop: '0px'}}>
-        {/* <p style={{textAlign: 'left', width: '100%',  marginBottom: '1rem'}} className={styles.subtitle}>MAIL</p> */}
         <form onSubmit={onSubmit} className={styles.form}>
           <input type="hidden" name="access_key" value=""/>
           {/* <p>Nombre</p> */}

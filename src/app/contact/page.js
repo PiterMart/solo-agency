@@ -33,7 +33,7 @@ export default function Contact() {
             <div className={styles.contact__page__details}>
               <div className={styles.contact__page__details__section}>
                 <p className={styles.subtitle}>WHATSAPP</p>
-                <a href="https://wa.me/+541131313954" target="blank"><p>+52-33-12345678</p></a>
+                <a href="https://wa.me/+541131313954" target="blank"><p>+54 11 31313954</p></a>
               </div>
               <div className={styles.contact__page__details__section}>
                 <p className={styles.subtitle}>INSTAGRAM</p>
@@ -41,11 +41,11 @@ export default function Contact() {
               </div>
               <div className={styles.contact__page__details__section}>
                 <p className={styles.subtitle}>BEHANCE</p>
-                <a href="" target="blank"><p>-------</p></a>
+                <a href="https://www.behance.net/soloagency6" target="blank"><p>Solo Agency</p></a>
               </div>
               <div className={styles.contact__page__details__section}>
                 <p className={styles.subtitle}>LINKEDIN</p>
-                <a href="" target="blank"><p>-------</p></a>
+                <a href="https://www.linkedin.com/company/soloagency6/" target="blank"><p>Solo Agency</p></a>
               </div>
             </div>
             <ContactForm/>

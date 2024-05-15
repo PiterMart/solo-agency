@@ -13,7 +13,7 @@ export default function Carousel(){
       setResult("Enviando....");
       const formData = new FormData(event.target);
   
-      formData.append("access_key", "6604ebc9-8946-4dbe-aec9-5bcfb8f95429");
+      formData.append("access_key", "5708937d-8c8d-405f-b8d6-dbd75827398e");
   
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -46,25 +46,16 @@ export default function Carousel(){
             <p className={styles.subtitle}>FOLLOW US</p>
             <p><a href="https://www.instagram.com/solo_agency/" target="blank">INSTAGRAM</a></p>
             <p><a href="https://wa.me/+541131313954" target="blank">WHATSAPP</a></p>
-            <p><a href="" target="blank">LINKEDIN</a></p>
-            <p><a href="" target="blank">BEHANCE</a></p>
+            <p><a href="https://www.behance.net/soloagency6" target="blank">LINKEDIN</a></p>
+            <p><a href="https://www.linkedin.com/company/soloagency6/" target="blank">BEHANCE</a></p>
           </div>
         </div>
         <div className={styles.footer__section}>
           <div style={{textAlign: 'center'}}>
-          {/* <Image
-            src="/SOLO AGENCY LOGO TYPO BLANCO.png"
-            alt="Solo Agency"
-            width={0}
-            height={0}
-            sizes="100vw"
-            style={{width: '20rem', height: 'auto'}}
-          /> */}
-            {/* <p>NO SOMOS <strong>SOLO</strong> UNA AGENCIA</p> */}
             <p className={styles.subtitle} style={{marginBottom: '1rem', textAlign: 'left'}}>SUSCRiBITE A NUESTRO NEWSLETTER</p>
             <div className={styles.form__container} style={{width: '100%', margin: '0'}}>
               <form onSubmit={onSubmit} className={styles.form} style={{width: '95%'}}>
-                <input type="hidden" name="access_key" value="6604ebc9-8946-4dbe-aec9-5bcfb8f95429"/>
+                <input type="hidden" name="access_key" value="5708937d-8c8d-405f-b8d6-dbd75827398e"/>
                 {/* <p>Email</p> */}
                 <input type="email" name="email" placeholder="email" required/>
                 <button className={styles.button} type="submit">ENVIAR</button>
