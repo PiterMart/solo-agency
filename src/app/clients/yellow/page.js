@@ -344,15 +344,15 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={styles.client__content}>
+        {/* <div className={styles.client__content}>
           <div className={styles.client__content__container}>
             <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>PAID</p>
             <p className={styles.client__title}>MEDIA</p>
             <div className={styles.client__imagetext}>
               <Paragraph value={'Tecnología Premium en Dermoestética'} className={styles.client__metrics_container_title} />
-                    <video autoPlay muted controls loop playsInlin>
-                      <source src="/yellow/yellowPaidMedia.mp4" />
-                    </video>
+                <video autoPlay muted controls loop playsInlin>
+                  <source src="/yellow/yellowPaidMedia.mp4" />
+                </video>
             </div>
             <div className={styles.masonry__container}>
                 <div className={styles.masonry__galery}>
@@ -374,6 +374,48 @@ export default function Home() {
                 </div>
               </div>
             <div className={styles.client__imagetext}>
+            </div>
+          </div>
+        </div> */}
+        <div className={styles.client__content}>
+          <div className={styles.client__content__container}>
+            <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>PAID</p>
+            <p className={styles.client__title}>MEDIA</p>
+            <div className={styles.client__imagetext}>
+            <video autoPlay muted controls loop playsInlin>
+                  <source src="/yellow/yellowPaidMedia.mp4" />
+                </video>
+              <div className={styles.embla2} style={{margin: 'auto'}}>
+                <div className={styles.embla__viewport} ref={emblaRef4}>
+                  <div className={styles.embla__container}>
+                    <div className={styles.embla__slide2}>
+                      <video autoPlay muted controls loop playsInline style={{margin: 'auto'}} className={styles.embla__slide2}>
+                        <source src="/yellow/yellowPaidMedia6.mp4" />
+                      </video>
+                    </div>
+                    <div className={styles.embla__slide2}>
+                      <video autoPlay muted controls loop playsInline className={styles.embla__slide2}>
+                        <source src="/yellow/yellowPaidMedia5.mp4" />
+                      </video>
+                    </div>
+                    <div className={styles.embla__slide2}>
+                      <video autoPlay muted controls loop playsInline className={styles.embla__slide2}>
+                        <source src="/yellow/yellowPaidMedia3.mp4" />
+                      </video>
+                    </div>
+                    <div className={styles.embla__slide2}>
+                      <video autoPlay muted controls loop playsInline className={styles.embla__slide2}>
+                        <source src="/yellow/yellowPaidMedia2.mp4" />
+                      </video>
+                    </div>
+                    <div className={styles.embla__slide2}>
+                      <video autoPlay muted controls loop playsInline className={styles.embla__slide2}>
+                        <source src="/yellow/yellowPaidMedia4.mp4" />
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

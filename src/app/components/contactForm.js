@@ -28,10 +28,10 @@ export default function ContactForm() {
     };
 
     return (
-      <div className={styles.form__container}>
-        {/* <p style={{textAlign: 'left', width: '90%'}} className={styles.contact__page__title}>CONTANOS TU PROPUESTA</p> */}
+      <div className={styles.form__container} style={{marginTop: '0px'}}>
+        {/* <p style={{textAlign: 'left', width: '100%',  marginBottom: '1rem'}} className={styles.subtitle}>MAIL</p> */}
         <form onSubmit={onSubmit} className={styles.form}>
-          <input type="hidden" name="access_key" value="6604ebc9-8946-4dbe-aec9-5bcfb8f95429"/>
+          <input type="hidden" name="access_key" value=""/>
           {/* <p>Nombre</p> */}
           <input type="text" name="Name" placeholder="name" required/>
           {/* <p>Email</p> */}

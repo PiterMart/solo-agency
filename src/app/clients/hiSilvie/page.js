@@ -212,7 +212,7 @@ export default function Home() {
               <p className={styles.title} style={{color: 'gray'}}>Before</p>
               <Image
                 className={styles.client__image}
-                src="/hisilvie/Graphic 01.jpg"
+                src="/hisilvie/ANTES.png"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -223,7 +223,7 @@ export default function Home() {
               <p className={styles.title}>After</p>
               <Image
                 className={styles.client__image}
-                src="/hisilvie/Graphic 02.jpg"
+                src="/hisilvie/DESPUES.png"
                 alt="Solo Agency"
                 width={0}
                 height={0}
