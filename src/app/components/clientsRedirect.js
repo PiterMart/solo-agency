@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function ClientsRed() {
 
     return (
-        <div className={styles.redirect__background}>
+        <div >
             <div className={styles.redirect__container}>
                     <div className={styles.redirect}>
                         {/* <Image
@@ -21,7 +21,7 @@ export default function ClientsRed() {
                         <Link href={'/clients'} style={{width: '100%'}}>
                         <p style={{width: '100%'}}>ALL CLIENTS</p>
                         </Link>
-                        {/* <div></div> */}
+                        <div style={{background: 'black', height: '150vh', position: 'fixed', zIndex: '-1', width: '100vw', top: '0', left: '0'}}></div>
                     </div>
             </div>
         </div>

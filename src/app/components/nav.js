@@ -46,6 +46,7 @@ export default function Nav() {
                         return (
                             <li key={index}>
                                 <Link 
+                                    onClick={() => {setIsActive(!isActive)}}
                                     href={page.path} 
                                     alt={page.name} 
                                     className={isCurrent(page.path) ? 'page_current__pRY1c' : '' }

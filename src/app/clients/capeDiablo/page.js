@@ -69,7 +69,7 @@ export default function Home() {
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
             <div className={styles.client__imagetext}>
-              <Paragraph value={'Los relojes no solamente marcan el tiempo, sino que son sinónimo de estilo'} className={styles.client__metrics_container_title} />
+              <Paragraph value={'LOS RELOJES NO SOLAMENTE MARCAN EL TIEMPO, SINO QUE SON SINÓNIMO DE ESTILO'} className={styles.client__metrics_container_title} />
               <Image
                 src="/capeDiablo/capediablo.jpg"
                 alt="Solo Agency"

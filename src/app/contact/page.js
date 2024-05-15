@@ -33,19 +33,19 @@ export default function Contact() {
             <div className={styles.contact__page__details}>
               <div className={styles.contact__page__details__section}>
                 <p className={styles.subtitle}>WHATSAPP</p>
-                <p>+52-33-12345678</p>
+                <a href="https://wa.me/+541131313954" target="blank"><p>+52-33-12345678</p></a>
               </div>
               <div className={styles.contact__page__details__section}>
                 <p className={styles.subtitle}>INSTAGRAM</p>
-                <p>@solo_agency</p>
+                <a href="https://www.instagram.com/solo_agency/" target="blank"><p>@solo_agency</p></a>
               </div>
               <div className={styles.contact__page__details__section}>
                 <p className={styles.subtitle}>BEHANCE</p>
-                <p>-------</p>
+                <a href="" target="blank"><p>-------</p></a>
               </div>
               <div className={styles.contact__page__details__section}>
                 <p className={styles.subtitle}>LINKEDIN</p>
-                <p>-------</p>
+                <a href="" target="blank"><p>-------</p></a>
               </div>
             </div>
             <ContactForm/>

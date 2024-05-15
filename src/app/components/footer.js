@@ -34,7 +34,7 @@ export default function Carousel(){
   return(
     <div className={styles.footer}>
       <div className={styles.footer__section_container}>
-        <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-around', gap: '5rem'}}>
+        <div className={styles.footer__section__navs}>
           <div className={styles.footer__section}>
             <p className={styles.subtitle}>KNOW MORE</p>
             <p><Link href="/about">ABOUT US</Link></p>
@@ -44,10 +44,10 @@ export default function Carousel(){
           </div>
           <div className={styles.footer__section}>
             <p className={styles.subtitle}>FOLLOW US</p>
-            <p><Link href="/artists">INSTAGRAM</Link></p>
-            <p><Link href="/contact">WHATSAPP</Link></p>
-            <p><Link href="/exhibitions">LINKEDIN</Link></p>
-            <p><Link href="/exhibitions">BEHANCE</Link></p>
+            <p><a href="https://www.instagram.com/solo_agency/" target="blank">INSTAGRAM</a></p>
+            <p><a href="https://wa.me/+541131313954" target="blank">WHATSAPP</a></p>
+            <p><a href="" target="blank">LINKEDIN</a></p>
+            <p><a href="" target="blank">BEHANCE</a></p>
           </div>
         </div>
         <div className={styles.footer__section}>

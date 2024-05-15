@@ -30,6 +30,8 @@ export default function Home() {
   const [emblaRef4,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
   const [emblaRef5,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
   const [emblaRef6,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
+  const [emblaRef7,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
+  const [emblaRef8,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
 
   return (
     <main className={styles.main}>
@@ -78,7 +80,7 @@ export default function Home() {
           <div className={styles.client__content__container}>
             <p className={styles.client__title}>E-COMMERCE</p>
             <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef5}>
+              <div className={styles.embla__viewport} ref={emblaRef}>
                 <div className={styles.embla__container}>
                   <div className={styles.embla__slide}>
                     <Image
@@ -260,7 +262,7 @@ export default function Home() {
             <p className={styles.client__title}>CAMPAÑA ELEMENTOS</p>
             <p className={styles.client__title} style={{color: 'gray'}}>2023</p>
             <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef4}>
+              <div className={styles.embla__viewport} ref={emblaRef2}>
                 <div className={styles.embla__container}>
                   <div className={styles.embla__slide}>
                     <Image
@@ -337,7 +339,7 @@ export default function Home() {
             </div>
             <p className={styles.client__title} >2024</p>
             <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef}>
+              <div className={styles.embla__viewport} ref={emblaRef3}>
                 <div className={styles.embla__container}>
                 <div className={styles.embla__slide}>
                     <Image
@@ -408,7 +410,7 @@ export default function Home() {
               <Paragraph value={paragraph} />
             </div>
             <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef2}>
+              <div className={styles.embla__viewport} ref={emblaRef4}>
                 <div className={styles.embla__container}>
                   <div className={styles.embla__slide}>
                       <video autoPlay muted controls loop playsInline className={styles.client__image}>
@@ -520,7 +522,7 @@ export default function Home() {
               <Paragraph value={paragraph} />
             </div>
             <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef3}>
+              <div className={styles.embla__viewport} ref={emblaRef5}>
                 <div className={styles.embla__container}>
                   <div className={styles.embla__slide}>
                       <video autoPlay muted controls loop playsInline className={styles.client__image}>
@@ -646,7 +648,7 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef3}>
+              <div className={styles.embla__viewport} ref={emblaRef6}>
                 <div className={styles.embla__container}>
                   <div className={styles.embla__slide}>
                     <Image
@@ -698,7 +700,7 @@ export default function Home() {
             <p className={styles.client__title}>RUNWAY TAKEOVER</p>
             <p className={styles.client__title} style={{color: 'gray'}}>MARTIN FIERRO</p>
             <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef4}>
+              <div className={styles.embla__viewport} ref={emblaRef7}>
                 <div className={styles.embla__container}>
                   <div className={styles.embla__slide}>
                     <Image
@@ -796,7 +798,7 @@ export default function Home() {
             </div>
             <p className={styles.client__title} >RESILIENCIA</p>
             <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef}>
+              <div className={styles.embla__viewport} ref={emblaRef8}>
                 <div className={styles.embla__container}>
                 <div className={styles.embla__slide}>
                     <Image
@@ -893,7 +895,6 @@ export default function Home() {
                       sizes="100vw"
                     />
                   </div>
-
                 </div>
               </div>
             </div>

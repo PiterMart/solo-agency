@@ -48,7 +48,7 @@
   border: none;
   margin: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.362);
-  width: 25%;
+  width: 8em;
   align-self: flex-end;
   font-weight: 600;
 }
@@ -69,15 +69,22 @@
 }
 .button2{
   font-size: 1.5rem;
-  /* margin-top: 11.5rem;
-  margin-left: -15rem; */
   cursor: pointer;
   font-weight: 600;
   border: 1px solid rgba(255, 255, 255, 0.362);
   border-radius: 20px;
   padding: 1rem;
   padding-top: 1.5rem;
-  margin: 2rem;
+  background-image: linear-gradient(to right, #23252670 0%, #41434569  51%, #23252665  100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #000000;
+  margin: 1rem;
+  transition: 0.25s ease-out;
+}
+.button2:hover{
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 .button2::after {
   content: '';
@@ -88,9 +95,10 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: rgb(170, 170, 170);
+  background-color: rgba(170, 170, 170, 0.459);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
+  border-radius: 10px;
 }
 .button2:hover::after {
   transform: scaleX(1);
@@ -195,6 +203,12 @@
   box-shadow: black;
   color: #ffffff69;
 }
+.footer__section__navs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 5rem;
+}
 
 /* PAGE CONTAINER */
 .page{
@@ -268,7 +282,7 @@
   width: 100%;
   margin-left: 2rem;
   margin-right: 2rem;
-  justify-content: space-between;
+  justify-content: left;
   overflow: hidden;
   align-self: start;
   gap: 5rem;
@@ -351,7 +365,7 @@
   border-radius: 20px;
 }
 .client__content__container{
-  width: 90%;
+  width: 99%;
 }
 .client__content__paidmedia{
   display: flex;
@@ -588,6 +602,7 @@
   font-family: Aron;
   font-size: 1rem;
   padding: 1rem;
+  border-radius: 10px;
 }
 .form input{
   height: 5vh;
@@ -596,6 +611,7 @@
   font-family: Aron;
   font-size: 1rem;
   padding: 1rem;
+  border-radius: 10px;
 }
 
 /*EMBLA CAROUSEL*/
@@ -737,7 +753,7 @@
 }
 
 .paragraph{
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 40px;
   align-self: center;
   display: flex;
@@ -787,14 +803,14 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  font-size: 1.7rem;
+  font-size: 2.3rem;
   border: 1px solid rgba(255, 255, 255, 0.362);
   border-radius: 30px;
   background-color: rgba(0, 0, 0, 0.454);
   margin: auto;
   margin-top: 2rem;
-  width: 40%;
-  padding: 3rem;
+  width: 20em;
+  padding: 2rem;
   padding-bottom: 0px;
   text-align: center;
 }
@@ -858,6 +874,7 @@
     font-size: 2.9rem;
     padding: 0px;
     z-index: 4;
+    margin-left: 1rem;
   }
   .button2{
     font-size: 1rem;
@@ -885,7 +902,7 @@
   }
   /*FOOTER*/
   .footer{
-    z-index: 0;
+    z-index: 1;
     margin-top: 5rem;
   }
   .footer__section_container{
@@ -899,6 +916,12 @@
     margin-top: 2rem;
     padding: 1rem;
     border-left: 1px solid rgba(255, 255, 255, 0.362);
+  }
+  .footer__section__navs{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 3em;
   }
 
   /*PAGE CONTAINER*/
