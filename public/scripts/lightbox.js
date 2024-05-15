@@ -16,9 +16,8 @@ document.body.appendChild(lightbox)
                 lightbox.appendChild(img)
             })
         })
-
-
-lightbox.addEventListener('click', e => {
+        
+  lightbox.addEventListener('click', e => {
   if (e.target !== e.currentTarget) return
   lightbox.classList.remove('page_lightbox__active__dviH9')
   lightbox.classList.add('page_lightbox__OJ8S1')

@@ -46,8 +46,8 @@ export default function Carousel(){
             <p className={styles.subtitle}>FOLLOW US</p>
             <p><a href="https://www.instagram.com/solo_agency/" target="blank">INSTAGRAM</a></p>
             <p><a href="https://wa.me/+541131313954" target="blank">WHATSAPP</a></p>
-            <p><a href="https://www.behance.net/soloagency6" target="blank">LINKEDIN</a></p>
-            <p><a href="https://www.linkedin.com/company/soloagency6/" target="blank">BEHANCE</a></p>
+            <p><a href="https://www.linkedin.com/company/soloagency6/" target="blank">LINKEDIN</a></p>
+            <p><a href="https://www.behance.net/soloagency6" target="blank">BEHANCE</a></p>
           </div>
         </div>
         <div className={styles.footer__section}>
