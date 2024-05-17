@@ -29,35 +29,34 @@ export default function Home() {
           duration: 0.75,
           x: { duration: 0.25 }
           
-          }}>
-            <div>
-              <Image
-              className={styles.client__page__logo}
-              src="/logos/sassoneLogo.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '400px', marginBottom: '0rem'}}
-              />
-            </div>
-            <div className={styles.client__info}>
-              <p>
-              Cementando sus raíces en 1920, Sassone más que una empresa, nace como una puerta hacia el mundo, conectando culturas. Siendo empresa líder en despachos, Sassone busca una nueva imagen que comunique su confiabilidad, experiencia y sobre todo la grandilocuencia que esta ejerce en el rubro. Es así como Solo Agency, le propone una nueva identidad de marca. 
-              </p>
-            </div>
-            <div className={styles.client__info}>
+        }}>
           <div>
-            
-            <p className={styles.subtitle}>SERVICIOS</p>
+            <Image
+            className={styles.client__page__logo}
+            src="/logos/sassoneLogo.png"
+            alt="Solo Agency"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto', maxWidth: '400px', marginBottom: '0rem'}}
+            />
           </div>
-          <div className={styles.client__info__list}>
+          <div className={styles.client__info}>
+            <p>
+            Cementando sus raíces en 1920, Sassone más que una empresa, nace como una puerta hacia el mundo, conectando culturas. Siendo empresa líder en despachos, Sassone busca una nueva imagen que comunique su confiabilidad, experiencia y sobre todo la grandilocuencia que esta ejerce en el rubro. Es así como Solo Agency, le propone una nueva identidad de marca. 
+            </p>
+          </div>
+          <div className={styles.client__info}>
+            <div>
+              <p className={styles.subtitle}>SERVICIOS</p>
+            </div>
+            <div className={styles.client__info__list}>
               <p>‐ Brand Identity</p>
             </div>
-        </div>
+          </div>
         </motion.div>
         <div className={styles.client__content}>
-        <div className={styles.client__content__container}>
+          <div className={styles.client__content__container}>
             <Image
               src="/sassone/sassoneBrandbook1.jpg"
               alt="Solo Agency"

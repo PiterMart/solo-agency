@@ -12,8 +12,6 @@ import ClientsRed from "@/app/components/clientsRedirect";
 
 const  paragraph = "Medicina Estética Facial y Corporal"
 
-
-
 export default function Home() {
 
   useEffect( () => {
@@ -43,37 +41,34 @@ export default function Home() {
           ease: [0.65, 0, 0.35, 1],
           duration: 0.75,
           x: { duration: 0.25 }
-          
-          }}>
-            <div>
-              <Image
-              className={styles.client__page__logo}
-              src="/logos/yellowLogo.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
-              />
-            </div>
-            <div className={styles.client__info}>
-              <p>
-                Servicio 360. Desde creative strategy, social media management, content creation y graphic design acompañamos en todos los desafíos que comprenden comunicación visual y digital de la marca. 
-              </p>
-            </div>
-            <div className={styles.client__info}>
+        }}>
           <div>
-            
-            <p className={styles.subtitle}>SERVICIOS</p>
+            <Image
+            className={styles.client__page__logo}
+            src="/logos/yellowLogo.png"
+            alt="Solo Agency"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
+            />
           </div>
-          <div className={styles.client__info__list}>
-              <p>‐ Creative Strategy</p>
-              <p>‐ Sovial Media</p>
-              <p>‐ Paid Media</p>
-              <p>‐ Content</p>
+          <div className={styles.client__info}>
+            <p>
+              Servicio 360. Desde creative strategy, social media management, content creation y graphic design acompañamos en todos los desafíos que comprenden comunicación visual y digital de la marca. 
+            </p>
+          </div>
+          <div className={styles.client__info}>
+            <div>
+              <p className={styles.subtitle}>SERVICIOS</p>
             </div>
-
-        </div>
+            <div className={styles.client__info__list}>
+                <p>‐ Creative Strategy</p>
+                <p>‐ Sovial Media</p>
+                <p>‐ Paid Media</p>
+                <p>‐ Content</p>
+              </div>
+          </div>
         </motion.div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
@@ -344,39 +339,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <div className={styles.client__content}>
-          <div className={styles.client__content__container}>
-            <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>PAID</p>
-            <p className={styles.client__title}>MEDIA</p>
-            <div className={styles.client__imagetext}>
-              <Paragraph value={'Tecnología Premium en Dermoestética'} className={styles.client__metrics_container_title} />
-                <video autoPlay muted controls loop playsInlin>
-                  <source src="/yellow/yellowPaidMedia.mp4" />
-                </video>
-            </div>
-            <div className={styles.masonry__container}>
-                <div className={styles.masonry__galery}>
-                  <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline style={{margin: 'auto'}} className={styles.masonry__image}>
-                      <source src="/yellow/yellowPaidMedia6.mp4" />
-                    </video>
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
-                      <source src="/yellow/yellowPaidMedia5.mp4" />
-                    </video>
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline className={styles.masonry__image}>
-                      <source src="/yellow/yellowPaidMedia3.mp4" />
-                    </video>
-                  </div>
-                </div>
-              </div>
-            <div className={styles.client__imagetext}>
-            </div>
-          </div>
-        </div> */}
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
             <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>PAID</p>

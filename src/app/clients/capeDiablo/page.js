@@ -39,32 +39,31 @@ export default function Home() {
           ease: [0.65, 0, 0.35, 1],
           duration: 0.75,
           x: { duration: 0.25 }
-          }}>
-            <div>
-              <Image
-              className={styles.client__page__logo}
-              src="/logos/capediabloLogo.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '200px', marginTop: '5rem', marginBottom: '-2rem'}}
-              />
-            </div>
-            <div className={styles.client__info}>
-              <p>
-                Marca norteamericana que aterriza en buenos aires bajo el lema de: “Los relojes no solamente marcan el tiempo, sino que son sinónimo de estilo”. Con esta premisa se han desarrollado piezas de fotografía y video con fines publicitarios y de branding.  
-              </p>
-            </div>
-            <div className={styles.client__info}>
+        }}>
           <div>
-            
-            <p className={styles.subtitle}>SERVICIOS</p>
+            <Image
+            className={styles.client__page__logo}
+            src="/logos/capediabloLogo.png"
+            alt="Solo Agency"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto', maxWidth: '200px', marginTop: '5rem', marginBottom: '-2rem'}}
+            />
           </div>
-          <div className={styles.client__info__list}>
-            <p>‐ Content</p>
+          <div className={styles.client__info}>
+            <p>
+              Marca norteamericana que aterriza en buenos aires bajo el lema de: “Los relojes no solamente marcan el tiempo, sino que son sinónimo de estilo”. Con esta premisa se han desarrollado piezas de fotografía y video con fines publicitarios y de branding.  
+            </p>
           </div>
-        </div>
+          <div className={styles.client__info}>
+            <div>
+              <p className={styles.subtitle}>SERVICIOS</p>
+            </div>
+            <div className={styles.client__info__list}>
+              <p>‐ Content</p>
+            </div>
+          </div>
         </motion.div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>

@@ -39,35 +39,32 @@ export default function Home() {
           ease: [0.65, 0, 0.35, 1],
           duration: 0.75,
           x: { duration: 0.25 }
-          
-          }}>
-            <div>
-              <Image
-              className={styles.client__page__logo}
-              src="/logos/celebreinculinaLogo.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px', marginBottom: '-5rem'}}
-              />
-            </div>
-            <div className={styles.client__info}>
-              <p>
-                Producción audiovisual y estrategia de contenido gastronómico mensual para audiencia 
-                de redes sociales y streaming, instagram & Youtube
-              </p>
-            </div>
-            <div className={styles.client__info}>
+        }}>
           <div>
-            
-            <p className={styles.subtitle}>SERVICIOS</p>
+            <Image
+            className={styles.client__page__logo}
+            src="/logos/celebreinculinaLogo.png"
+            alt="Solo Agency"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto', maxWidth: '500px', marginBottom: '-5rem'}}
+            />
           </div>
-          <div className={styles.client__info__list}>
+          <div className={styles.client__info}>
+            <p>
+              Producción audiovisual y estrategia de contenido gastronómico mensual para audiencia 
+              de redes sociales y streaming, instagram & Youtube
+            </p>
+          </div>
+          <div className={styles.client__info}>
+            <div>
+              <p className={styles.subtitle}>SERVICIOS</p>
+            </div>
+            <div className={styles.client__info__list}>
               <p>‐ Content</p>
             </div>
-
-        </div>
+          </div>
         </motion.div>
         <div className={styles.client__content}>
         <div className={styles.client__content__container}>

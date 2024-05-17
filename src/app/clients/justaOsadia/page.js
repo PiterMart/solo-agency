@@ -40,32 +40,31 @@ export default function Home() {
           duration: 0.75,
           x: { duration: 0.25 }
           
-          }}>
-            <div>
-              <Image
-              className={styles.client__page__logo}
-              src="/logos/justaosadiaLogo.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
-              />
-            </div>
-            <div className={styles.client__info}>
-              <p>
-              Marca de moda Argentina, recurre a Solo Agency para la producción audiovisual de la cápsula SS24.  
-              </p>
-            </div>
-            <div className={styles.client__info}>
+        }}>
           <div>
-            
-            <p className={styles.subtitle}>SERVICIOS</p>
+            <Image
+            className={styles.client__page__logo}
+            src="/logos/justaosadiaLogo.png"
+            alt="Solo Agency"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
+            />
           </div>
-          <div className={styles.client__info__list}>
+          <div className={styles.client__info}>
+            <p>
+              Marca de moda Argentina, recurre a Solo Agency para la producción audiovisual de la cápsula SS24.  
+            </p>
+          </div>
+          <div className={styles.client__info}>
+            <div>
+              <p className={styles.subtitle}>SERVICIOS</p>
+            </div>
+            <div className={styles.client__info__list}>
               <p>‐ Content</p>
             </div>
-        </div>
+          </div>
         </motion.div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>

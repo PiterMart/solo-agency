@@ -40,34 +40,32 @@ export default function Home() {
           duration: 0.75,
           x: { duration: 0.25 }
           
-          }}>
-            <div >
-              <Image
-              className={styles.client__page__logo}
-              src="/logos/elgourmetLogo.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '300px', marginTop: '5rem', marginBottom: '-5rem'}}
-              />
-            </div>
-            <div className={styles.client__info}>
-              <p>
-                De la idea a la realidad llevamos a cabo la creatividad y producción de la campaña digital gastronómica de “ruta 40’. 
-              </p>
-            </div>
-            <div className={styles.client__info}>
-          <div>
-            
-            <p className={styles.subtitle}>SERVICIOS</p>
+        }}>
+          <div >
+            <Image
+            className={styles.client__page__logo}
+            src="/logos/elgourmetLogo.png"
+            alt="Solo Agency"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto', maxWidth: '300px', marginTop: '5rem', marginBottom: '-5rem'}}
+            />
           </div>
-          <div className={styles.client__info__list}>
-          <p>‐ Creative Strategy</p>
+          <div className={styles.client__info}>
+            <p>
+              De la idea a la realidad llevamos a cabo la creatividad y producción de la campaña digital gastronómica de “ruta 40’. 
+            </p>
+          </div>
+          <div className={styles.client__info}>
+            <div>
+              <p className={styles.subtitle}>SERVICIOS</p>
+            </div>
+            <div className={styles.client__info__list}>
+              <p>‐ Creative Strategy</p>
               <p>‐ Content</p>
             </div>
-
-        </div>
+          </div>
         </motion.div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>

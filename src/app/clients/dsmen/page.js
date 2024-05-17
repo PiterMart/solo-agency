@@ -28,7 +28,6 @@ export default function Home() {
   const [emblaRef5,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
   const [emblaRef6,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true'})])
 
-
   return (
     <main className={styles.main}>
       <Script type="text/javascript" src="/scripts/lightbox.js"/>
@@ -39,36 +38,34 @@ export default function Home() {
           ease: [0.65, 0, 0.35, 1],
           duration: 0.75,
           x: { duration: 0.25 }
-          
-          }}>
-            <div>
-              <Image
-              className={styles.client__page__logo}
-              src="/logos/dsmenLogo.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px'}}
-              />
-            </div>
-            <div className={styles.client__info}>
-              <p>
-              Reconocida marca de moda Argentina recurre a nuestro servicio 360. Desde creative strategy, social media management, content creation y paid media (Meta ads) acompañamos en todos los desafíos que comprenden comunicación visual y digital.
-              </p>
-            </div>
-            <div className={styles.client__info}>
+        }}>
           <div>
-            <p className={styles.subtitle}>SERVICIOS</p>
+            <Image
+            className={styles.client__page__logo}
+            src="/logos/dsmenLogo.png"
+            alt="Solo Agency"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto', maxWidth: '500px'}}
+            />
           </div>
-          <div className={styles.client__info__list}>
+          <div className={styles.client__info}>
+            <p>
+              Reconocida marca de moda Argentina recurre a nuestro servicio 360. Desde creative strategy, social media management, content creation y paid media (Meta ads) acompañamos en todos los desafíos que comprenden comunicación visual y digital.
+            </p>
+          </div>
+          <div className={styles.client__info}>
+            <div>
+              <p className={styles.subtitle}>SERVICIOS</p>
+            </div>
+            <div className={styles.client__info__list}>
               <p>‐ Creative Strategy</p>
               <p>‐ Social Media</p>
               <p>‐ Content</p>
               <p>‐ Paid Media</p>
             </div>
-
-        </div>
+          </div>
         </motion.div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>

@@ -2,7 +2,6 @@
 import styles from "../page.module.css";
 import Link from "next/link";
 import '../globals.css'
-import Image from "next/image";
 
 export default function ClientsRed() {
 
@@ -10,14 +9,6 @@ export default function ClientsRed() {
         <div >
             <div className={styles.redirect__container}>
                     <div className={styles.redirect}>
-                        {/* <Image
-                            src="/FLECHA.svg"
-                            alt="Solo Agency"
-                            width={0}
-                            height={0}
-                            sizes="100vw"
-                            style={{height: '70px', width: 'auto', transform: 'rotate(90deg)', margin: 'auto'}}
-                        /> */}
                         <Link href={'/clients'} style={{width: '100%'}}>
                         <p style={{width: '100%'}}>ALL CLIENTS</p>
                         </Link>

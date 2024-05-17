@@ -58,23 +58,21 @@ export default function Home() {
             </div>
             <div className={styles.client__info}>
               <p>
-              Marca referente del diseño emergente argentino.
-              Desde creative strategy, social media management y content creation acompañamos a la marca en todos los desafíos que comprenden comunicación visual y digital.
- 
+                Marca referente del diseño emergente argentino.
+                Desde creative strategy, social media management y content creation acompañamos a la marca en todos los desafíos que comprenden comunicación visual y digital.
               </p>
             </div>
-            <div className={styles.client__info}>
-          <div>
-            
-            <p className={styles.subtitle}>SERVICIOS</p>
-          </div>
+          <div className={styles.client__info}>
+            <div> 
+              <p className={styles.subtitle}>SERVICIOS</p>
+            </div>
             <div className={styles.client__info__list}>
               <p>‐ Branding</p>
               <p>‐ Creative Strategy</p>
               <p>- Social Media</p>
               <p>- Content</p>
             </div>
-        </div>
+          </div>
         </motion.div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>

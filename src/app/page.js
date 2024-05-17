@@ -62,9 +62,6 @@ export default function Home() {
             <p>
               NO SOMOS <strong>SOLO</strong> UNA AGENCIA
             </p>
-            {/* <p>
-              somos todo eso que queres contar
-            </p> */}
             <div style={{display: 'flex', flexDirection: 'row'}}>
               <p className={styles.button2} style={{textAlign: 'left'}}><Link href="/about">ABOUT US</Link></p>
             </div>

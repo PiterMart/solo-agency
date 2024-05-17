@@ -46,39 +46,36 @@ export default function Home() {
           transition={{
           ease: [0.65, 0, 0.35, 1],
           duration: 0.75,
-          x: { duration: 0.25 }
-          
-          }}>
-            <div>
-              <Image
-              className={styles.client__page__logo}
-              src="/logos/dollstoreLogo.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
-              />
-            </div>
-            <div className={styles.client__info}>
+          x: { duration: 0.25 } 
+        }}>
+          <div>
+            <Image
+            className={styles.client__page__logo}
+            src="/logos/dollstoreLogo.png"
+            alt="Solo Agency"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
+            />
+          </div>
+          <div className={styles.client__info}>
             <p>
               Reconocida marca de moda Argentina recurre a nuestro servicio 360. Desde creative strategy, social media management, content creation y paid media (Meta ads) acompañamos en todos los desafíos que comprenden comunicación visual y digital.
-              </p>
-            </div>
-            <div className={styles.client__info}>
-          <div>
-            
-            <p className={styles.subtitle}>SERVICIOS</p>
+            </p>
           </div>
-          <div className={styles.client__info__list}>
+          <div className={styles.client__info}>
+            <div>
+              <p className={styles.subtitle}>SERVICIOS</p>
+            </div>
+            <div className={styles.client__info__list}>
               <p>‐ Creative Strategy</p>
               <p>‐ Social Media</p>
               <p>‐ Content</p>
               <p>‐ Paid Media</p>
               <p>‐ 3D Design</p>
             </div>
-
-        </div>
+          </div>
         </motion.div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>

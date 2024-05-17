@@ -41,34 +41,34 @@ export default function Home() {
           ease: [0.65, 0, 0.35, 1],
           duration: 0.75,
           x: { duration: 0.25 }
-          }}>
-            <div>
-              <Image
-              className={styles.client__page__logo}
-              src="/logos/dadesignLogo.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
-              />
-            </div>
-            <div className={styles.client__info}>
-              <p>
-                Pintando los hogares de cultura, da design recurre a solo agency para democratizar su mensaje en redes sociales. Bajo los servicios de creative strategy, social media management y content creation realizamos una comunicación asertiva para generar una pauta publicitaria en Meta ads que luego se traduciría en ventas. 
-              </p>
-            </div>
-            <div className={styles.client__info}>
+        }}>
           <div>
-            <p className={styles.subtitle}>SERVICIOS</p>
+            <Image
+            className={styles.client__page__logo}
+            src="/logos/dadesignLogo.png"
+            alt="Solo Agency"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
+            />
           </div>
-          <div className={styles.client__info__list}>
+          <div className={styles.client__info}>
+            <p>
+              Pintando los hogares de cultura, da design recurre a solo agency para democratizar su mensaje en redes sociales. Bajo los servicios de creative strategy, social media management y content creation realizamos una comunicación asertiva para generar una pauta publicitaria en Meta ads que luego se traduciría en ventas. 
+            </p>
+          </div>
+          <div className={styles.client__info}>
+            <div>
+              <p className={styles.subtitle}>SERVICIOS</p>
+            </div>
+            <div className={styles.client__info__list}>
               <p>‐ Creative Strategy</p>
               <p>- Social Media</p>
               <p>- Content</p>
               <p>- Paid Media</p>
             </div>
-        </div>
+          </div>
         </motion.div>
         <div className={styles.client__content__container}>
           <div className={styles.client__content}>

@@ -3,7 +3,6 @@ import styles from "../page.module.css";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-
 export default function Flecha({isActive, setIsActive}) {
 
     return (

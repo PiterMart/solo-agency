@@ -67,7 +67,6 @@ export default function Home() {
               <p>‐ Production</p>
               <p>‐ Styling</p>
             </div>
-
         </div>
         </motion.div>
         <div className={styles.client__content}>

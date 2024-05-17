@@ -15,7 +15,6 @@ const  paragraph = "GRAN TRAYECTORIA EN EL RUBRO INMOBILIARIO"
 export default function Home() {
 
   useEffect( () => {
-    
     (
       async () => {
         const LocomotiveScroll = (await import('locomotive-scroll')).default;
@@ -42,26 +41,25 @@ export default function Home() {
           duration: 0.75,
           x: { duration: 0.25 }
           
-          }}>
-            <div>
-              <Image
-              className={styles.client__page__logo}
-              src="/logos/lagouardeLogo.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
-              />
-            </div>
-            <div className={styles.client__info}>
-              <p>
+        }}>
+          <div>
+            <Image
+            className={styles.client__page__logo}
+            src="/logos/lagouardeLogo.png"
+            alt="Solo Agency"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
+            />
+          </div>
+          <div className={styles.client__info}>
+            <p>
               Con más de 40 años en el rubro, la reconocida inmobiliaria acude a nosotros para afianzar la comunicación y presencia en redes sociales. Creative strategy, Social media, Paid media son las herramientas que llevan a Lagouarde a conquistar terrenos digitales.  
-              </p>
-            </div>
+            </p>
+          </div>
             <div className={styles.client__info}>
           <div>
-            
             <p className={styles.subtitle}>SERVICIOS</p>
           </div>
             <div className={styles.client__info__list}>
@@ -70,7 +68,7 @@ export default function Home() {
               <p>- Content</p>
               <p>- Paid Media</p>
             </div>
-        </div>
+          </div>
         </motion.div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>

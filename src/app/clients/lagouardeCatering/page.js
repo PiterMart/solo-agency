@@ -37,39 +37,37 @@ export default function Home() {
           transition={{
           ease: [0.65, 0, 0.35, 1],
           duration: 0.75,
-          x: { duration: 0.25 }
-          
-          }}>
-            <div>
-              <Image
-              className={styles.client__page__logo}
-              src="/logos/lagouardeLogo.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '400px', marginBottom: '-3ssssssssssssssssssrem'}}
-              />
-            </div>
-            <div className={styles.client__info}>
-              <p>
-                Brandbook design development. Brand kit essentials. Haciendo énfasis en sus cimientos basados en la gastronomía de lujo desarrollamos el re-branding y la identidad visual de la marca.
-                Social media management.
-                Junto a diseño gráfico y comunicación estratégica reforzamos sus canales digitales para los nuevos desafíos del mercado.
-              </p>
-            </div>
-            <div className={styles.client__info}>
+          x: { duration: 0.25 } 
+        }}>
           <div>
-            
-            <p className={styles.subtitle}>SERVICIOS</p>
+            <Image
+            className={styles.client__page__logo}
+            src="/logos/lagouardeLogo.png"
+            alt="Solo Agency"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto', maxWidth: '400px', marginBottom: '-3ssssssssssssssssssrem'}}
+            />
           </div>
-          <div className={styles.client__info__list}>
-            <p>‐ Branding</p>
-            <p>‐ Creative Strategy</p>
-            <p>‐ Social Media</p>
-            <p>‐ Content</p>
+          <div className={styles.client__info}>
+            <p>
+              Brandbook design development. Brand kit essentials. Haciendo énfasis en sus cimientos basados en la gastronomía de lujo desarrollamos el re-branding y la identidad visual de la marca.
+              Social media management.
+              Junto a diseño gráfico y comunicación estratégica reforzamos sus canales digitales para los nuevos desafíos del mercado.
+            </p>
           </div>
-        </div>
+          <div className={styles.client__info}>
+            <div>
+              <p className={styles.subtitle}>SERVICIOS</p>
+            </div>
+            <div className={styles.client__info__list}>
+              <p>‐ Branding</p>
+              <p>‐ Creative Strategy</p>
+              <p>‐ Social Media</p>
+              <p>‐ Content</p>
+            </div>
+          </div>
         </motion.div>
         <div className={styles.client__content}>
         <div className={styles.client__content__container}>

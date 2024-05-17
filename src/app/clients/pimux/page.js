@@ -32,13 +32,13 @@ export default function Home() {
           }}>
             <div>
               <Image
-              className={styles.client__page__logo}
-              src="/logos/pimuxLogo.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '400px', marginBottom: '0rem'}}
+                className={styles.client__page__logo}
+                src="/logos/pimuxLogo.png"
+                alt="Solo Agency"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: 'auto', maxWidth: '400px', marginBottom: '0rem'}}
               />
             </div>
             <div className={styles.client__info}>
@@ -47,13 +47,12 @@ export default function Home() {
               </p>
             </div>
             <div className={styles.client__info}>
-          <div>
-            
-            <p className={styles.subtitle}>SERVICIOS</p>
-          </div>
-          <div className={styles.client__info__list}>
-              <p>‐ Branding</p>
-            </div>
+              <div>
+                <p className={styles.subtitle}>SERVICIOS</p>
+              </div>
+              <div className={styles.client__info__list}>
+                <p>‐ Branding</p>
+              </div>
         </div>
         </motion.div>
         <div className={styles.client__content}>

@@ -42,33 +42,33 @@ export default function Home() {
           duration: 0.75,
           x: { duration: 0.25 }
           
-          }}>
-            <div>
-              <Image
-              className={styles.client__page__logo}
-              src="/logos/hisilvieLogo.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
-              />
-            </div>
-            <div className={styles.client__info}>
-              <p>
-                Caso de éxito Solo Agency. Bajo la estrategia creativa, la generación de contenido y el análisis de métricas convertimos al perfil de silvie en una marca referente de moda argentina consiguiendo más de 100.000 seguidores en tres meses.   
-              </p>
-            </div>
-            <div className={styles.client__info}>
+        }}>
           <div>
-            <p className={styles.subtitle}>SERVICIOS</p>
+            <Image
+            className={styles.client__page__logo}
+            src="/logos/hisilvieLogo.png"
+            alt="Solo Agency"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
+            />
           </div>
-          <div className={styles.client__info__list}>
+          <div className={styles.client__info}>
+            <p>
+              Caso de éxito Solo Agency. Bajo la estrategia creativa, la generación de contenido y el análisis de métricas convertimos al perfil de silvie en una marca referente de moda argentina consiguiendo más de 100.000 seguidores en tres meses.   
+            </p>
+          </div>
+          <div className={styles.client__info}>
+            <div>
+              <p className={styles.subtitle}>SERVICIOS</p>
+            </div>
+            <div className={styles.client__info__list}>
               <p>‐ Creative Strategy</p>
               <p>‐ Production & Styling</p>
               <p>‐ Content</p>
             </div>
-        </div>
+          </div>
         </motion.div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
